@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0043
+Source Channel: WhatsApp Summary
+Received Date: 2026-03-08
+
+CALL LOG / WhatsApp Summary: CLMNT-9032 says ceiling leakage after overnight pipe issue.
+Policy ref POL-8267. Loss date 03-Mar-2026.
+Loc: not captured. Docs mentioned: purchase invoice, inspection request.
+Ops note: damage photos pending. reachable after 5 PM. Est amt: amount not stated.

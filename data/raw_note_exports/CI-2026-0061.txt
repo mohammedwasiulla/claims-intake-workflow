@@ -1,0 +1,7 @@
+Claim Note ID: CI-2026-0061
+Source Channel: WhatsApp Summary
+Received Date: 2026-03-20
+
+CLMNT-1570 - smoke damage near electrical panel.
+Docs: incident statement. Policy ?.
+Need check: fire service note not available. not yet estimated. call back requested.

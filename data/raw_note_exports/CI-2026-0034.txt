@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0034
+Source Channel: Branch Upload
+Received Date: 2026-03-26
+
+CALL LOG / Branch Upload: CLMNT-9617 says claimant seeking reimbursement for short hospital stay.
+Policy ref not given during call. Loss date not confirmed.
+Loc: Kolkata. Docs mentioned: payment receipt, prescription, hospital bill.
+Ops note: payment receipt missing. call back requested. Est amt: around ₹22k.

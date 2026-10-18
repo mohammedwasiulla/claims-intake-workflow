@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0027
+Source Channel: Branch Upload
+Received Date: 2026-04-04
+
+CALL LOG / Branch Upload: CLMNT-1878 says backup UPS reported burnt smell and failure.
+Policy ref POL-3485. Loss date not confirmed.
+Loc: not captured. Docs mentioned: repair quotation.
+Ops note: equipment invoice missing. call back requested. Est amt: around ₹22k.

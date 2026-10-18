@@ -1,0 +1,14 @@
+field_name,file,description,example
+claim_note_id,claim_intake_notes.csv/jsonl,Synthetic unique identifier for the intake note.,CI-2026-0001
+source_channel,claim_intake_notes.csv/jsonl,Channel through which the intake note was received.,"Email, Call Center, Web Form"
+received_date,claim_intake_notes.csv/jsonl,Date on which the note entered the intake workflow.,2026-05-21
+intake_note_text,claim_intake_notes.csv/jsonl,Unstructured claim intake note to be processed.,Caller says ceiling leakage damaged kitchen cabinet...
+starter_claim_category_label,claim_intake_notes.csv/jsonl,Starter label for category testing. It should not be treated as always perfect.,Property Water Damage
+starter_urgency_label,claim_intake_notes.csv/jsonl,Starter urgency tag for baseline comparison.,Normal
+current_review_stage,claim_intake_notes.csv/jsonl,Current intake handling stage for the note.,Needs document check
+supporting_docs_mentioned,claim_intake_notes.csv/jsonl,Documents mentioned in the note or starter metadata.,"damage photos, repair quotation"
+missing_detail_hint,claim_intake_notes.csv/jsonl,Known issue or missing detail provided for testing.,incident date missing
+recommended_queue_label,claim_intake_notes.csv/jsonl,Starter queue suggestion for routing comparison.,Property Claims Intake
+starter_confidence_label,claim_intake_notes.csv/jsonl,Human-readable confidence hint for starter labels.,Medium
+expected_manual_review,claim_intake_notes.csv/jsonl,Whether a note is expected to require manual review based on provided starter context.,Yes
+notes_for_evaluation,claim_intake_notes.csv/jsonl,Short note explaining what the record is useful for during testing.,Useful for queue routing check.

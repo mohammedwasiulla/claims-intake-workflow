@@ -1,0 +1,1292 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Claims intake - reviewer hand-off report</title><style>
+:root{--bg:#fff;--fg:#1d2430;--mut:#5b6573;--card:#f6f8fb;--bd:#d9dee6;--man:#b4442f;--ok:#2f7d4f}
+@media (prefers-color-scheme:dark){:root{--bg:#14181f;--fg:#e8ecf2;--mut:#9aa5b4;--card:#1d232d;--bd:#323a47;--man:#e0775f;--ok:#61b886}}
+body{font:15px/1.5 system-ui,sans-serif;margin:0 auto;max-width:1000px;padding:20px;background:var(--bg);color:var(--fg)}
+h1{font-size:22px}h2{margin-top:32px;border-bottom:1px solid var(--bd);padding-bottom:4px}h2 small{color:var(--mut);font-weight:400}
+h4{margin:10px 0 4px}ul{margin:0;padding-left:18px}.none{color:var(--mut)}
+.card{background:var(--card);border:1px solid var(--bd);border-left:5px solid var(--ok);border-radius:6px;margin:8px 0;padding:8px 12px}
+.card.manual{border-left-color:var(--man)}summary{cursor:pointer}.status{color:var(--mut);margin-left:8px}
+.pill{font-size:12px;border:1px solid var(--bd);border-radius:10px;padding:1px 8px;margin-left:4px}.pill.urgent,.pill.manual{border-color:var(--man);color:var(--man)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:700px){.cols{grid-template-columns:1fr}}
+.gen{margin:10px 0}.small{font-size:13px;color:var(--mut)}.kpis span{display:inline-block;margin-right:18px}
+</style></head><body><h1>Claims intake - reviewer hand-off report</h1>
+<p class="kpis"><span><b>85</b> notes</span><span><b>39</b> need manual review</span><span><b>1</b> ready for ops review</span><span><b>6</b> urgent</span></p>
+<p class="small">First-pass preparation only. This report does not approve, reject, price or assess any claim. Facts come from the note text; the handoff note is generated from those facts.
+Notes are grouped by suggested queue; urgent and manual-review items are listed first.</p>
+<h2>Manual Clarification Queue <small>(39)</small></h2><details class="card manual"><summary>
+<b>CI-2026-0013</b> &middot; Health Reimbursement &middot; <span class="pill urgent">Urgent</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Health Reimbursement note via Email, received 2026-04-01. Stated in note: policy POL-9938 (tentative); claimant CLMNT-3442; incident date 27 Mar (unclear); location MISSING; amount around ₹22k. Documents mentioned: hospital bill, claim form. Needs attention: 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; location missing (note says &#x27;not stated&#x27;); claim form incomplete; policy reference is uncertain: &#x27;POL-9938&#x27; - note presents this reference as uncertain or a placeholder (+1 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Health Reimbursement Review); urgency Urgent; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Call back requested. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-9938 <i>(tentative)</i></li>
+<li>Claimant: CLMNT-3442 <i>(found)</i></li>
+<li>Incident date: 27 Mar <i>(partial)</i></li>
+<li>Location: MISSING</li><li>Amount: around ₹22k</li>
+<li>Documents mentioned: hospital bill, claim form</li></ul></div>
+<div><h4>Missing information</h4><ul><li>location missing (note says &#x27;not stated&#x27;)</li><li>claim form incomplete</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>policy reference is uncertain: &#x27;POL-9938&#x27; - note presents this reference as uncertain or a placeholder</li><li>incident date is uncertain: &#x27;27 Mar&#x27; - year not stated in the note</li></ul>
+<h4>Why manual review</h4><ul><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: UNCERTAIN_POLICY_REF, INCIDENT_DATE_INCOMPLETE, MISSING_LOCATION, DOCS_QUALITY_ISSUE, CALLBACK_REQUESTED, URGENT &middot; Urgency basis: note mentions &#x27;emergency visit&#x27; (medical emergency wording)</p></details><details class="card manual"><summary>
+<b>CI-2026-0081</b> &middot; Unclear / Unclassified &middot; <span class="pill urgent">Urgent</span>
+<span class="pill conf-low">confidence Low</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Unclear / Unclassified note via Email, received 2026-05-21. Stated in note: policy MISSING; claimant MISSING; incident date last week (unclear); location MISSING; amount MISSING. Documents mentioned: none identified. Needs attention: category cannot be determined from the note; 4 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; policy reference missing (note says no policy number was given); claimant reference missing (+7 more in the detailed fields). Suggested queue: Manual Clarification Queue; urgency Urgent; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Callback requested but the phone number is masked. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: last week <i>(relative)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: none</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (note says no policy number was given)</li><li>claimant reference missing</li><li>location missing (note says no location was given)</li><li>amount/estimate not stated</li><li>supporting papers not ready</li><li>no attachments found</li><li>callback number masked/unavailable</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>incident type cannot be determined from the note wording</li><li>incident date is uncertain: &#x27;last week&#x27; - only a relative time reference</li></ul>
+<h4>Why manual review</h4><ul><li>category cannot be determined from the note</li><li>4 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_CLAIMANT_REF, INCIDENT_DATE_INCOMPLETE, MISSING_LOCATION, AMOUNT_NOT_STATED, NO_ATTACHMENTS, DOCS_PENDING_OR_MISSING, URGENT &middot; Urgency basis: note says &#x27;urgently&#x27;</p></details><details class="card manual"><summary>
+<b>CI-2026-0082</b> &middot; Health Reimbursement &middot; <span class="pill urgent">Urgent</span>
+<span class="pill conf-low">confidence Low</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Health Reimbursement note via Branch Upload, received 2026-05-23. Stated in note: policy POL-4821; claimant MISSING; incident date MISSING; location MISSING; amount MISSING. Documents mentioned: hospital bill, discharge paper, claim form, receipt, diagnosis section. Needs attention: note itself states that figures/documents do not match; 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; claimant reference missing; incident date missing (+4 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Health Reimbursement Review); urgency Urgent; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Branch asked ops to review documents before forwarding. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-4821 <i>(found)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: hospital bill, discharge paper, claim form, receipt, diagnosis section</li></ul></div>
+<div><h4>Missing information</h4><ul><li>claimant reference missing</li><li>incident date missing</li><li>location missing</li><li>amount/estimate not stated</li><li>diagnosis section difficult to read</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>note states a mismatch: &quot;Claim form has policy ref POL-4821 but bill total and receipt total do not match&quot;</li></ul>
+<h4>Why manual review</h4><ul><li>note itself states that figures/documents do not match</li><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: MISSING_CLAIMANT_REF, MISSING_INCIDENT_DATE, MISSING_LOCATION, AMOUNT_NOT_STATED, DOCS_QUALITY_ISSUE, MISMATCH_STATED, URGENT &middot; Urgency basis: note mentions &#x27;emergency admission&#x27; (medical emergency wording)</p></details><details class="card manual"><summary>
+<b>CI-2026-0001</b> &middot; Travel Delay/Baggage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-low">confidence Low</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Travel Delay/Baggage note via Call Center, received 2026-03-25. Stated in note: policy POL-9935 (tentative); claimant CLMNT-2679; incident date 19 Mar (unclear); location MISSING; amount around ₹22k. Documents mentioned: none identified. Needs attention: note asks for the category/fields to be re-checked manually; 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; location missing (note says &#x27;n/a&#x27;); expense receipts incomplete (+3 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Travel Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Email follow-up preferred. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-9935 <i>(tentative)</i></li>
+<li>Claimant: CLMNT-2679 <i>(found)</i></li>
+<li>Incident date: 19 Mar <i>(partial)</i></li>
+<li>Location: MISSING</li><li>Amount: around ₹22k</li>
+<li>Documents mentioned: none</li></ul></div>
+<div><h4>Missing information</h4><ul><li>location missing (note says &#x27;n/a&#x27;)</li><li>expense receipts incomplete</li><li>no attachments found</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>policy reference is uncertain: &#x27;POL-9935&#x27; - note presents this reference as uncertain or a placeholder</li><li>incident date is uncertain: &#x27;19 Mar&#x27; - year not stated in the note</li></ul>
+<h4>Why manual review</h4><ul><li>note asks for the category/fields to be re-checked manually</li><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: CATEGORY_RECHECK, UNCERTAIN_POLICY_REF, INCIDENT_DATE_INCOMPLETE, MISSING_LOCATION, DOCS_PENDING_OR_MISSING, NO_ATTACHMENTS, EMAIL_FOLLOWUP_PREFERRED &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0002</b> &middot; Property Water Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Water Damage note via Branch Upload, received 2026-05-21. Stated in note: policy MISSING; claimant CLMNT-6881; incident date 09-May-2026; location Mumbai; amount MISSING. Documents mentioned: damage photos, inspection request. Needs attention: note says a duplicate may exist in an earlier intake batch; internal remark conflicts with the note (date said to be missing but a date is present); policy reference missing (policy reference not given); amount/estimate not stated (+1 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Property Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Call back requested. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-6881 <i>(found)</i></li>
+<li>Incident date: 09-May-2026 <i>(complete)</i></li>
+<li>Location: Mumbai</li><li>Amount: MISSING</li>
+<li>Documents mentioned: damage photos, inspection request</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy reference not given)</li><li>amount/estimate not stated</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>note says a duplicate may exist in an earlier intake batch</li><li>an internal remark says the incident date is missing, but the note gives &#x27;09-May-2026&#x27;</li></ul>
+<h4>Why manual review</h4><ul><li>note says a duplicate may exist in an earlier intake batch</li><li>internal remark conflicts with the note (date said to be missing but a date is present)</li></ul></div></div>
+<p class="small">Tags: POSSIBLE_DUPLICATE, MISSING_POLICY_REF, AMOUNT_NOT_STATED, CALLBACK_REQUESTED &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0003</b> &middot; Commercial Equipment &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Commercial Equipment note via Call Center, received 2026-05-20. Stated in note: policy POL-4432; claimant MISSING; incident date 2026-05-09; location Pune; amount around ₹22k. Documents mentioned: none identified. Needs attention: note asks for the category/fields to be re-checked manually; claimant reference missing; repair quote not attached; no attachments found. Suggested queue: Manual Clarification Queue (intended queue after clarification: Commercial Equipment Review); urgency Normal; manual review required: Yes. Status: Manual review before routing. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-4432 <i>(found)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: 2026-05-09 <i>(complete)</i></li>
+<li>Location: Pune</li><li>Amount: around ₹22k</li>
+<li>Documents mentioned: none</li></ul></div>
+<div><h4>Missing information</h4><ul><li>claimant reference missing</li><li>repair quote not attached</li><li>no attachments found</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li>note asks for the category/fields to be re-checked manually</li></ul></div></div>
+<p class="small">Tags: CATEGORY_RECHECK, CATEGORY_SELF_REPORTED, MISSING_CLAIMANT_REF, DOCS_PENDING_OR_MISSING, NO_ATTACHMENTS &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0004</b> &middot; Property Fire/Smoke &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Fire/Smoke note via Branch Upload, received 2026-04-08. Stated in note: policy POL-3340; claimant CLMNT-8517; incident date MISSING; location MISSING; amount approx ₹1.2L. Documents mentioned: appliance invoice, damage photos, incident statement. Needs attention: note says a duplicate may exist in an earlier intake batch; incident date missing; location missing; photos unclear. Suggested queue: Manual Clarification Queue (intended queue after clarification: Property Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Contact window stated in note: &#x27;reachable after 5 PM&#x27;. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-3340 <i>(found)</i></li>
+<li>Claimant: CLMNT-8517 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: MISSING</li><li>Amount: approx ₹1.2L</li>
+<li>Documents mentioned: appliance invoice, damage photos, incident statement</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing</li><li>location missing</li><li>photos unclear</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>note says a duplicate may exist in an earlier intake batch</li></ul>
+<h4>Why manual review</h4><ul><li>note says a duplicate may exist in an earlier intake batch</li></ul></div></div>
+<p class="small">Tags: POSSIBLE_DUPLICATE, MISSING_INCIDENT_DATE, MISSING_LOCATION, DOCS_QUALITY_ISSUE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0005</b> &middot; Travel Delay/Baggage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-low">confidence Low</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Travel Delay/Baggage note via Email, received 2026-05-05. Stated in note: policy MISSING; claimant CLMNT-2876; incident date 25 Apr (unclear); location MISSING; amount ₹41,300 quoted. Documents mentioned: travel invoice, baggage report, delay confirmation. Needs attention: 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; claimant reference is shared with another note in this batch; policy reference missing (note says policy is missing); location missing (note says &#x27;n/a&#x27;) (+3 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Travel Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Email follow-up preferred. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-2876 <i>(found)</i></li>
+<li>Incident date: 25 Apr <i>(partial)</i></li>
+<li>Location: MISSING</li><li>Amount: ₹41,300 quoted</li>
+<li>Documents mentioned: travel invoice, baggage report, delay confirmation</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (note says policy is missing)</li><li>location missing (note says &#x27;n/a&#x27;)</li><li>baggage tag unclear</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>claimant reference CLMNT-2876 also appears in CI-2026-0022 (possible duplicate or follow-up)</li><li>incident date is uncertain: &#x27;25 Apr&#x27; - year not stated in the note</li></ul>
+<h4>Why manual review</h4><ul><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li><li>claimant reference is shared with another note in this batch</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, INCIDENT_DATE_INCOMPLETE, MISSING_LOCATION, EMAIL_FOLLOWUP_PREFERRED, POSSIBLE_DUPLICATE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0009</b> &middot; Motor Accident &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via Call Center, received 2026-04-03. Stated in note: policy MISSING; claimant CLMNT-8956; incident date MISSING; location MISSING; amount approx ₹8,500. Documents mentioned: vehicle photos. Needs attention: 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; policy reference missing (policy shown as &#x27;?&#x27;); incident date missing; location missing (+1 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Motor Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Claimant asked for a status update. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-8956 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: MISSING</li><li>Amount: approx ₹8,500</li>
+<li>Documents mentioned: vehicle photos</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy shown as &#x27;?&#x27;)</li><li>incident date missing</li><li>location missing</li><li>incident time unclear</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_INCIDENT_DATE, MISSING_LOCATION, STATUS_UPDATE_REQUESTED &middot; Urgency basis: claimant asked for a status update (follow-up pressure noted)</p></details><details class="card manual"><summary>
+<b>CI-2026-0011</b> &middot; Property Water Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Water Damage note via Branch Upload, received 2026-04-26. Stated in note: policy MISSING; claimant CLMNT-5915; incident date 2026-04-25; location Mumbai; amount MISSING. Documents mentioned: building maintenance note, repair quotation, purchase invoice. Needs attention: internal remark conflicts with the note (date said to be missing but a date is present); policy reference missing (policy not visible in the source email); amount/estimate not stated; one attachment unreadable (document not identified in the note) (+1 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Property Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Call back requested; Claimant asks what else is required. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-5915 <i>(found)</i></li>
+<li>Incident date: 2026-04-25 <i>(complete)</i></li>
+<li>Location: Mumbai</li><li>Amount: MISSING</li>
+<li>Documents mentioned: building maintenance note, repair quotation, purchase invoice</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy not visible in the source email)</li><li>amount/estimate not stated</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>an internal remark says the incident date is missing, but the note gives &#x27;2026-04-25&#x27;</li></ul>
+<h4>Why manual review</h4><ul><li>internal remark conflicts with the note (date said to be missing but a date is present)</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, AMOUNT_NOT_STATED, ATTACHMENT_UNREADABLE, CALLBACK_REQUESTED, CLAIMANT_QUESTION_OPEN &middot; Urgency basis: intake urgency marker in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0015</b> &middot; Commercial Equipment &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Commercial Equipment note via Partner Portal, received 2026-04-15. Stated in note: policy MISSING; claimant MISSING; incident date 2026-04-06; location MISSING; amount MISSING. Documents mentioned: site supervisor note, repair quotation, damage photos. Needs attention: note says a duplicate may exist in an earlier intake batch; 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; policy reference missing (policy field left blank); claimant reference missing (+3 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Commercial Equipment Review); urgency Normal; manual review required: Yes. Status: Manual review before routing. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: 2026-04-06 <i>(complete)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: site supervisor note, repair quotation, damage photos</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy field left blank)</li><li>claimant reference missing</li><li>location missing (note says &#x27;blank&#x27;)</li><li>amount/estimate not stated</li><li>asset tag not provided</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>note says a duplicate may exist in an earlier intake batch</li></ul>
+<h4>Why manual review</h4><ul><li>note says a duplicate may exist in an earlier intake batch</li><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: POSSIBLE_DUPLICATE, CATEGORY_SELF_REPORTED, MISSING_POLICY_REF, MISSING_CLAIMANT_REF, MISSING_LOCATION, AMOUNT_NOT_STATED &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0017</b> &middot; Travel Delay/Baggage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Travel Delay/Baggage note via Partner Portal, received 2026-04-27. Stated in note: policy MISSING; claimant CLMNT-3780; incident date MISSING; location MISSING; amount small amount as per caller. Documents mentioned: travel invoice, airline letter. Needs attention: 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; policy reference missing (policy shown as &#x27;?&#x27;); incident date missing; location missing (+2 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Travel Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Email follow-up preferred. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-3780 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: MISSING</li><li>Amount: small amount as per caller</li>
+<li>Documents mentioned: travel invoice, airline letter</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy shown as &#x27;?&#x27;)</li><li>incident date missing</li><li>location missing</li><li>amount described in words only; no figure given</li><li>baggage tag unclear</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_INCIDENT_DATE, MISSING_LOCATION, AMOUNT_NOT_STATED, EMAIL_FOLLOWUP_PREFERRED &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0022</b> &middot; Travel Delay/Baggage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Travel Delay/Baggage note via Call Center, received 2026-04-13. Stated in note: policy POL-3683; claimant CLMNT-2876 (tentative); incident date 04/04/26; location Mumbai; amount MISSING. Documents mentioned: baggage report, delay confirmation. Needs attention: note says not to send to final review until basic fields are cleaned; claimant reference is shared with another note in this batch; amount/estimate not stated; boarding pass not attached (+2 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Travel Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Verify the listed documents. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-3683 <i>(found)</i></li>
+<li>Claimant: CLMNT-2876 <i>(tentative)</i></li>
+<li>Incident date: 04/04/26 <i>(complete)</i></li>
+<li>Location: Mumbai</li><li>Amount: MISSING</li>
+<li>Documents mentioned: baggage report, delay confirmation</li></ul></div>
+<div><h4>Missing information</h4><ul><li>amount/estimate not stated</li><li>boarding pass not attached</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>claimant reference CLMNT-2876 also appears in CI-2026-0005 (possible duplicate or follow-up)</li><li>claimant reference is uncertain: &#x27;CLMNT-2876&#x27; - note presents this reference as uncertain or a placeholder</li></ul>
+<h4>Why manual review</h4><ul><li>note says not to send to final review until basic fields are cleaned</li><li>claimant reference is shared with another note in this batch</li></ul></div></div>
+<p class="small">Tags: HOLD_UNTIL_CLEANED, COPIED_FROM_THREAD, UNCERTAIN_CLAIMANT_REF, AMOUNT_NOT_STATED, DOCS_PENDING_OR_MISSING, POSSIBLE_DUPLICATE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0024</b> &middot; Health Reimbursement &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-low">confidence Low</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Health Reimbursement note via Web Form, received 2026-05-30. Stated in note: policy MISSING; claimant CLMNT-4995; incident date MISSING; location MISSING; amount ₹41,300 quoted. Documents mentioned: discharge summary, hospital bill, diagnosis note. Needs attention: 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; policy reference missing (policy shown as &#x27;?&#x27;); incident date missing; location missing (+2 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Health Reimbursement Review); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: No call back needed. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-4995 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: MISSING</li><li>Amount: ₹41,300 quoted</li>
+<li>Documents mentioned: discharge summary, hospital bill, diagnosis note</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy shown as &#x27;?&#x27;)</li><li>incident date missing</li><li>location missing</li><li>diagnosis note unclear</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_INCIDENT_DATE, MISSING_LOCATION, DOCS_QUALITY_ISSUE, ATTACHMENT_UNREADABLE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0030</b> &middot; Travel Delay/Baggage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Travel Delay/Baggage note via Partner Portal, received 2026-03-25. Stated in note: policy POL-5557 (tentative); claimant CLMNT-8245; incident date 19 Mar (unclear); location Ahmedabad; amount ₹41,300 quoted. Documents mentioned: boarding pass, airline letter, travel invoice, expense receipts. Needs attention: claimant reference is shared with another note in this batch; expense receipts incomplete; claimant reference CLMNT-8245 also appears in CI-2026-0050 (possible duplicate or follow-up); policy reference is uncertain: &#x27;POL-5557&#x27; - note presents this reference as uncertain or a placeholder (+1 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Travel Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: No call back needed. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-5557 <i>(tentative)</i></li>
+<li>Claimant: CLMNT-8245 <i>(found)</i></li>
+<li>Incident date: 19 Mar <i>(partial)</i></li>
+<li>Location: Ahmedabad</li><li>Amount: ₹41,300 quoted</li>
+<li>Documents mentioned: boarding pass, airline letter, travel invoice, expense receipts</li></ul></div>
+<div><h4>Missing information</h4><ul><li>expense receipts incomplete</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>claimant reference CLMNT-8245 also appears in CI-2026-0050 (possible duplicate or follow-up)</li><li>policy reference is uncertain: &#x27;POL-5557&#x27; - note presents this reference as uncertain or a placeholder</li><li>incident date is uncertain: &#x27;19 Mar&#x27; - year not stated in the note</li></ul>
+<h4>Why manual review</h4><ul><li>claimant reference is shared with another note in this batch</li></ul></div></div>
+<p class="small">Tags: UNCERTAIN_POLICY_REF, INCIDENT_DATE_INCOMPLETE, DOCS_QUALITY_ISSUE, POSSIBLE_DUPLICATE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0031</b> &middot; Property Water Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-low">confidence Low</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Water Damage note via Branch Upload, received 2026-05-21. Stated in note: policy MISSING; claimant CLMNT-1888; incident date MISSING; location MISSING; amount small amount as per caller. Documents mentioned: inspection request. Needs attention: 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; policy reference missing (policy shown as &#x27;?&#x27;); incident date missing; location missing (+3 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Property Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Call back requested. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-1888 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: MISSING</li><li>Amount: small amount as per caller</li>
+<li>Documents mentioned: inspection request</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy shown as &#x27;?&#x27;)</li><li>incident date missing</li><li>location missing</li><li>amount described in words only; no figure given</li><li>property address incomplete</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_INCIDENT_DATE, MISSING_LOCATION, AMOUNT_NOT_STATED, ATTACHMENT_UNREADABLE, CALLBACK_REQUESTED &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0033</b> &middot; Property Water Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Water Damage note via Branch Upload, received 2026-04-30. Stated in note: policy POL-6654; claimant CLMNT-8935 (tentative); incident date 18/04/26; location MISSING; amount MISSING. Documents mentioned: building maintenance note, purchase invoice, damage photos. Needs attention: note says not to send to final review until basic fields are cleaned; location missing (note says &#x27;not stated&#x27;); amount/estimate not stated; repair estimate not attached (+1 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Property Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Verify the listed documents. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-6654 <i>(found)</i></li>
+<li>Claimant: CLMNT-8935 <i>(tentative)</i></li>
+<li>Incident date: 18/04/26 <i>(complete)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: building maintenance note, purchase invoice, damage photos</li></ul></div>
+<div><h4>Missing information</h4><ul><li>location missing (note says &#x27;not stated&#x27;)</li><li>amount/estimate not stated</li><li>repair estimate not attached</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>claimant reference is uncertain: &#x27;CLMNT-8935&#x27; - note presents this reference as uncertain or a placeholder</li></ul>
+<h4>Why manual review</h4><ul><li>note says not to send to final review until basic fields are cleaned</li></ul></div></div>
+<p class="small">Tags: HOLD_UNTIL_CLEANED, COPIED_FROM_THREAD, UNCERTAIN_CLAIMANT_REF, MISSING_LOCATION, AMOUNT_NOT_STATED, DOCS_PENDING_OR_MISSING &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0039</b> &middot; Third-Party Contact &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Third-Party Contact note via Branch Upload, received 2026-03-20. Stated in note: policy POL-9791; claimant CLMNT-5332; incident date 15-Mar-2026; location Chennai; amount small amount as per caller. Documents mentioned: none identified. Needs attention: report comes from a third party; needs a human to clarify the sequence of events; incident sequence unclear; amount described in words only; no figure given; no attachments found. Suggested queue: Manual Clarification Queue; urgency Normal; manual review required: Yes. Status: Manual review before routing. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-9791 <i>(found)</i></li>
+<li>Claimant: CLMNT-5332 <i>(found)</i></li>
+<li>Incident date: 15-Mar-2026 <i>(complete)</i></li>
+<li>Location: Chennai</li><li>Amount: small amount as per caller</li>
+<li>Documents mentioned: none</li></ul></div>
+<div><h4>Missing information</h4><ul><li>amount described in words only; no figure given</li><li>incident sequence unclear</li><li>no attachments found</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>incident sequence unclear</li></ul>
+<h4>Why manual review</h4><ul><li>report comes from a third party; needs a human to clarify the sequence of events</li><li>incident sequence unclear</li></ul></div></div>
+<p class="small">Tags: AMOUNT_NOT_STATED, NO_ATTACHMENTS &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0042</b> &middot; Commercial Equipment &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Commercial Equipment note via WhatsApp Summary, received 2026-05-08. Stated in note: policy POL-1243; claimant CLMNT-3159; incident date 26-Apr-2026; location Hyderabad; amount approx ₹8,500. Documents mentioned: none identified. Needs attention: note says a duplicate may exist in an earlier intake batch; site supervisor note pending; no attachments found. Suggested queue: Manual Clarification Queue (intended queue after clarification: Commercial Equipment Review); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Email follow-up preferred. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-1243 <i>(found)</i></li>
+<li>Claimant: CLMNT-3159 <i>(found)</i></li>
+<li>Incident date: 26-Apr-2026 <i>(complete)</i></li>
+<li>Location: Hyderabad</li><li>Amount: approx ₹8,500</li>
+<li>Documents mentioned: none</li></ul></div>
+<div><h4>Missing information</h4><ul><li>site supervisor note pending</li><li>no attachments found</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>note says a duplicate may exist in an earlier intake batch</li></ul>
+<h4>Why manual review</h4><ul><li>note says a duplicate may exist in an earlier intake batch</li></ul></div></div>
+<p class="small">Tags: POSSIBLE_DUPLICATE, DOCS_PENDING_OR_MISSING, NO_ATTACHMENTS, EMAIL_FOLLOWUP_PREFERRED &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0045</b> &middot; Health Reimbursement &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Health Reimbursement note via Web Form, received 2026-03-27. Stated in note: policy MISSING; claimant CLMNT-6119 (tentative); incident date MISSING; location Hyderabad; amount MISSING. Documents mentioned: diagnostic report, hospital bill. Needs attention: note says not to send to final review until basic fields are cleaned; 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; incident date missing (note says &#x27;?&#x27;); amount/estimate not stated (+3 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Health Reimbursement Review); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Verify the listed documents. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(unclear)</i></li>
+<li>Claimant: CLMNT-6119 <i>(tentative)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: Hyderabad</li><li>Amount: MISSING</li>
+<li>Documents mentioned: diagnostic report, hospital bill</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing (note says &#x27;?&#x27;)</li><li>amount/estimate not stated</li><li>bill breakup not attached</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>policy reference is uncertain: &#x27;unreadable&#x27; - policy reference present but not readable</li><li>claimant reference is uncertain: &#x27;CLMNT-6119&#x27; - note presents this reference as uncertain or a placeholder</li></ul>
+<h4>Why manual review</h4><ul><li>note says not to send to final review until basic fields are cleaned</li><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: HOLD_UNTIL_CLEANED, COPIED_FROM_THREAD, MISSING_POLICY_REF, UNCERTAIN_CLAIMANT_REF, MISSING_INCIDENT_DATE, AMOUNT_NOT_STATED, DOCS_PENDING_OR_MISSING &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0046</b> &middot; Motor Accident &middot; <span class="pill low">Low</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via Call Center, received 2026-04-03. Stated in note: policy MISSING; claimant CLMNT-7566; incident date 2026-03-24; location MISSING; amount MISSING. Documents mentioned: driver statement, repair estimate. Needs attention: note says a duplicate may exist in an earlier intake batch; policy reference missing; location missing (note says &#x27;not shared&#x27;); amount/estimate not stated (+2 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Motor Claims Intake); urgency Low; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Email follow-up preferred; Claimant asks what else is required. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-7566 <i>(found)</i></li>
+<li>Incident date: 2026-03-24 <i>(complete)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: driver statement, repair estimate</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing</li><li>location missing (note says &#x27;not shared&#x27;)</li><li>amount/estimate not stated</li><li>garage estimate not attached</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>note says a duplicate may exist in an earlier intake batch</li><li>&#x27;repair estimate&#x27; is listed as provided but also reported not attached; verify which is current</li></ul>
+<h4>Why manual review</h4><ul><li>note says a duplicate may exist in an earlier intake batch</li></ul></div></div>
+<p class="small">Tags: POSSIBLE_DUPLICATE, MISSING_POLICY_REF, MISSING_LOCATION, AMOUNT_NOT_STATED, DOCS_CONFLICTING, EMAIL_FOLLOWUP_PREFERRED, CLAIMANT_QUESTION_OPEN &middot; Urgency basis: intake urgency marker in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0047</b> &middot; Property Water Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Water Damage note via Call Center, received 2026-04-08. Stated in note: policy MISSING; claimant CLMNT-2864 (tentative); incident date 04/04/26; location Ahmedabad; amount MISSING. Documents mentioned: purchase invoice, inspection request, repair quotation. Needs attention: note says not to send to final review until basic fields are cleaned; note says a duplicate may exist in an earlier intake batch; amount/estimate not stated; cause of leak unclear (+2 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Property Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Verify the listed documents. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(unclear)</i></li>
+<li>Claimant: CLMNT-2864 <i>(tentative)</i></li>
+<li>Incident date: 04/04/26 <i>(complete)</i></li>
+<li>Location: Ahmedabad</li><li>Amount: MISSING</li>
+<li>Documents mentioned: purchase invoice, inspection request, repair quotation</li></ul></div>
+<div><h4>Missing information</h4><ul><li>amount/estimate not stated</li><li>cause of leak unclear</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>note says a duplicate may exist in an earlier intake batch</li><li>policy reference is uncertain: &#x27;unreadable&#x27; - policy reference present but not readable</li><li>claimant reference is uncertain: &#x27;CLMNT-2864&#x27; - note presents this reference as uncertain or a placeholder</li></ul>
+<h4>Why manual review</h4><ul><li>note says not to send to final review until basic fields are cleaned</li><li>note says a duplicate may exist in an earlier intake batch</li></ul></div></div>
+<p class="small">Tags: HOLD_UNTIL_CLEANED, POSSIBLE_DUPLICATE, COPIED_FROM_THREAD, MISSING_POLICY_REF, UNCERTAIN_CLAIMANT_REF, AMOUNT_NOT_STATED &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0050</b> &middot; Travel Delay/Baggage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-low">confidence Low</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Travel Delay/Baggage note via Email, received 2026-04-19. Stated in note: policy MISSING; claimant CLMNT-8245; incident date MISSING; location MISSING; amount MISSING. Documents mentioned: baggage report. Needs attention: 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; claimant reference is shared with another note in this batch; policy reference missing (policy shown as &#x27;?&#x27;); incident date missing (+5 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Travel Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Claimant asked for a status update. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-8245 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: baggage report</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy shown as &#x27;?&#x27;)</li><li>incident date missing</li><li>location missing</li><li>amount/estimate not stated</li><li>expense receipts incomplete</li><li>no attachments found</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>claimant reference CLMNT-8245 also appears in CI-2026-0030 (possible duplicate or follow-up)</li></ul>
+<h4>Why manual review</h4><ul><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li><li>claimant reference is shared with another note in this batch</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_INCIDENT_DATE, MISSING_LOCATION, AMOUNT_NOT_STATED, DOCS_PENDING_OR_MISSING, NO_ATTACHMENTS, STATUS_UPDATE_REQUESTED, POSSIBLE_DUPLICATE &middot; Urgency basis: claimant asked for a status update (follow-up pressure noted)</p></details><details class="card manual"><summary>
+<b>CI-2026-0051</b> &middot; Health Reimbursement &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Health Reimbursement note via Partner Portal, received 2026-03-31. Stated in note: policy MISSING; claimant CLMNT-2013; incident date 2026-03-26; location Pune; amount MISSING. Documents mentioned: payment receipt, diagnostic report. Needs attention: note asks for the category/fields to be re-checked manually; policy reference missing (policy not visible in the source email); amount/estimate not stated; payment receipt missing (+1 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Health Reimbursement Review); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Call back requested; Claimant asks what else is required. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-2013 <i>(found)</i></li>
+<li>Incident date: 2026-03-26 <i>(complete)</i></li>
+<li>Location: Pune</li><li>Amount: MISSING</li>
+<li>Documents mentioned: payment receipt, diagnostic report</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy not visible in the source email)</li><li>amount/estimate not stated</li><li>payment receipt missing</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>&#x27;payment receipt&#x27; is listed as provided but also reported missing; verify which is current</li></ul>
+<h4>Why manual review</h4><ul><li>note asks for the category/fields to be re-checked manually</li></ul></div></div>
+<p class="small">Tags: CATEGORY_RECHECK, MISSING_POLICY_REF, AMOUNT_NOT_STATED, DOCS_CONFLICTING, CALLBACK_REQUESTED, CLAIMANT_QUESTION_OPEN &middot; Urgency basis: intake urgency marker in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0055</b> &middot; Device/Personal Item Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-low">confidence Low</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Device/Personal Item Damage note via Web Form, received 2026-03-11. Stated in note: policy MISSING; claimant CLMNT-2680 (tentative); incident date 10/03/26 (unclear); location Bengaluru; amount MISSING. Documents mentioned: none identified. Needs attention: note says not to send to final review until basic fields are cleaned; 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; amount/estimate not stated; repair estimate pending (+4 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Asset and Device Claims); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Verify the listed documents. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(unclear)</i></li>
+<li>Claimant: CLMNT-2680 <i>(tentative)</i></li>
+<li>Incident date: 10/03/26 <i>(ambiguous)</i></li>
+<li>Location: Bengaluru</li><li>Amount: MISSING</li>
+<li>Documents mentioned: none</li></ul></div>
+<div><h4>Missing information</h4><ul><li>amount/estimate not stated</li><li>repair estimate pending</li><li>no attachments found</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>policy reference is uncertain: &#x27;unreadable&#x27; - policy reference present but not readable</li><li>claimant reference is uncertain: &#x27;CLMNT-2680&#x27; - note presents this reference as uncertain or a placeholder</li><li>incident date is uncertain: &#x27;10/03/26&#x27; - 10/03/26: day/month order unclear; only 2026-03-10 is not later than the received date (not auto-resolved)</li></ul>
+<h4>Why manual review</h4><ul><li>note says not to send to final review until basic fields are cleaned</li><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: HOLD_UNTIL_CLEANED, COPIED_FROM_THREAD, MISSING_POLICY_REF, UNCERTAIN_CLAIMANT_REF, INVALID_OR_AMBIGUOUS_DATE, AMOUNT_NOT_STATED, DOCS_PENDING_OR_MISSING, NO_ATTACHMENTS &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0056</b> &middot; Motor Accident &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via Email, received 2026-05-23. Stated in note: policy POL-3273; claimant MISSING; incident date 2026-05-16; location Mumbai; amount approx ₹8,500. Documents mentioned: none identified. Needs attention: note says a duplicate may exist in an earlier intake batch; claimant reference missing; garage estimate not attached; no attachments found. Suggested queue: Manual Clarification Queue (intended queue after clarification: Motor Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-3273 <i>(found)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: 2026-05-16 <i>(complete)</i></li>
+<li>Location: Mumbai</li><li>Amount: approx ₹8,500</li>
+<li>Documents mentioned: none</li></ul></div>
+<div><h4>Missing information</h4><ul><li>claimant reference missing</li><li>garage estimate not attached</li><li>no attachments found</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>note says a duplicate may exist in an earlier intake batch</li></ul>
+<h4>Why manual review</h4><ul><li>note says a duplicate may exist in an earlier intake batch</li></ul></div></div>
+<p class="small">Tags: POSSIBLE_DUPLICATE, CATEGORY_SELF_REPORTED, MISSING_CLAIMANT_REF, DOCS_PENDING_OR_MISSING, NO_ATTACHMENTS &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0057</b> &middot; Motor Accident &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via Call Center, received 2026-05-15. Stated in note: policy POL-1025; claimant MISSING; incident date 2026-05-12; location Kolkata; amount approx ₹1.2L. Documents mentioned: repair estimate, vehicle photos, driver statement. Needs attention: note asks for the category/fields to be re-checked manually; claimant reference missing; driver statement incomplete. Suggested queue: Manual Clarification Queue (intended queue after clarification: Motor Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-1025 <i>(found)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: 2026-05-12 <i>(complete)</i></li>
+<li>Location: Kolkata</li><li>Amount: approx ₹1.2L</li>
+<li>Documents mentioned: repair estimate, vehicle photos, driver statement</li></ul></div>
+<div><h4>Missing information</h4><ul><li>claimant reference missing</li><li>driver statement incomplete</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li>note asks for the category/fields to be re-checked manually</li></ul></div></div>
+<p class="small">Tags: CATEGORY_RECHECK, CATEGORY_SELF_REPORTED, MISSING_CLAIMANT_REF, DOCS_QUALITY_ISSUE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0058</b> &middot; Property Water Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Water Damage note via Call Center, received 2026-03-07. Stated in note: policy MISSING; claimant CLMNT-2698; incident date 02 Mar (unclear); location MISSING; amount approx ₹1.2L. Documents mentioned: building maintenance note. Needs attention: 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; policy reference missing (note says policy is missing); location missing (note says &#x27;not stated&#x27;); repair estimate not attached (+1 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Property Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Email follow-up preferred. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-2698 <i>(found)</i></li>
+<li>Incident date: 02 Mar <i>(partial)</i></li>
+<li>Location: MISSING</li><li>Amount: approx ₹1.2L</li>
+<li>Documents mentioned: building maintenance note</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (note says policy is missing)</li><li>location missing (note says &#x27;not stated&#x27;)</li><li>repair estimate not attached</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>incident date is uncertain: &#x27;02 Mar&#x27; - year not stated in the note</li></ul>
+<h4>Why manual review</h4><ul><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, INCIDENT_DATE_INCOMPLETE, MISSING_LOCATION, DOCS_PENDING_OR_MISSING, EMAIL_FOLLOWUP_PREFERRED &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0061</b> &middot; Property Fire/Smoke &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Fire/Smoke note via WhatsApp Summary, received 2026-03-20. Stated in note: policy MISSING; claimant CLMNT-1570; incident date MISSING; location MISSING; amount MISSING. Documents mentioned: incident statement. Needs attention: 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; policy reference missing (policy shown as &#x27;?&#x27;); incident date missing; location missing (+2 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Property Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Call back requested. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-1570 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: incident statement</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy shown as &#x27;?&#x27;)</li><li>incident date missing</li><li>location missing</li><li>amount/estimate not stated</li><li>fire service note not available</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_INCIDENT_DATE, MISSING_LOCATION, AMOUNT_NOT_STATED, DOCS_PENDING_OR_MISSING, CALLBACK_REQUESTED &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0063</b> &middot; Commercial Equipment &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Commercial Equipment note via Call Center, received 2026-04-27. Stated in note: policy MISSING; claimant CLMNT-9094; incident date 2026-04-18; location Delhi NCR; amount MISSING. Documents mentioned: none identified. Needs attention: note asks for the category/fields to be re-checked manually; policy reference missing (policy not visible in the source email); amount/estimate not stated; asset tag not provided (+1 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Commercial Equipment Review); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Email follow-up preferred; Claimant asks what else is required. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-9094 <i>(found)</i></li>
+<li>Incident date: 2026-04-18 <i>(complete)</i></li>
+<li>Location: Delhi NCR</li><li>Amount: MISSING</li>
+<li>Documents mentioned: none</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy not visible in the source email)</li><li>amount/estimate not stated</li><li>asset tag not provided</li><li>no attachments found</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li>note asks for the category/fields to be re-checked manually</li></ul></div></div>
+<p class="small">Tags: CATEGORY_RECHECK, MISSING_POLICY_REF, AMOUNT_NOT_STATED, NO_ATTACHMENTS, EMAIL_FOLLOWUP_PREFERRED, CLAIMANT_QUESTION_OPEN &middot; Urgency basis: intake urgency marker in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0064</b> &middot; Health Reimbursement &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Health Reimbursement note via WhatsApp Summary, received 2026-04-17. Stated in note: policy MISSING; claimant CLMNT-3981 (tentative); incident date 17/04/26; location Pune; amount MISSING. Documents mentioned: payment receipt, diagnosis note. Needs attention: note says not to send to final review until basic fields are cleaned; amount/estimate not stated; diagnosis note unclear; one attachment unreadable (document not identified in the note) (+2 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Health Reimbursement Review); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Verify the listed documents. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(unclear)</i></li>
+<li>Claimant: CLMNT-3981 <i>(tentative)</i></li>
+<li>Incident date: 17/04/26 <i>(complete)</i></li>
+<li>Location: Pune</li><li>Amount: MISSING</li>
+<li>Documents mentioned: payment receipt, diagnosis note</li></ul></div>
+<div><h4>Missing information</h4><ul><li>amount/estimate not stated</li><li>diagnosis note unclear</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>policy reference is uncertain: &#x27;unreadable&#x27; - policy reference present but not readable</li><li>claimant reference is uncertain: &#x27;CLMNT-3981&#x27; - note presents this reference as uncertain or a placeholder</li></ul>
+<h4>Why manual review</h4><ul><li>note says not to send to final review until basic fields are cleaned</li></ul></div></div>
+<p class="small">Tags: HOLD_UNTIL_CLEANED, COPIED_FROM_THREAD, MISSING_POLICY_REF, UNCERTAIN_CLAIMANT_REF, AMOUNT_NOT_STATED, DOCS_QUALITY_ISSUE, ATTACHMENT_UNREADABLE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0067</b> &middot; Device/Personal Item Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Device/Personal Item Damage note via Branch Upload, received 2026-04-16. Stated in note: policy POL-9171; claimant CLMNT-8648 (tentative); incident date MISSING; location Pune; amount MISSING. Documents mentioned: purchase invoice, incident statement. Needs attention: note says not to send to final review until basic fields are cleaned; incident date missing (note says &#x27;?&#x27;); amount/estimate not stated; incident statement too short (+1 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Asset and Device Claims); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Verify the listed documents. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-9171 <i>(found)</i></li>
+<li>Claimant: CLMNT-8648 <i>(tentative)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: Pune</li><li>Amount: MISSING</li>
+<li>Documents mentioned: purchase invoice, incident statement</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing (note says &#x27;?&#x27;)</li><li>amount/estimate not stated</li><li>incident statement too short</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>claimant reference is uncertain: &#x27;CLMNT-8648&#x27; - note presents this reference as uncertain or a placeholder</li></ul>
+<h4>Why manual review</h4><ul><li>note says not to send to final review until basic fields are cleaned</li></ul></div></div>
+<p class="small">Tags: HOLD_UNTIL_CLEANED, COPIED_FROM_THREAD, UNCERTAIN_CLAIMANT_REF, MISSING_INCIDENT_DATE, AMOUNT_NOT_STATED, DOCS_QUALITY_ISSUE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0068</b> &middot; Device/Personal Item Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Device/Personal Item Damage note via Email, received 2026-05-11. Stated in note: policy MISSING; claimant CLMNT-4189 (tentative); incident date 10/05/26 (unclear); location Kolkata; amount MISSING. Documents mentioned: service center note, incident statement. Needs attention: note says not to send to final review until basic fields are cleaned; 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; amount/estimate not stated; incident statement too short (+3 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Asset and Device Claims); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Verify the listed documents. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(unclear)</i></li>
+<li>Claimant: CLMNT-4189 <i>(tentative)</i></li>
+<li>Incident date: 10/05/26 <i>(ambiguous)</i></li>
+<li>Location: Kolkata</li><li>Amount: MISSING</li>
+<li>Documents mentioned: service center note, incident statement</li></ul></div>
+<div><h4>Missing information</h4><ul><li>amount/estimate not stated</li><li>incident statement too short</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>policy reference is uncertain: &#x27;unreadable&#x27; - policy reference present but not readable</li><li>claimant reference is uncertain: &#x27;CLMNT-4189&#x27; - note presents this reference as uncertain or a placeholder</li><li>incident date is uncertain: &#x27;10/05/26&#x27; - 10/05/26: day/month order unclear; only 2026-05-10 is not later than the received date (not auto-resolved)</li></ul>
+<h4>Why manual review</h4><ul><li>note says not to send to final review until basic fields are cleaned</li><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: HOLD_UNTIL_CLEANED, COPIED_FROM_THREAD, MISSING_POLICY_REF, UNCERTAIN_CLAIMANT_REF, INVALID_OR_AMBIGUOUS_DATE, AMOUNT_NOT_STATED, DOCS_QUALITY_ISSUE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0074</b> &middot; Device/Personal Item Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Device/Personal Item Damage note via Branch Upload, received 2026-03-05. Stated in note: policy MISSING; claimant CLMNT-4052; incident date MISSING; location MISSING; amount MISSING. Documents mentioned: purchase invoice, item photos. Needs attention: 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; policy reference missing (policy shown as &#x27;?&#x27;); incident date missing; location missing (+2 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Asset and Device Claims); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: No call back needed. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-4052 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: purchase invoice, item photos</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy shown as &#x27;?&#x27;)</li><li>incident date missing</li><li>location missing</li><li>amount/estimate not stated</li><li>repair estimate pending</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_INCIDENT_DATE, MISSING_LOCATION, AMOUNT_NOT_STATED, DOCS_PENDING_OR_MISSING &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0075</b> &middot; Device/Personal Item Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Device/Personal Item Damage note via Call Center, received 2026-05-12. Stated in note: policy POL-8007; claimant CLMNT-7643 (tentative); incident date 11/05/26 (unclear); location Kolkata; amount MISSING. Documents mentioned: incident statement, purchase invoice. Needs attention: note says not to send to final review until basic fields are cleaned; amount/estimate not stated; incident statement too short; claimant reference is uncertain: &#x27;CLMNT-7643&#x27; - note presents this reference as uncertain or a placeholder (+1 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Asset and Device Claims); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Verify the listed documents. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-8007 <i>(found)</i></li>
+<li>Claimant: CLMNT-7643 <i>(tentative)</i></li>
+<li>Incident date: 11/05/26 <i>(ambiguous)</i></li>
+<li>Location: Kolkata</li><li>Amount: MISSING</li>
+<li>Documents mentioned: incident statement, purchase invoice</li></ul></div>
+<div><h4>Missing information</h4><ul><li>amount/estimate not stated</li><li>incident statement too short</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>claimant reference is uncertain: &#x27;CLMNT-7643&#x27; - note presents this reference as uncertain or a placeholder</li><li>incident date is uncertain: &#x27;11/05/26&#x27; - 11/05/26: day/month order unclear; only 2026-05-11 is not later than the received date (not auto-resolved)</li></ul>
+<h4>Why manual review</h4><ul><li>note says not to send to final review until basic fields are cleaned</li></ul></div></div>
+<p class="small">Tags: HOLD_UNTIL_CLEANED, COPIED_FROM_THREAD, UNCERTAIN_CLAIMANT_REF, INVALID_OR_AMBIGUOUS_DATE, AMOUNT_NOT_STATED, DOCS_QUALITY_ISSUE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0076</b> &middot; Motor Accident &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-low">confidence Low</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via WhatsApp Summary, received 2026-05-15. Stated in note: policy MISSING; claimant CLMNT-6095 (tentative); incident date 10/05/26 (unclear); location Hyderabad; amount MISSING. Documents mentioned: vehicle photos, police intimation. Needs attention: note says not to send to final review until basic fields are cleaned; 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; amount/estimate not stated; third-party details missing (+4 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Motor Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Verify the listed documents. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(unclear)</i></li>
+<li>Claimant: CLMNT-6095 <i>(tentative)</i></li>
+<li>Incident date: 10/05/26 <i>(ambiguous)</i></li>
+<li>Location: Hyderabad</li><li>Amount: MISSING</li>
+<li>Documents mentioned: vehicle photos, police intimation</li></ul></div>
+<div><h4>Missing information</h4><ul><li>amount/estimate not stated</li><li>third-party details missing</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>policy reference is uncertain: &#x27;unreadable&#x27; - policy reference present but not readable</li><li>claimant reference is uncertain: &#x27;CLMNT-6095&#x27; - note presents this reference as uncertain or a placeholder</li><li>incident date is uncertain: &#x27;10/05/26&#x27; - 10/05/26: day/month order unclear; only 2026-05-10 is not later than the received date (not auto-resolved)</li></ul>
+<h4>Why manual review</h4><ul><li>note says not to send to final review until basic fields are cleaned</li><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: HOLD_UNTIL_CLEANED, COPIED_FROM_THREAD, MISSING_POLICY_REF, UNCERTAIN_CLAIMANT_REF, INVALID_OR_AMBIGUOUS_DATE, AMOUNT_NOT_STATED, ATTACHMENT_UNREADABLE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0077</b> &middot; Commercial Equipment &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Commercial Equipment note via Email, received 2026-05-20. Stated in note: policy POL-2011; claimant CLMNT-2838 (tentative); incident date 17/05/26; location MISSING; amount MISSING. Documents mentioned: site supervisor note, damage photos. Needs attention: note says not to send to final review until basic fields are cleaned; location missing (note says &#x27;not stated&#x27;); amount/estimate not stated; damage photos pending (+2 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Commercial Equipment Review); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Verify the listed documents. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-2011 <i>(found)</i></li>
+<li>Claimant: CLMNT-2838 <i>(tentative)</i></li>
+<li>Incident date: 17/05/26 <i>(complete)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: site supervisor note, damage photos</li></ul></div>
+<div><h4>Missing information</h4><ul><li>location missing (note says &#x27;not stated&#x27;)</li><li>amount/estimate not stated</li><li>damage photos pending</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>claimant reference is uncertain: &#x27;CLMNT-2838&#x27; - note presents this reference as uncertain or a placeholder</li><li>&#x27;damage photos&#x27; is listed as provided but also reported pending; verify which is current</li></ul>
+<h4>Why manual review</h4><ul><li>note says not to send to final review until basic fields are cleaned</li></ul></div></div>
+<p class="small">Tags: HOLD_UNTIL_CLEANED, COPIED_FROM_THREAD, UNCERTAIN_CLAIMANT_REF, MISSING_LOCATION, AMOUNT_NOT_STATED, DOCS_CONFLICTING &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0083</b> &middot; Device/Personal Item Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-low">confidence Low</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Device/Personal Item Damage note via Web Form, received 2026-05-24. Stated in note: policy MISSING; claimant MISSING; incident date 2026-04-31 (invalid); location MISSING; amount MISSING. Documents mentioned: invoice. Needs attention: submitter-selected category differs from the note text; note asks for the category/fields to be re-checked manually; incident date problem: not a real calendar date; 4 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain (+7 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Asset and Device Claims); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Submitter/ops asked for the category to be re-classified; Ops asked for the date issue to be flagged. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: 2026-04-31 <i>(invalid)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: invoice</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing</li><li>claimant reference missing</li><li>location missing</li><li>amount/estimate not stated</li><li>repair quote pending</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>submitter selected &#x27;travel&#x27; but the note text points to Device/Personal Item Damage</li><li>incident date is uncertain: &#x27;2026-04-31&#x27; - not a real calendar date</li></ul>
+<h4>Why manual review</h4><ul><li>submitter-selected category differs from the note text</li><li>note asks for the category/fields to be re-checked manually</li><li>incident date problem: not a real calendar date</li><li>4 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: CATEGORY_MISMATCH, CATEGORY_RECHECK, MISSING_POLICY_REF, MISSING_CLAIMANT_REF, INVALID_OR_AMBIGUOUS_DATE, MISSING_LOCATION, AMOUNT_NOT_STATED, DOCS_PENDING_OR_MISSING &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card manual"><summary>
+<b>CI-2026-0085</b> &middot; Property Water Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+<span class="pill manual">manual review</span>
+<span class="status">Manual review before routing</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Water Damage note via Call Center, received 2026-05-26. Stated in note: policy MISSING; claimant MISSING; incident date 22 May (unclear); location Hyderabad; amount MISSING. Documents mentioned: photos. Needs attention: 3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain; policy reference missing; claimant reference missing; amount/estimate not stated (+3 more in the detailed fields). Suggested queue: Manual Clarification Queue (intended queue after clarification: Property Claims Intake); urgency Normal; manual review required: Yes. Status: Manual review before routing. Follow-up noted: Caller asks whether an inspection is required; Repair quote promised later. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: 22 May <i>(partial)</i></li>
+<li>Location: Hyderabad</li><li>Amount: MISSING</li>
+<li>Documents mentioned: photos</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing</li><li>claimant reference missing</li><li>amount/estimate not stated</li><li>photos not visible/accessible</li><li>repair quote pending (to be sent later)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>incident date is uncertain: &#x27;22 May&#x27; - year not stated in the note</li></ul>
+<h4>Why manual review</h4><ul><li>3 of 4 core fields (policy, claimant, incident date, location) are missing or uncertain</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_CLAIMANT_REF, INCIDENT_DATE_INCOMPLETE, AMOUNT_NOT_STATED, DOCS_PENDING_OR_MISSING, ATTACHMENT_NOT_VISIBLE, CLAIMANT_QUESTION_OPEN &middot; Urgency basis: default - no urgency cue in the note</p></details><h2>Motor Claims Intake <small>(12)</small></h2><details class="card ok"><summary>
+<b>CI-2026-0053</b> &middot; Motor Accident &middot; <span class="pill urgent">Urgent</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via Web Form, received 2026-04-10. Stated in note: policy POL-6598; claimant CLMNT-4509; incident date MISSING; location Bengaluru; amount MISSING. Documents mentioned: repair estimate, driver statement. Needs attention: incident date missing; amount/estimate not stated; driver statement incomplete. Suggested queue: Motor Claims Intake; urgency Urgent; manual review required: No. Status: Needs more information. Follow-up noted: Call back requested; Claimant asks what else is required. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-6598 <i>(found)</i></li>
+<li>Claimant: CLMNT-4509 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: Bengaluru</li><li>Amount: MISSING</li>
+<li>Documents mentioned: repair estimate, driver statement</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing</li><li>amount/estimate not stated</li><li>driver statement incomplete</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_INCIDENT_DATE, AMOUNT_NOT_STATED, DOCS_QUALITY_ISSUE, CALLBACK_REQUESTED, CLAIMANT_QUESTION_OPEN, URGENT &middot; Urgency basis: note says &#x27;urgent&#x27;</p></details><details class="card ok"><summary>
+<b>CI-2026-0006</b> &middot; Motor Accident &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via Email, received 2026-03-05. Stated in note: policy MISSING; claimant CLMNT-6947; incident date 02-Mar-2026; location MISSING; amount ₹41,300 quoted. Documents mentioned: repair estimate, driver statement, vehicle photos. Needs attention: policy reference missing (policy reference not given); location missing (note says &#x27;not captured&#x27;); driver statement incomplete. Suggested queue: Motor Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Call back requested. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-6947 <i>(found)</i></li>
+<li>Incident date: 02-Mar-2026 <i>(complete)</i></li>
+<li>Location: MISSING</li><li>Amount: ₹41,300 quoted</li>
+<li>Documents mentioned: repair estimate, driver statement, vehicle photos</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy reference not given)</li><li>location missing (note says &#x27;not captured&#x27;)</li><li>driver statement incomplete</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_LOCATION, DOCS_QUALITY_ISSUE, CALLBACK_REQUESTED &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0012</b> &middot; Motor Accident &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via Email, received 2026-04-23. Stated in note: policy POL-5462; claimant CLMNT-3546; incident date 20-Apr-2026; location Delhi NCR; amount approx ₹1.2L. Documents mentioned: repair estimate, vehicle photos, police intimation. Needs attention: garage estimate not attached; &#x27;repair estimate&#x27; is listed as provided but also reported not attached; verify which is current. Suggested queue: Motor Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: No call back needed. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-5462 <i>(found)</i></li>
+<li>Claimant: CLMNT-3546 <i>(found)</i></li>
+<li>Incident date: 20-Apr-2026 <i>(complete)</i></li>
+<li>Location: Delhi NCR</li><li>Amount: approx ₹1.2L</li>
+<li>Documents mentioned: repair estimate, vehicle photos, police intimation</li></ul></div>
+<div><h4>Missing information</h4><ul><li>garage estimate not attached</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>&#x27;repair estimate&#x27; is listed as provided but also reported not attached; verify which is current</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: DOCS_CONFLICTING &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0021</b> &middot; Motor Accident &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via Web Form, received 2026-04-10. Stated in note: policy POL-5558; claimant MISSING; incident date 2026-04-09; location MISSING; amount MISSING. Documents mentioned: vehicle photos, police intimation. Needs attention: claimant reference missing; location missing (note says &#x27;blank&#x27;); amount/estimate not stated; third-party details missing. Suggested queue: Motor Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-5558 <i>(found)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: 2026-04-09 <i>(complete)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: vehicle photos, police intimation</li></ul></div>
+<div><h4>Missing information</h4><ul><li>claimant reference missing</li><li>location missing (note says &#x27;blank&#x27;)</li><li>amount/estimate not stated</li><li>third-party details missing</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: CATEGORY_SELF_REPORTED, MISSING_CLAIMANT_REF, MISSING_LOCATION, AMOUNT_NOT_STATED &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0032</b> &middot; Motor Accident &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via Branch Upload, received 2026-05-18. Stated in note: policy POL-9165; claimant CLMNT-3522; incident date 10-May-2026; location Chennai; amount ₹41,300 quoted. Documents mentioned: repair estimate. Needs attention: incident time unclear. Suggested queue: Motor Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Claimant asked for a status update. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-9165 <i>(found)</i></li>
+<li>Claimant: CLMNT-3522 <i>(found)</i></li>
+<li>Incident date: 10-May-2026 <i>(complete)</i></li>
+<li>Location: Chennai</li><li>Amount: ₹41,300 quoted</li>
+<li>Documents mentioned: repair estimate</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident time unclear</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: STATUS_UPDATE_REQUESTED &middot; Urgency basis: claimant asked for a status update (follow-up pressure noted)</p></details><details class="card ok"><summary>
+<b>CI-2026-0035</b> &middot; Motor Accident &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via Email, received 2026-04-17. Stated in note: policy POL-2646; claimant CLMNT-2612; incident date MISSING; location MISSING; amount approx ₹8,500. Documents mentioned: driver statement, vehicle photos, garage invoice. Needs attention: incident date missing; location missing; vehicle photos pending; &#x27;vehicle photos&#x27; is listed as provided but also reported pending; verify which is current. Suggested queue: Motor Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: No call back needed. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-2646 <i>(found)</i></li>
+<li>Claimant: CLMNT-2612 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: MISSING</li><li>Amount: approx ₹8,500</li>
+<li>Documents mentioned: driver statement, vehicle photos, garage invoice</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing</li><li>location missing</li><li>vehicle photos pending</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>&#x27;vehicle photos&#x27; is listed as provided but also reported pending; verify which is current</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_INCIDENT_DATE, MISSING_LOCATION, DOCS_CONFLICTING &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0040</b> &middot; Motor Accident &middot; <span class="pill low">Low</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via Email, received 2026-04-20. Stated in note: policy MISSING; claimant CLMNT-9807; incident date 2026-04-15; location MISSING; amount MISSING. Documents mentioned: police intimation, repair estimate. Needs attention: policy reference missing (policy not visible in the source email); location missing (note says &#x27;not stated&#x27;); amount/estimate not stated; incident time unclear (+1 more in the detailed fields). Suggested queue: Motor Claims Intake; urgency Low; manual review required: No. Status: Needs more information. Follow-up noted: Claimant asks what else is required. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-9807 <i>(found)</i></li>
+<li>Incident date: 2026-04-15 <i>(complete)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: police intimation, repair estimate</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy not visible in the source email)</li><li>location missing (note says &#x27;not stated&#x27;)</li><li>amount/estimate not stated</li><li>incident time unclear</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_LOCATION, AMOUNT_NOT_STATED, ATTACHMENT_UNREADABLE, CLAIMANT_QUESTION_OPEN &middot; Urgency basis: intake urgency marker in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0041</b> &middot; Motor Accident &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via Web Form, received 2026-03-25. Stated in note: policy POL-8450; claimant CLMNT-3001; incident date 2026-03-22; location MISSING; amount MISSING. Documents mentioned: driver statement, repair estimate, vehicle photos. Needs attention: location missing (note says &#x27;not shared&#x27;); amount/estimate not stated; driver statement incomplete. Suggested queue: Motor Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Email follow-up preferred; Claimant asks what else is required. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-8450 <i>(found)</i></li>
+<li>Claimant: CLMNT-3001 <i>(found)</i></li>
+<li>Incident date: 2026-03-22 <i>(complete)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: driver statement, repair estimate, vehicle photos</li></ul></div>
+<div><h4>Missing information</h4><ul><li>location missing (note says &#x27;not shared&#x27;)</li><li>amount/estimate not stated</li><li>driver statement incomplete</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_LOCATION, AMOUNT_NOT_STATED, DOCS_QUALITY_ISSUE, EMAIL_FOLLOWUP_PREFERRED, CLAIMANT_QUESTION_OPEN &middot; Urgency basis: intake urgency marker in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0052</b> &middot; Motor Accident &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via WhatsApp Summary, received 2026-03-29. Stated in note: policy POL-6461 (tentative); claimant CLMNT-3463; incident date 19 Mar (unclear); location Bengaluru; amount MISSING. Documents mentioned: police intimation, driver statement, vehicle photos. Needs attention: amount/estimate not stated; driver statement incomplete; policy reference is uncertain: &#x27;POL-6461&#x27; - note presents this reference as uncertain or a placeholder; incident date is uncertain: &#x27;19 Mar&#x27; - year not stated in the note. Suggested queue: Motor Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-6461 <i>(tentative)</i></li>
+<li>Claimant: CLMNT-3463 <i>(found)</i></li>
+<li>Incident date: 19 Mar <i>(partial)</i></li>
+<li>Location: Bengaluru</li><li>Amount: MISSING</li>
+<li>Documents mentioned: police intimation, driver statement, vehicle photos</li></ul></div>
+<div><h4>Missing information</h4><ul><li>amount/estimate not stated</li><li>driver statement incomplete</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>policy reference is uncertain: &#x27;POL-6461&#x27; - note presents this reference as uncertain or a placeholder</li><li>incident date is uncertain: &#x27;19 Mar&#x27; - year not stated in the note</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: UNCERTAIN_POLICY_REF, INCIDENT_DATE_INCOMPLETE, AMOUNT_NOT_STATED, DOCS_QUALITY_ISSUE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0062</b> &middot; Motor Accident &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via Web Form, received 2026-05-21. Stated in note: policy MISSING; claimant CLMNT-8311; incident date MISSING; location Ahmedabad; amount around ₹22k. Documents mentioned: police intimation, repair estimate, vehicle photos. Needs attention: policy reference missing (note says policy is missing); incident date missing (note says &#x27;n/a&#x27;); third-party details missing. Suggested queue: Motor Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Call back requested. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-8311 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: Ahmedabad</li><li>Amount: around ₹22k</li>
+<li>Documents mentioned: police intimation, repair estimate, vehicle photos</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (note says policy is missing)</li><li>incident date missing (note says &#x27;n/a&#x27;)</li><li>third-party details missing</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_INCIDENT_DATE, CALLBACK_REQUESTED &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0065</b> &middot; Motor Accident &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via Partner Portal, received 2026-03-03. Stated in note: policy POL-1674 (tentative); claimant CLMNT-6531; incident date MISSING; location Chennai; amount small amount as per caller. Documents mentioned: vehicle photos, garage invoice, driver statement. Needs attention: incident date missing (note says &#x27;n/a&#x27;); amount described in words only; no figure given; driver statement incomplete; policy reference is uncertain: &#x27;POL-1674&#x27; - note presents this reference as uncertain or a placeholder. Suggested queue: Motor Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Contact window stated in note: &#x27;reachable after 5 PM&#x27;. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-1674 <i>(tentative)</i></li>
+<li>Claimant: CLMNT-6531 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: Chennai</li><li>Amount: small amount as per caller</li>
+<li>Documents mentioned: vehicle photos, garage invoice, driver statement</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing (note says &#x27;n/a&#x27;)</li><li>amount described in words only; no figure given</li><li>driver statement incomplete</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>policy reference is uncertain: &#x27;POL-1674&#x27; - note presents this reference as uncertain or a placeholder</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: UNCERTAIN_POLICY_REF, MISSING_INCIDENT_DATE, AMOUNT_NOT_STATED, DOCS_QUALITY_ISSUE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0084</b> &middot; Motor Accident &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Ready for ops review</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Motor Accident note via Partner Portal, received 2026-05-25. Stated in note: policy POL-7004; claimant CLMNT-3388; incident date 18-May-2026; location Pune; amount MISSING. Documents mentioned: vehicle photos, garage estimate. Needs attention: amount/estimate not stated. Suggested queue: Motor Claims Intake; urgency Normal; manual review required: No. Status: Ready for ops review. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-7004 <i>(found)</i></li>
+<li>Claimant: CLMNT-3388 <i>(found)</i></li>
+<li>Incident date: 18-May-2026 <i>(complete)</i></li>
+<li>Location: Pune</li><li>Amount: MISSING</li>
+<li>Documents mentioned: vehicle photos, garage estimate</li></ul></div>
+<div><h4>Missing information</h4><ul><li>amount/estimate not stated</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: AMOUNT_NOT_STATED &middot; Urgency basis: default - no urgency cue in the note</p></details><h2>Property Claims Intake <small>(11)</small></h2><details class="card ok"><summary>
+<b>CI-2026-0020</b> &middot; Property Fire/Smoke &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Fire/Smoke note via Partner Portal, received 2026-04-12. Stated in note: policy POL-4613 (tentative); claimant CLMNT-9947; incident date MISSING; location Kolkata; amount ₹41,300 quoted. Documents mentioned: repair quotation, incident statement. Needs attention: incident date missing (note says &#x27;n/a&#x27;); appliance invoice missing; policy reference is uncertain: &#x27;POL-4613&#x27; - note presents this reference as uncertain or a placeholder. Suggested queue: Property Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: No call back needed. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-4613 <i>(tentative)</i></li>
+<li>Claimant: CLMNT-9947 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: Kolkata</li><li>Amount: ₹41,300 quoted</li>
+<li>Documents mentioned: repair quotation, incident statement</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing (note says &#x27;n/a&#x27;)</li><li>appliance invoice missing</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>policy reference is uncertain: &#x27;POL-4613&#x27; - note presents this reference as uncertain or a placeholder</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: UNCERTAIN_POLICY_REF, MISSING_INCIDENT_DATE, DOCS_PENDING_OR_MISSING &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0026</b> &middot; Property Water Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Water Damage note via Call Center, received 2026-03-10. Stated in note: policy POL-6912; claimant MISSING; incident date 2026-03-10; location MISSING; amount approx ₹8,500. Documents mentioned: inspection request, building maintenance note, damage photos. Needs attention: claimant reference missing; location missing (note says &#x27;blank&#x27;); repair estimate not attached. Suggested queue: Property Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-6912 <i>(found)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: 2026-03-10 <i>(complete)</i></li>
+<li>Location: MISSING</li><li>Amount: approx ₹8,500</li>
+<li>Documents mentioned: inspection request, building maintenance note, damage photos</li></ul></div>
+<div><h4>Missing information</h4><ul><li>claimant reference missing</li><li>location missing (note says &#x27;blank&#x27;)</li><li>repair estimate not attached</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: CATEGORY_SELF_REPORTED, MISSING_CLAIMANT_REF, MISSING_LOCATION, DOCS_PENDING_OR_MISSING &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0037</b> &middot; Property Water Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Water Damage note via WhatsApp Summary, received 2026-06-07. Stated in note: policy POL-1132; claimant CLMNT-5497; incident date MISSING; location MISSING; amount approx ₹1.2L. Documents mentioned: building maintenance note, inspection request, damage photos. Needs attention: incident date missing; location missing; repair estimate not attached. Suggested queue: Property Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Claimant asked for a status update. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-1132 <i>(found)</i></li>
+<li>Claimant: CLMNT-5497 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: MISSING</li><li>Amount: approx ₹1.2L</li>
+<li>Documents mentioned: building maintenance note, inspection request, damage photos</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing</li><li>location missing</li><li>repair estimate not attached</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_INCIDENT_DATE, MISSING_LOCATION, DOCS_PENDING_OR_MISSING, STATUS_UPDATE_REQUESTED &middot; Urgency basis: claimant asked for a status update (follow-up pressure noted)</p></details><details class="card ok"><summary>
+<b>CI-2026-0043</b> &middot; Property Water Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Water Damage note via WhatsApp Summary, received 2026-03-08. Stated in note: policy POL-8267; claimant CLMNT-9032; incident date 03-Mar-2026; location MISSING; amount MISSING. Documents mentioned: purchase invoice, inspection request. Needs attention: location missing (note says &#x27;not captured&#x27;); amount/estimate not stated; damage photos pending. Suggested queue: Property Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Contact window stated in note: &#x27;reachable after 5 PM&#x27;. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-8267 <i>(found)</i></li>
+<li>Claimant: CLMNT-9032 <i>(found)</i></li>
+<li>Incident date: 03-Mar-2026 <i>(complete)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: purchase invoice, inspection request</li></ul></div>
+<div><h4>Missing information</h4><ul><li>location missing (note says &#x27;not captured&#x27;)</li><li>amount/estimate not stated</li><li>damage photos pending</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_LOCATION, AMOUNT_NOT_STATED, DOCS_PENDING_OR_MISSING &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0059</b> &middot; Property Water Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Water Damage note via Web Form, received 2026-05-10. Stated in note: policy MISSING; claimant CLMNT-4131; incident date 28-Apr-2026; location Mumbai; amount MISSING. Documents mentioned: inspection request, purchase invoice. Needs attention: policy reference missing (policy reference not given); amount/estimate not stated; property address incomplete; one attachment unreadable (document not identified in the note). Suggested queue: Property Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: No call back needed. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-4131 <i>(found)</i></li>
+<li>Incident date: 28-Apr-2026 <i>(complete)</i></li>
+<li>Location: Mumbai</li><li>Amount: MISSING</li>
+<li>Documents mentioned: inspection request, purchase invoice</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy reference not given)</li><li>amount/estimate not stated</li><li>property address incomplete</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, AMOUNT_NOT_STATED, ATTACHMENT_UNREADABLE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0060</b> &middot; Property Water Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Water Damage note via Partner Portal, received 2026-04-05. Stated in note: policy MISSING; claimant CLMNT-9937; incident date MISSING; location Delhi NCR; amount MISSING. Documents mentioned: purchase invoice. Needs attention: policy reference missing (policy not visible in the source email); incident date missing; amount/estimate not stated; cause of leak unclear. Suggested queue: Property Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Claimant asked for a status update; Claimant asks what else is required. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-9937 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: Delhi NCR</li><li>Amount: MISSING</li>
+<li>Documents mentioned: purchase invoice</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy not visible in the source email)</li><li>incident date missing</li><li>amount/estimate not stated</li><li>cause of leak unclear</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_INCIDENT_DATE, AMOUNT_NOT_STATED, STATUS_UPDATE_REQUESTED, CLAIMANT_QUESTION_OPEN &middot; Urgency basis: intake urgency marker in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0069</b> &middot; Property Fire/Smoke &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Fire/Smoke note via WhatsApp Summary, received 2026-04-14. Stated in note: policy POL-9508; claimant MISSING; incident date 2026-04-05; location MISSING; amount MISSING. Documents mentioned: damage photos. Needs attention: claimant reference missing; location missing (note says &#x27;not stated&#x27;); amount/estimate not stated; fire service note not available (+1 more in the detailed fields). Suggested queue: Property Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-9508 <i>(found)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: 2026-04-05 <i>(complete)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: damage photos</li></ul></div>
+<div><h4>Missing information</h4><ul><li>claimant reference missing</li><li>location missing (note says &#x27;not stated&#x27;)</li><li>amount/estimate not stated</li><li>fire service note not available</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: CATEGORY_SELF_REPORTED, MISSING_CLAIMANT_REF, MISSING_LOCATION, AMOUNT_NOT_STATED, DOCS_PENDING_OR_MISSING, ATTACHMENT_UNREADABLE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0072</b> &middot; Property Water Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Water Damage note via Partner Portal, received 2026-05-02. Stated in note: policy POL-7220 (tentative); claimant CLMNT-9899; incident date MISSING; location Bengaluru; amount MISSING. Documents mentioned: building maintenance note, inspection request, damage photos. Needs attention: incident date missing (note says &#x27;n/a&#x27;); amount/estimate not stated; property address incomplete; one attachment unreadable (document not identified in the note) (+1 more in the detailed fields). Suggested queue: Property Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-7220 <i>(tentative)</i></li>
+<li>Claimant: CLMNT-9899 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: Bengaluru</li><li>Amount: MISSING</li>
+<li>Documents mentioned: building maintenance note, inspection request, damage photos</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing (note says &#x27;n/a&#x27;)</li><li>amount/estimate not stated</li><li>property address incomplete</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>policy reference is uncertain: &#x27;POL-7220&#x27; - note presents this reference as uncertain or a placeholder</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: UNCERTAIN_POLICY_REF, MISSING_INCIDENT_DATE, AMOUNT_NOT_STATED, ATTACHMENT_UNREADABLE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0073</b> &middot; Property Water Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Water Damage note via Email, received 2026-05-17. Stated in note: policy POL-6411; claimant CLMNT-7771; incident date MISSING; location MISSING; amount MISSING. Documents mentioned: repair quotation. Needs attention: incident date missing (note says &#x27;not confirmed&#x27;); location missing (note says &#x27;not captured&#x27;); amount/estimate not stated; property address incomplete. Suggested queue: Property Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Email follow-up preferred. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-6411 <i>(found)</i></li>
+<li>Claimant: CLMNT-7771 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(unconfirmed)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: repair quotation</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing (note says &#x27;not confirmed&#x27;)</li><li>location missing (note says &#x27;not captured&#x27;)</li><li>amount/estimate not stated</li><li>property address incomplete</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_INCIDENT_DATE, MISSING_LOCATION, AMOUNT_NOT_STATED, EMAIL_FOLLOWUP_PREFERRED &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0079</b> &middot; Property Fire/Smoke &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Fire/Smoke note via Partner Portal, received 2026-05-08. Stated in note: policy POL-3086; claimant CLMNT-9664; incident date MISSING; location MISSING; amount ₹41,300 quoted. Documents mentioned: appliance invoice, fire service note, repair quotation, photos. Needs attention: incident date missing; location missing; photos unclear. Suggested queue: Property Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-3086 <i>(found)</i></li>
+<li>Claimant: CLMNT-9664 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: MISSING</li><li>Amount: ₹41,300 quoted</li>
+<li>Documents mentioned: appliance invoice, fire service note, repair quotation, photos</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing</li><li>location missing</li><li>photos unclear</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_INCIDENT_DATE, MISSING_LOCATION, DOCS_QUALITY_ISSUE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0080</b> &middot; Property Water Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Property Water Damage note via WhatsApp Summary, received 2026-05-08. Stated in note: policy POL-5009 (tentative); claimant CLMNT-1797; incident date 02 May (unclear); location Ahmedabad; amount around ₹22k. Documents mentioned: damage photos, purchase invoice, building maintenance note. Needs attention: damage photos pending; one attachment unreadable (document not identified in the note); policy reference is uncertain: &#x27;POL-5009&#x27; - note presents this reference as uncertain or a placeholder; incident date is uncertain: &#x27;02 May&#x27; - year not stated in the note (+1 more in the detailed fields). Suggested queue: Property Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Call back requested. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-5009 <i>(tentative)</i></li>
+<li>Claimant: CLMNT-1797 <i>(found)</i></li>
+<li>Incident date: 02 May <i>(partial)</i></li>
+<li>Location: Ahmedabad</li><li>Amount: around ₹22k</li>
+<li>Documents mentioned: damage photos, purchase invoice, building maintenance note</li></ul></div>
+<div><h4>Missing information</h4><ul><li>damage photos pending</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>policy reference is uncertain: &#x27;POL-5009&#x27; - note presents this reference as uncertain or a placeholder</li><li>incident date is uncertain: &#x27;02 May&#x27; - year not stated in the note</li><li>&#x27;damage photos&#x27; is listed as provided but also reported pending; verify which is current</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: UNCERTAIN_POLICY_REF, INCIDENT_DATE_INCOMPLETE, DOCS_CONFLICTING, ATTACHMENT_UNREADABLE, CALLBACK_REQUESTED &middot; Urgency basis: default - no urgency cue in the note</p></details><h2>Health Reimbursement Review <small>(6)</small></h2><details class="card ok"><summary>
+<b>CI-2026-0049</b> &middot; Health Reimbursement &middot; <span class="pill urgent">Urgent</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Health Reimbursement note via Call Center, received 2026-05-20. Stated in note: policy POL-2868; claimant CLMNT-9363; incident date MISSING; location Delhi NCR; amount small amount as per caller. Documents mentioned: prescription, discharge summary, diagnostic report, diagnosis note. Needs attention: incident date missing (note says &#x27;not confirmed&#x27;); amount described in words only; no figure given; diagnosis note unclear. Suggested queue: Health Reimbursement Review; urgency Urgent; manual review required: No. Status: Needs more information. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-2868 <i>(found)</i></li>
+<li>Claimant: CLMNT-9363 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(unconfirmed)</i></li>
+<li>Location: Delhi NCR</li><li>Amount: small amount as per caller</li>
+<li>Documents mentioned: prescription, discharge summary, diagnostic report, diagnosis note</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing (note says &#x27;not confirmed&#x27;)</li><li>amount described in words only; no figure given</li><li>diagnosis note unclear</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_INCIDENT_DATE, AMOUNT_NOT_STATED, DOCS_QUALITY_ISSUE, URGENT &middot; Urgency basis: note mentions &#x27;emergency visit&#x27; (medical emergency wording)</p></details><details class="card ok"><summary>
+<b>CI-2026-0018</b> &middot; Health Reimbursement &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Health Reimbursement note via Call Center, received 2026-03-21. Stated in note: policy MISSING; claimant CLMNT-9486; incident date MISSING; location Pune; amount MISSING. Documents mentioned: hospital bill, payment receipt, discharge summary. Needs attention: policy reference missing (policy not visible in the source email); incident date missing; amount/estimate not stated; payment receipt missing (+1 more in the detailed fields). Suggested queue: Health Reimbursement Review; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Claimant asked for a status update; Claimant asks what else is required. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-9486 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: Pune</li><li>Amount: MISSING</li>
+<li>Documents mentioned: hospital bill, payment receipt, discharge summary</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy not visible in the source email)</li><li>incident date missing</li><li>amount/estimate not stated</li><li>payment receipt missing</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>&#x27;payment receipt&#x27; is listed as provided but also reported missing; verify which is current</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_INCIDENT_DATE, AMOUNT_NOT_STATED, DOCS_CONFLICTING, STATUS_UPDATE_REQUESTED, CLAIMANT_QUESTION_OPEN &middot; Urgency basis: intake urgency marker in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0019</b> &middot; Health Reimbursement &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Health Reimbursement note via Branch Upload, received 2026-04-16. Stated in note: policy POL-4841; claimant CLMNT-5681; incident date 11-Apr-2026; location MISSING; amount around ₹22k. Documents mentioned: none identified. Needs attention: location missing (note says &#x27;not captured&#x27;); diagnosis note unclear; no attachments found. Suggested queue: Health Reimbursement Review; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Email follow-up preferred. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-4841 <i>(found)</i></li>
+<li>Claimant: CLMNT-5681 <i>(found)</i></li>
+<li>Incident date: 11-Apr-2026 <i>(complete)</i></li>
+<li>Location: MISSING</li><li>Amount: around ₹22k</li>
+<li>Documents mentioned: none</li></ul></div>
+<div><h4>Missing information</h4><ul><li>location missing (note says &#x27;not captured&#x27;)</li><li>diagnosis note unclear</li><li>no attachments found</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_LOCATION, DOCS_PENDING_OR_MISSING, NO_ATTACHMENTS, EMAIL_FOLLOWUP_PREFERRED &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0025</b> &middot; Health Reimbursement &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Health Reimbursement note via Email, received 2026-05-12. Stated in note: policy POL-7625; claimant MISSING; incident date 2026-05-08; location Delhi NCR; amount MISSING. Documents mentioned: diagnostic report, payment receipt, hospital bill. Needs attention: claimant reference missing; amount/estimate not stated; bill breakup not attached. Suggested queue: Health Reimbursement Review; urgency Normal; manual review required: No. Status: Needs more information. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-7625 <i>(found)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: 2026-05-08 <i>(complete)</i></li>
+<li>Location: Delhi NCR</li><li>Amount: MISSING</li>
+<li>Documents mentioned: diagnostic report, payment receipt, hospital bill</li></ul></div>
+<div><h4>Missing information</h4><ul><li>claimant reference missing</li><li>amount/estimate not stated</li><li>bill breakup not attached</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: CATEGORY_SELF_REPORTED, MISSING_CLAIMANT_REF, AMOUNT_NOT_STATED, DOCS_PENDING_OR_MISSING &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0029</b> &middot; Health Reimbursement &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Health Reimbursement note via Email, received 2026-06-02. Stated in note: policy POL-6039; claimant CLMNT-3718; incident date 24-May-2026; location Chennai; amount ₹41,300 quoted. Documents mentioned: discharge summary, prescription, hospital bill. Needs attention: payment receipt missing. Suggested queue: Health Reimbursement Review; urgency Normal; manual review required: No. Status: Needs more information. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-6039 <i>(found)</i></li>
+<li>Claimant: CLMNT-3718 <i>(found)</i></li>
+<li>Incident date: 24-May-2026 <i>(complete)</i></li>
+<li>Location: Chennai</li><li>Amount: ₹41,300 quoted</li>
+<li>Documents mentioned: discharge summary, prescription, hospital bill</li></ul></div>
+<div><h4>Missing information</h4><ul><li>payment receipt missing</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: DOCS_PENDING_OR_MISSING &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0034</b> &middot; Health Reimbursement &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Health Reimbursement note via Branch Upload, received 2026-03-26. Stated in note: policy MISSING; claimant CLMNT-9617; incident date MISSING; location Kolkata; amount around ₹22k. Documents mentioned: payment receipt, prescription, hospital bill. Needs attention: policy reference missing (policy reference not given); incident date missing (note says &#x27;not confirmed&#x27;); payment receipt missing; &#x27;payment receipt&#x27; is listed as provided but also reported missing; verify which is current. Suggested queue: Health Reimbursement Review; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Call back requested. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-9617 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(unconfirmed)</i></li>
+<li>Location: Kolkata</li><li>Amount: around ₹22k</li>
+<li>Documents mentioned: payment receipt, prescription, hospital bill</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy reference not given)</li><li>incident date missing (note says &#x27;not confirmed&#x27;)</li><li>payment receipt missing</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>&#x27;payment receipt&#x27; is listed as provided but also reported missing; verify which is current</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_INCIDENT_DATE, DOCS_CONFLICTING, CALLBACK_REQUESTED &middot; Urgency basis: default - no urgency cue in the note</p></details><h2>Travel Claims Intake <small>(8)</small></h2><details class="card ok"><summary>
+<b>CI-2026-0008</b> &middot; Travel Delay/Baggage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Travel Delay/Baggage note via Email, received 2026-04-21. Stated in note: policy POL-6804 (tentative); claimant CLMNT-8062; incident date 14 Apr (unclear); location Mumbai; amount approx ₹1.2L. Documents mentioned: airline letter, boarding pass. Needs attention: baggage tag unclear; one attachment unreadable (document not identified in the note); policy reference is uncertain: &#x27;POL-6804&#x27; - note presents this reference as uncertain or a placeholder; incident date is uncertain: &#x27;14 Apr&#x27; - year not stated in the note. Suggested queue: Travel Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Call back requested. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-6804 <i>(tentative)</i></li>
+<li>Claimant: CLMNT-8062 <i>(found)</i></li>
+<li>Incident date: 14 Apr <i>(partial)</i></li>
+<li>Location: Mumbai</li><li>Amount: approx ₹1.2L</li>
+<li>Documents mentioned: airline letter, boarding pass</li></ul></div>
+<div><h4>Missing information</h4><ul><li>baggage tag unclear</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>policy reference is uncertain: &#x27;POL-6804&#x27; - note presents this reference as uncertain or a placeholder</li><li>incident date is uncertain: &#x27;14 Apr&#x27; - year not stated in the note</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: UNCERTAIN_POLICY_REF, INCIDENT_DATE_INCOMPLETE, ATTACHMENT_UNREADABLE, CALLBACK_REQUESTED &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0010</b> &middot; Travel Delay/Baggage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Travel Delay/Baggage note via Partner Portal, received 2026-03-10. Stated in note: policy POL-9701; claimant CLMNT-9238; incident date MISSING; location MISSING; amount approx ₹8,500. Documents mentioned: baggage report, boarding pass, travel invoice. Needs attention: incident date missing; location missing; airline confirmation missing; one attachment unreadable (document not identified in the note). Suggested queue: Travel Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Contact window stated in note: &#x27;reachable after 5 PM&#x27;. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-9701 <i>(found)</i></li>
+<li>Claimant: CLMNT-9238 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: MISSING</li><li>Amount: approx ₹8,500</li>
+<li>Documents mentioned: baggage report, boarding pass, travel invoice</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing</li><li>location missing</li><li>airline confirmation missing</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_INCIDENT_DATE, MISSING_LOCATION, DOCS_PENDING_OR_MISSING, ATTACHMENT_UNREADABLE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0016</b> &middot; Travel Delay/Baggage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Travel Delay/Baggage note via Partner Portal, received 2026-05-20. Stated in note: policy POL-5920; claimant MISSING; incident date 2026-05-10; location Kolkata; amount approx ₹1.2L. Documents mentioned: boarding pass, baggage report, expense receipts. Needs attention: claimant reference missing; expense receipts incomplete. Suggested queue: Travel Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-5920 <i>(found)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: 2026-05-10 <i>(complete)</i></li>
+<li>Location: Kolkata</li><li>Amount: approx ₹1.2L</li>
+<li>Documents mentioned: boarding pass, baggage report, expense receipts</li></ul></div>
+<div><h4>Missing information</h4><ul><li>claimant reference missing</li><li>expense receipts incomplete</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: CATEGORY_SELF_REPORTED, MISSING_CLAIMANT_REF, DOCS_QUALITY_ISSUE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0028</b> &middot; Travel Delay/Baggage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Travel Delay/Baggage note via Email, received 2026-05-05. Stated in note: policy POL-3847; claimant CLMNT-4929; incident date 2026-05-03; location Mumbai; amount MISSING. Documents mentioned: none identified. Needs attention: amount/estimate not stated; boarding pass not attached; no attachments found. Suggested queue: Travel Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Contact window stated in note: &#x27;reachable after 5 PM&#x27;; Claimant asks what else is required. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-3847 <i>(found)</i></li>
+<li>Claimant: CLMNT-4929 <i>(found)</i></li>
+<li>Incident date: 2026-05-03 <i>(complete)</i></li>
+<li>Location: Mumbai</li><li>Amount: MISSING</li>
+<li>Documents mentioned: none</li></ul></div>
+<div><h4>Missing information</h4><ul><li>amount/estimate not stated</li><li>boarding pass not attached</li><li>no attachments found</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: AMOUNT_NOT_STATED, DOCS_PENDING_OR_MISSING, NO_ATTACHMENTS, CLAIMANT_QUESTION_OPEN &middot; Urgency basis: intake urgency marker in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0036</b> &middot; Travel Delay/Baggage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Travel Delay/Baggage note via WhatsApp Summary, received 2026-05-13. Stated in note: policy POL-5183; claimant MISSING; incident date MISSING; location Ahmedabad; amount approx ₹1.2L. Documents mentioned: airline letter, delay confirmation, travel invoice. Needs attention: claimant reference missing; incident date missing (note says &#x27;blank&#x27;); baggage tag unclear; one attachment unreadable (document not identified in the note). Suggested queue: Travel Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-5183 <i>(found)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: Ahmedabad</li><li>Amount: approx ₹1.2L</li>
+<li>Documents mentioned: airline letter, delay confirmation, travel invoice</li></ul></div>
+<div><h4>Missing information</h4><ul><li>claimant reference missing</li><li>incident date missing (note says &#x27;blank&#x27;)</li><li>baggage tag unclear</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: CATEGORY_SELF_REPORTED, MISSING_CLAIMANT_REF, MISSING_INCIDENT_DATE, ATTACHMENT_UNREADABLE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0038</b> &middot; Travel Delay/Baggage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Travel Delay/Baggage note via WhatsApp Summary, received 2026-04-30. Stated in note: policy POL-5835; claimant CLMNT-2476; incident date MISSING; location Bengaluru; amount MISSING. Documents mentioned: boarding pass, baggage report, expense receipts. Needs attention: incident date missing; amount/estimate not stated; expense receipts incomplete. Suggested queue: Travel Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Contact window stated in note: &#x27;reachable after 5 PM&#x27;; Claimant asks what else is required. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-5835 <i>(found)</i></li>
+<li>Claimant: CLMNT-2476 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: Bengaluru</li><li>Amount: MISSING</li>
+<li>Documents mentioned: boarding pass, baggage report, expense receipts</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing</li><li>amount/estimate not stated</li><li>expense receipts incomplete</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_INCIDENT_DATE, AMOUNT_NOT_STATED, DOCS_QUALITY_ISSUE, CLAIMANT_QUESTION_OPEN &middot; Urgency basis: intake urgency marker in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0066</b> &middot; Travel Delay/Baggage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Travel Delay/Baggage note via Call Center, received 2026-05-22. Stated in note: policy POL-6121; claimant MISSING; incident date 2026-05-11; location Delhi NCR; amount around ₹22k. Documents mentioned: none identified. Needs attention: claimant reference missing; baggage tag unclear; no attachments found. Suggested queue: Travel Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-6121 <i>(found)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: 2026-05-11 <i>(complete)</i></li>
+<li>Location: Delhi NCR</li><li>Amount: around ₹22k</li>
+<li>Documents mentioned: none</li></ul></div>
+<div><h4>Missing information</h4><ul><li>claimant reference missing</li><li>baggage tag unclear</li><li>no attachments found</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: CATEGORY_SELF_REPORTED, MISSING_CLAIMANT_REF, NO_ATTACHMENTS &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0070</b> &middot; Travel Delay/Baggage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Travel Delay/Baggage note via WhatsApp Summary, received 2026-06-01. Stated in note: policy POL-3793; claimant CLMNT-8871; incident date 21-May-2026; location Kolkata; amount approx ₹1.2L. Documents mentioned: baggage report, airline letter. Needs attention: travel dates unclear; one attachment unreadable (document not identified in the note). Suggested queue: Travel Claims Intake; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Email follow-up preferred. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-3793 <i>(found)</i></li>
+<li>Claimant: CLMNT-8871 <i>(found)</i></li>
+<li>Incident date: 21-May-2026 <i>(complete)</i></li>
+<li>Location: Kolkata</li><li>Amount: approx ₹1.2L</li>
+<li>Documents mentioned: baggage report, airline letter</li></ul></div>
+<div><h4>Missing information</h4><ul><li>travel dates unclear</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: ATTACHMENT_UNREADABLE, EMAIL_FOLLOWUP_PREFERRED &middot; Urgency basis: default - no urgency cue in the note</p></details><h2>Asset and Device Claims <small>(7)</small></h2><details class="card ok"><summary>
+<b>CI-2026-0007</b> &middot; Device/Personal Item Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Device/Personal Item Damage note via Email, received 2026-04-10. Stated in note: policy MISSING; claimant CLMNT-4681; incident date 2026-04-01; location MISSING; amount MISSING. Documents mentioned: incident statement, service center note. Needs attention: policy reference missing (policy not visible in the source email); location missing (note says &#x27;not stated&#x27;); amount/estimate not stated; incident statement too short (+1 more in the detailed fields). Suggested queue: Asset and Device Claims; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Call back requested; Claimant asks what else is required. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-4681 <i>(found)</i></li>
+<li>Incident date: 2026-04-01 <i>(complete)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: incident statement, service center note</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy not visible in the source email)</li><li>location missing (note says &#x27;not stated&#x27;)</li><li>amount/estimate not stated</li><li>incident statement too short</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_LOCATION, AMOUNT_NOT_STATED, DOCS_QUALITY_ISSUE, ATTACHMENT_UNREADABLE, CALLBACK_REQUESTED, CLAIMANT_QUESTION_OPEN &middot; Urgency basis: intake urgency marker in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0023</b> &middot; Device/Personal Item Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Device/Personal Item Damage note via WhatsApp Summary, received 2026-05-11. Stated in note: policy POL-9289; claimant MISSING; incident date 2026-05-11; location Kolkata; amount approx ₹8,500. Documents mentioned: incident statement, service center note. Needs attention: claimant reference missing; purchase invoice missing. Suggested queue: Asset and Device Claims; urgency Normal; manual review required: No. Status: Needs more information. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-9289 <i>(found)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: 2026-05-11 <i>(complete)</i></li>
+<li>Location: Kolkata</li><li>Amount: approx ₹8,500</li>
+<li>Documents mentioned: incident statement, service center note</li></ul></div>
+<div><h4>Missing information</h4><ul><li>claimant reference missing</li><li>purchase invoice missing</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: CATEGORY_SELF_REPORTED, MISSING_CLAIMANT_REF, DOCS_PENDING_OR_MISSING &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0044</b> &middot; Device/Personal Item Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Device/Personal Item Damage note via Web Form, received 2026-05-09. Stated in note: policy POL-7815; claimant CLMNT-7532; incident date MISSING; location MISSING; amount MISSING. Documents mentioned: purchase invoice, service center note, item photo. Needs attention: incident date missing; location missing; amount/estimate not stated; item photo unclear. Suggested queue: Asset and Device Claims; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: No call back needed. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-7815 <i>(found)</i></li>
+<li>Claimant: CLMNT-7532 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: MISSING</li><li>Amount: MISSING</li>
+<li>Documents mentioned: purchase invoice, service center note, item photo</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing</li><li>location missing</li><li>amount/estimate not stated</li><li>item photo unclear</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_INCIDENT_DATE, MISSING_LOCATION, AMOUNT_NOT_STATED, DOCS_QUALITY_ISSUE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0048</b> &middot; Device/Personal Item Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-high">confidence High</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Device/Personal Item Damage note via WhatsApp Summary, received 2026-04-08. Stated in note: policy POL-1307; claimant CLMNT-8147; incident date 03-Apr-2026; location Kolkata; amount approx ₹1.2L. Documents mentioned: none identified. Needs attention: serial number missing; no attachments found. Suggested queue: Asset and Device Claims; urgency Normal; manual review required: No. Status: Needs more information. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-1307 <i>(found)</i></li>
+<li>Claimant: CLMNT-8147 <i>(found)</i></li>
+<li>Incident date: 03-Apr-2026 <i>(complete)</i></li>
+<li>Location: Kolkata</li><li>Amount: approx ₹1.2L</li>
+<li>Documents mentioned: none</li></ul></div>
+<div><h4>Missing information</h4><ul><li>serial number missing</li><li>no attachments found</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: NO_ATTACHMENTS &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0054</b> &middot; Device/Personal Item Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Device/Personal Item Damage note via Web Form, received 2026-05-22. Stated in note: policy MISSING; claimant CLMNT-4891; incident date MISSING; location Ahmedabad; amount around ₹22k. Documents mentioned: service center note, item photo. Needs attention: policy reference missing (note says policy is missing); incident date missing (note says &#x27;n/a&#x27;); item photo unclear. Suggested queue: Asset and Device Claims; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: No call back needed. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-4891 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: Ahmedabad</li><li>Amount: around ₹22k</li>
+<li>Documents mentioned: service center note, item photo</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (note says policy is missing)</li><li>incident date missing (note says &#x27;n/a&#x27;)</li><li>item photo unclear</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_INCIDENT_DATE, DOCS_QUALITY_ISSUE &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0071</b> &middot; Device/Personal Item Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Device/Personal Item Damage note via Branch Upload, received 2026-05-19. Stated in note: policy POL-8531; claimant MISSING; incident date 2026-05-11; location Delhi NCR; amount small amount as per caller. Documents mentioned: repair estimate, service center note, incident statement. Needs attention: claimant reference missing; amount described in words only; no figure given; repair estimate pending; &#x27;repair estimate&#x27; is listed as provided but also reported pending; verify which is current. Suggested queue: Asset and Device Claims; urgency Normal; manual review required: No. Status: Needs more information. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-8531 <i>(found)</i></li>
+<li>Claimant: MISSING <i>(missing)</i></li>
+<li>Incident date: 2026-05-11 <i>(complete)</i></li>
+<li>Location: Delhi NCR</li><li>Amount: small amount as per caller</li>
+<li>Documents mentioned: repair estimate, service center note, incident statement</li></ul></div>
+<div><h4>Missing information</h4><ul><li>claimant reference missing</li><li>amount described in words only; no figure given</li><li>repair estimate pending</li></ul>
+<h4>Unclear / conflicting</h4><ul><li>&#x27;repair estimate&#x27; is listed as provided but also reported pending; verify which is current</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: CATEGORY_SELF_REPORTED, MISSING_CLAIMANT_REF, AMOUNT_NOT_STATED, DOCS_CONFLICTING &middot; Urgency basis: default - no urgency cue in the note</p></details><details class="card ok"><summary>
+<b>CI-2026-0078</b> &middot; Device/Personal Item Damage &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Device/Personal Item Damage note via Partner Portal, received 2026-04-24. Stated in note: policy MISSING; claimant CLMNT-1742; incident date 23-Apr-2026; location MISSING; amount approx ₹8,500. Documents mentioned: purchase invoice, incident statement. Needs attention: policy reference missing (policy reference not given); location missing (note says &#x27;not stated&#x27;); incident statement too short; one attachment unreadable (document not identified in the note). Suggested queue: Asset and Device Claims; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Claimant asked for a status update. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: MISSING <i>(missing)</i></li>
+<li>Claimant: CLMNT-1742 <i>(found)</i></li>
+<li>Incident date: 23-Apr-2026 <i>(complete)</i></li>
+<li>Location: MISSING</li><li>Amount: approx ₹8,500</li>
+<li>Documents mentioned: purchase invoice, incident statement</li></ul></div>
+<div><h4>Missing information</h4><ul><li>policy reference missing (policy reference not given)</li><li>location missing (note says &#x27;not stated&#x27;)</li><li>incident statement too short</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_POLICY_REF, MISSING_LOCATION, DOCS_QUALITY_ISSUE, ATTACHMENT_UNREADABLE, STATUS_UPDATE_REQUESTED &middot; Urgency basis: claimant asked for a status update (follow-up pressure noted)</p></details><h2>Commercial Equipment Review <small>(2)</small></h2><details class="card ok"><summary>
+<b>CI-2026-0014</b> &middot; Commercial Equipment &middot; <span class="pill urgent">Urgent</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Commercial Equipment note via Email, received 2026-06-08. Stated in note: policy POL-7745; claimant CLMNT-6442; incident date MISSING; location Hyderabad; amount MISSING. Documents mentioned: repair quotation. Needs attention: incident date missing; amount/estimate not stated; site supervisor note pending; one attachment unreadable (document not identified in the note). Suggested queue: Commercial Equipment Review; urgency Urgent; manual review required: No. Status: Needs more information. Follow-up noted: Claimant asks what else is required. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-7745 <i>(found)</i></li>
+<li>Claimant: CLMNT-6442 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(missing)</i></li>
+<li>Location: Hyderabad</li><li>Amount: MISSING</li>
+<li>Documents mentioned: repair quotation</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing</li><li>amount/estimate not stated</li><li>site supervisor note pending</li><li>one attachment unreadable (document not identified in the note)</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_INCIDENT_DATE, AMOUNT_NOT_STATED, DOCS_PENDING_OR_MISSING, ATTACHMENT_UNREADABLE, CLAIMANT_QUESTION_OPEN, URGENT &middot; Urgency basis: note says &#x27;urgent&#x27;</p></details><details class="card ok"><summary>
+<b>CI-2026-0027</b> &middot; Commercial Equipment &middot; <span class="pill normal">Normal</span>
+<span class="pill conf-medium">confidence Medium</span>
+
+<span class="status">Needs more information</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): Commercial Equipment note via Branch Upload, received 2026-04-04. Stated in note: policy POL-3485; claimant CLMNT-1878; incident date MISSING; location MISSING; amount around ₹22k. Documents mentioned: repair quotation. Needs attention: incident date missing (note says &#x27;not confirmed&#x27;); location missing (note says &#x27;not captured&#x27;); equipment invoice missing. Suggested queue: Commercial Equipment Review; urgency Normal; manual review required: No. Status: Needs more information. Follow-up noted: Call back requested. First-pass preparation only - no claim decision implied.</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: POL-3485 <i>(found)</i></li>
+<li>Claimant: CLMNT-1878 <i>(found)</i></li>
+<li>Incident date: MISSING <i>(unconfirmed)</i></li>
+<li>Location: MISSING</li><li>Amount: around ₹22k</li>
+<li>Documents mentioned: repair quotation</li></ul></div>
+<div><h4>Missing information</h4><ul><li>incident date missing (note says &#x27;not confirmed&#x27;)</li><li>location missing (note says &#x27;not captured&#x27;)</li><li>equipment invoice missing</li></ul>
+<h4>Unclear / conflicting</h4><ul><li class='none'>none</li></ul>
+<h4>Why manual review</h4><ul><li class='none'>none</li></ul></div></div>
+<p class="small">Tags: MISSING_INCIDENT_DATE, MISSING_LOCATION, DOCS_PENDING_OR_MISSING, CALLBACK_REQUESTED &middot; Urgency basis: default - no urgency cue in the note</p></details></body></html>

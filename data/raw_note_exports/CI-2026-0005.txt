@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0005
+Source Channel: Email
+Received Date: 2026-05-05
+
+Source Email. claim note has mixed info.
+Ref: CLMNT-2876; policy maybe missing.
+travel delay expenses claimed for hotel stay; happened at location n/a on 25 Apr.
+Attached/mentnd: travel invoice, baggage report, delay confirmation. Still pending: baggage tag unclear. Amt: ₹41,300 quoted.
+Reviewer comment requested: email follow-up preferred.

@@ -1,0 +1,57 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Claims intake - first-pass structuring</title><style>
+:root{--bg:#fff;--fg:#1d2430;--mut:#5b6573;--card:#f6f8fb;--bd:#d9dee6;--man:#b4442f;--ok:#2f7d4f;--acc:#2456a6}
+@media (prefers-color-scheme:dark){:root{--bg:#14181f;--fg:#e8ecf2;--mut:#9aa5b4;--card:#1d232d;--bd:#323a47;--man:#e0775f;--ok:#61b886;--acc:#7aa7ee}}
+body{font:15px/1.5 system-ui,sans-serif;margin:0 auto;max-width:1000px;padding:20px;background:var(--bg);color:var(--fg)}
+h1{font-size:22px;margin:0 0 4px}.sub{color:var(--mut);margin:0 0 16px}
+textarea,input,select{width:100%;box-sizing:border-box;padding:8px;border:1px solid var(--bd);border-radius:6px;background:var(--card);color:var(--fg);font:inherit}
+textarea{min-height:130px}.row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin:8px 0}@media(max-width:700px){.row{grid-template-columns:1fr}}
+button{background:var(--acc);color:#fff;border:0;border-radius:6px;padding:8px 16px;font:inherit;cursor:pointer;margin:4px 8px 4px 0}button.sec{background:transparent;color:var(--acc);border:1px solid var(--acc)}
+.box{border:1px solid var(--bd);border-radius:8px;padding:12px;margin:12px 0}
+.card{background:var(--card);border:1px solid var(--bd);border-left:5px solid var(--ok);border-radius:6px;margin:8px 0;padding:8px 12px}.card.manual{border-left-color:var(--man)}
+.pill{font-size:12px;border:1px solid var(--bd);border-radius:10px;padding:1px 8px;margin-left:4px}.pill.red{border-color:var(--man);color:var(--man)}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:16px}@media(max-width:700px){.cols{grid-template-columns:1fr}}
+h4{margin:10px 0 4px}ul{margin:0;padding-left:18px}.none,.small{color:var(--mut)}.small{font-size:13px}.gen{margin:10px 0}
+</style></head><body>
+<h1>Claims intake - first-pass structuring</h1>
+<p class="sub">Prepares notes for ops reviewers. It makes no claim decisions; anything not in the note is shown as MISSING.</p>
+<div class="box"><b>Option 1 - paste one note</b>
+<textarea id="note" placeholder="Paste a claim intake note here..."></textarea>
+<div class="row"><input id="nid" placeholder="Note ID (optional)"><input id="ch" placeholder="Source channel (optional)"><input id="rd" placeholder="Received date YYYY-MM-DD (optional)"></div>
+<button onclick="one()">Process note</button><button class="sec" onclick="sample()">Load sample note</button></div>
+<div class="box"><b>Option 2 - upload a file</b> <span class="small">(CSV / JSON / JSONL with an <code>intake_note_text</code> column)</span><br>
+<input type="file" id="file" accept=".csv,.json,.jsonl" style="margin:8px 0"><button onclick="batch()">Process file</button></div>
+<div id="status" class="small"></div><div id="actions"></div><div id="out"></div>
+<script>
+let last=[];const E=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const li=a=>a.length?a.map(x=>'<li>'+E(x)+'</li>').join(''):'<li class="none">none</li>';
+function card(r,open){const a=r.assessment,f=r.extracted_facts,g=r.generated,m=a.manual_review_required==='Yes';
+return `<details class="card ${m?'manual':''}" ${open?'open':''}><summary><b>${E(r.claim_note_id)}</b> &middot; ${E(a.detected_claim_category)}
+<span class="pill ${a.urgency_indicator==='Urgent'?'red':''}">${E(a.urgency_indicator)}</span><span class="pill">confidence ${E(a.confidence_level)}</span>
+${m?'<span class="pill red">manual review</span>':''} <span class="small">${E(a.readiness_status)} &rarr; ${E(a.recommended_reviewer_queue)}</span></summary>
+<p class="gen"><b>Handoff note</b> (generated): ${E(g.reviewer_handoff_note)}</p>
+<div class="cols"><div><h4>Facts taken from the note</h4><ul>
+<li>Policy: ${E(f.policy_reference.value||'MISSING')} <i>(${f.policy_reference.status})</i></li>
+<li>Claimant: ${E(f.claimant_reference.value||'MISSING')} <i>(${f.claimant_reference.status})</i></li>
+<li>Incident date: ${E(f.incident_date.value||'MISSING')} <i>(${f.incident_date.date_status})</i></li>
+<li>Location: ${E(f.location.value||'MISSING')}</li><li>Amount: ${E(f.amount_or_estimate.value||'MISSING')}</li>
+<li>Documents: ${E(f.supporting_document_mentions.join(', ')||'none')}</li></ul></div>
+<div><h4>Missing information</h4><ul>${li(a.missing_information_flags)}</ul><h4>Unclear / conflicting</h4><ul>${li(a.ambiguity_conflict_flags)}</ul>
+<h4>Why manual review</h4><ul>${li(a.manual_review_reasons)}</ul></div></div>
+<p class="small">Summary (generated): ${E(g.short_incident_summary)}<br>Tags: ${E(a.operational_tags.join(', ')||'none')} &middot; Urgency basis: ${E(a.urgency_basis)}</p></details>`}
+function show(res){last=res;const man=res.filter(r=>r.assessment.manual_review_required==='Yes').length;
+document.getElementById('status').textContent=`${res.length} note(s) processed; ${man} need manual review.`;
+document.getElementById('actions').innerHTML='<button class="sec" onclick="dl(\'json\')">Download JSON</button><button class="sec" onclick="dl(\'csv\')">Download CSV</button>';
+const sorted=[...res].sort((x,y)=>(y.assessment.manual_review_required==='Yes')-(x.assessment.manual_review_required==='Yes'));
+document.getElementById('out').innerHTML=sorted.map(r=>card(r,res.length===1)).join('')}
+async function call(url,opt){document.getElementById('status').textContent='Processing...';const r=await fetch(url,opt);if(!r.ok){document.getElementById('status').textContent='Error: '+(await r.text());return null}return r}
+async function one(){const t=document.getElementById('note').value.trim();if(!t){document.getElementById('status').textContent='Paste a note first.';return}
+const b={intake_note_text:t};for(const [k,i] of [['claim_note_id','nid'],['source_channel','ch'],['received_date','rd']]){const v=document.getElementById(i).value.trim();if(v)b[k]=v}
+const r=await call('/process',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(b)});if(r)show([await r.json()])}
+async function batch(){const f=document.getElementById('file').files[0];if(!f){document.getElementById('status').textContent='Choose a file first.';return}
+const fd=new FormData();fd.append('file',f);const r=await call('/process/file',{method:'POST',body:fd});if(r)show(await r.json())}
+async function dl(fmt){let blob,name;if(fmt==='json'){blob=new Blob([JSON.stringify(last,null,2)],{type:'application/json'});name='processed_outputs.json'}
+else{const notes=last.map(r=>({claim_note_id:r.claim_note_id,intake_note_text:r._text||''}));const r=await fetch('/export/csv',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(last)});blob=new Blob([await r.text()],{type:'text/csv'});name='processed_outputs.csv'}
+const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;a.click()}
+function sample(){document.getElementById('note').value="Web intake form #CI-2026-0083: User selected travel category but note says laptop damaged due to liquid spill in office bag. Invoice attached, repair quote pending. Date field filled as 2026-04-31, likely invalid. Please reclassify and flag date issue.";document.getElementById('rd').value="2026-05-24"}
+</script></body></html>

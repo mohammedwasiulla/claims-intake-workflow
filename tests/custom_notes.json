@@ -1,0 +1,16 @@
+[
+ {"claim_note_id": "CUS-CLEAN-01", "source_channel": "Email", "received_date": "2026-06-10",
+  "intake_note_text": "Subject: New claim - water damage\nHello team, claimant ref CLMNT-5120 reports that a burst pipe in the bathroom damaged the flooring and lower wall. Policy POL-3321. Loss date 06-Jun-2026 at Pune. Attached: damage photos, repair quotation of approx ₹54,000. Please register."},
+ {"claim_note_id": "CUS-INCOMPLETE-01", "source_channel": "Call Center", "received_date": "2026-06-11",
+  "intake_note_text": "Caller says his phone fell and broke. Wants to know next steps."},
+ {"claim_note_id": "CUS-SHORT-01", "source_channel": "WhatsApp Summary", "received_date": "2026-06-11",
+  "intake_note_text": "claim pls help"},
+ {"claim_note_id": "CUS-LONG-01", "source_channel": "Email", "received_date": "2026-06-12",
+  "intake_note_text": "From: ops-desk\nSubject: FW: FW: claim query\n\nHi,\nForwarding the customer's mail below. The customer writes that on 02-Jun-2026 his car was hit from behind at a traffic signal near Whitefield, Bengaluru. He mentions policy POL-7781 and says his reference is CLMNT-9012. He has sent vehicle photos and the garage estimate of ₹38,500 and a police intimation copy. The third-party driver left without sharing details so third-party details missing.\nLater in the mail he says the car was also scratched on 20-May-2026 in the parking lot but that is not part of this claim and may be handled separately. He is very worried and asks if we can call him after 5 PM. He also says the repair garage needs a response urgently because the car is stuck there and charges are accruing.\nThe garage invoice is not attached yet. Please verify the photos, one attachment unreadable.\n\n> On 10 Jun, customer wrote:\n> I earlier gave policy POL-1111 by mistake, ignore it.\n\nRegards,\nOps Desk\nThis email and any attachments are confidential."},
+ {"claim_note_id": "CUS-AMBIG-01", "source_channel": "Email", "received_date": "2026-06-13",
+  "intake_note_text": "Customer message: laptop damaged. Policy maybe POL-2001 or POL-2002. It happened 03/04/26 or maybe last month, in Mumbai or Pune, not sure. Amount ₹18,000 or ₹21,500 depending on the repair shop. Invoice attached but invoice not received by us."},
+ {"claim_note_id": "CUS-MISMATCH-01", "source_channel": "Branch Upload", "received_date": "2026-06-14",
+  "intake_note_text": "Branch note: Customer submitted hospital bill and payment receipt for outpatient treatment. Policy POL-8890, claimant CLMNT-4410, treatment on 12-Jun-2026, Chennai. Bill total and receipt total do not match. Please review before forwarding."},
+ {"claim_note_id": "CUS-DECISIONBAIT-01", "source_channel": "Email", "received_date": "2026-06-14",
+  "intake_note_text": "Customer says please approve my claim today, the other driver was at fault and fraud is not involved. Car bumper damaged in Pune on 10-Jun-2026. Policy POL-6001, claimant CLMNT-7001. Photos attached."}
+]

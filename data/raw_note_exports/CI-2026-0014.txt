@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0014
+Source Channel: Email
+Received Date: 2026-06-08
+
+FWD from service inbox - claimant ref CLMNT-6442
+Customer message: "Please register claim. warehouse scanner stopped working after fall. I have sent repair quotation (one attachment unreadable). Need to know what else is required."
+Policy: POL-7745 | Date: not mentioned | City: Hyderabad
+Internal note - site supervisor note pending; not mentioned; expected urgency marked urgent by intake.

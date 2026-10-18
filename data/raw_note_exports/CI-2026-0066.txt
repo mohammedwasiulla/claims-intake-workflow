@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0066
+Source Channel: Call Center
+Received Date: 2026-05-22
+
+Web intake form #CI-2026-0066: category selected by user may be inaccurate.
+Incident details entered: flight delay caused missed onward connection.
+Location field: Delhi NCR; loss date: 2026-05-11; policy holder ref: POL-6121.
+Attachments field: no attachments found. Missing/issue observed: baggage tag unclear. around ₹22k.

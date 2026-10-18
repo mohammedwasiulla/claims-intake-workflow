@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0033
+Source Channel: Branch Upload
+Received Date: 2026-04-30
+
+Ops copied from prior mail thread. Claimant placeholder CLMNT-8935; policy shown as POL-6654.
+Main issue appears to be: ceiling leakage after overnight pipe issue; place not stated, date 18/04/26.
+Please verify docs - building maintenance note, purchase invoice, damage photos. Earlier note says repair estimate not attached.
+Do not send to final review until basic intake fields are cleaned.

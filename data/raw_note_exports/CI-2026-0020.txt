@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0020
+Source Channel: Partner Portal
+Received Date: 2026-04-12
+
+Source Partner Portal. claim note has mixed info.
+Ref: CLMNT-9947; policy maybe POL-4613.
+small kitchen fire from appliance short circuit; happened at Kolkata on date n/a.
+Attached/mentioned: repair quotation, incident statement. Still pending: appliance invoice missing. Amt: ₹41,300 quoted.
+Reviewer comment requested: no call back needed.

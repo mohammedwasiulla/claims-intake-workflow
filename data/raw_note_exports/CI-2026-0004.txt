@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0004
+Source Channel: Branch Upload
+Received Date: 2026-04-08
+
+CLMNT-8517 - small kitchen fire from appliance short circuit.
+Docs: appliance invoice, damage photos, incident statement. Pol. POL-3340.
+Need check: photos unclear. approx ₹1.2L. reachable after 5 PM.
+Duplicate note may exist in previous intake batch.

@@ -1,0 +1,5 @@
+Claim Note ID: CI-2026-0083
+Source Channel: Web Form
+Received Date: 2026-05-24
+
+User selected travel category but note says laptop damaged due to liquid spill in office bag. Invoice attached, repair quote pending. Date field filled as 2026-04-31, likely invalid. Please reclassify and flag date issue.

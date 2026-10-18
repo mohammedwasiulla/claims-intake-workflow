@@ -1,0 +1,18 @@
+{
+ "CI-2026-0001": {"policy": ["POL-9935", "tentative"], "claimant": "CLMNT-2679", "date_status": "partial", "location": null, "category": "Travel Delay/Baggage", "manual": "Yes"},
+ "CI-2026-0002": {"policy": [null, "missing"], "claimant": "CLMNT-6881", "date_status": "complete", "iso": "2026-05-09", "location": "Mumbai", "category": "Property Water Damage", "manual": "Yes"},
+ "CI-2026-0003": {"policy": ["POL-4432", "found"], "claimant": null, "date_status": "complete", "iso": "2026-05-09", "location": "Pune", "category": "Commercial Equipment"},
+ "CI-2026-0004": {"policy": ["POL-3340", "found"], "claimant": "CLMNT-8517", "date_status": "missing", "location": null, "category": "Property Fire/Smoke"},
+ "CI-2026-0011": {"policy": [null, "missing"], "claimant": "CLMNT-5915", "date_status": "complete", "iso": "2026-04-25", "location": "Mumbai", "category": "Property Water Damage", "manual": "Yes"},
+ "CI-2026-0012": {"policy": ["POL-5462", "found"], "claimant": "CLMNT-3546", "date_status": "complete", "iso": "2026-04-20", "location": "Delhi NCR", "category": "Motor Accident"},
+ "CI-2026-0021": {"policy": ["POL-5558", "found"], "claimant": null, "date_status": "complete", "iso": "2026-04-09", "location": null, "category": "Motor Accident"},
+ "CI-2026-0022": {"policy": ["POL-3683", "found"], "claimant": "CLMNT-2876", "claimant_status": "tentative", "date_status": "complete", "iso": "2026-04-04", "location": "Mumbai", "category": "Travel Delay/Baggage", "manual": "Yes"},
+ "CI-2026-0041": {"policy": ["POL-8450", "found"], "claimant": "CLMNT-3001", "date_status": "complete", "iso": "2026-03-22", "location": null, "category": "Motor Accident"},
+ "CI-2026-0061": {"policy": [null, "missing"], "claimant": "CLMNT-1570", "date_status": "missing", "location": null, "category": "Property Fire/Smoke"},
+ "CI-2026-0068": {"policy": [null, "unclear"], "claimant": "CLMNT-4189", "date_status": "ambiguous", "location": "Kolkata", "category": "Device/Personal Item Damage", "manual": "Yes"},
+ "CI-2026-0081": {"policy": [null, "missing"], "claimant": null, "date_status": "relative", "location": null, "category": "Unclear / Unclassified", "manual": "Yes", "urgency": "Urgent"},
+ "CI-2026-0082": {"policy": ["POL-4821", "found"], "claimant": null, "date_status": "missing", "location": null, "category": "Health Reimbursement", "manual": "Yes", "urgency": "Urgent"},
+ "CI-2026-0083": {"policy": [null, "missing"], "claimant": null, "date_status": "invalid", "location": null, "category": "Device/Personal Item Damage", "manual": "Yes", "queue": "Manual Clarification Queue"},
+ "CI-2026-0084": {"policy": ["POL-7004", "found"], "claimant": "CLMNT-3388", "date_status": "complete", "iso": "2026-05-18", "location": "Pune", "category": "Motor Accident", "manual": "No", "queue": "Motor Claims Intake", "confidence": "High"},
+ "CI-2026-0085": {"policy": [null, "missing"], "claimant": null, "date_status": "partial", "location": "Hyderabad", "category": "Property Water Damage", "manual": "Yes"}
+}

@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0054
+Source Channel: Web Form
+Received Date: 2026-05-22
+
+Source Web Form. claim note has mixed info.
+Ref: CLMNT-4891; policy maybe missing.
+laptop stopped working after liquid spill; happened at Ahmedabad on date n/a.
+Attached/mentioned: service center note. Still pending: item photo unclear. Amt: around ₹22k.
+Reviewer comment requested: no call back needed.

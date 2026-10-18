@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0026
+Source Channel: Call Center
+Received Date: 2026-03-10
+
+Web intake form #CI-2026-0026: category selected by user may be inaccurate.
+Incident details entered: rainwater entered through balcony door.
+Location field: blank; loss date: 2026-03-10; policy holder ref: POL-6912.
+Attachments field: inspection request, building maintenance note, damage photos. Missing/issue observed: repair estimate not attached. approx ₹8,500.

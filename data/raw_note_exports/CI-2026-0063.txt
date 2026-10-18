@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0063
+Source Channel: Call Center
+Received Date: 2026-04-27
+
+FWD from service inbox - claimant ref CLMNT-9094
+Customer message: "Please register claim. warehouse scanner stopped working after fall. I have sent no attachments found. Need to know what else is required."
+Policy: [not visible in email] | Date: 2026-04-18 | City: Delhi NCR
+Internal note - asset tag not provided; email follow-up preferred; expected urgency marked normal by intake.
+System category not trusted; please re-check manually.

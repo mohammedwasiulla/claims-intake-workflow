@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0057
+Source Channel: Call Center
+Received Date: 2026-05-15
+
+Web intake form #CI-2026-0057: category selected by user may be inaccurate.
+Incident details entered: two-wheeler skid on wet road with minor body damage.
+Location field: Kolkata; loss date: 2026-05-12; policy holder ref: POL-1025.
+Attachments field: repair estimate, vehicle photos, driver statement. Missing/issue observed: driver statement incomplete. approx ₹1.2L.
+System category not trusted; please re-check manually.

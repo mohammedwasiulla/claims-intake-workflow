@@ -1,0 +1,5 @@
+Claim Note ID: CI-2026-0081
+Source Channel: Email
+Received Date: 2026-05-21
+
+Only message received: 'Need claim help urgently. accident happened last week. papers not ready.' No policy number, no incident location, no attachments. Sender asking for callback but number masked.

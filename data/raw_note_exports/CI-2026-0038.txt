@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0038
+Source Channel: WhatsApp Summary
+Received Date: 2026-04-30
+
+FWD from service inbox - claimant ref CLMNT-2476
+Customer message: "Please register claim. checked baggage not received at arrival. I have sent boarding pass, baggage report. Need to know what else is required."
+Policy: POL-5835 | Date: not mentioned | City: Bengaluru
+Internal note - expense receipts incomplete; reachable after 5 PM; expected urgency marked normal by intake.

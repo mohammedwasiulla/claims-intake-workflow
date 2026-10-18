@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0072
+Source Channel: Partner Portal
+Received Date: 2026-05-02
+
+Source Partner Portal. claim note has mixed info.
+Ref: CLMNT-9899; policy maybe POL-7220.
+bathroom pipe burst leading to flooring damage; happened at Bengaluru on date n/a.
+Attached/mentioned: building maintenance note, inspection request, damage photos (one attachment unreadable). Still pending: property address incomplete. Amt: amount not stated.
+Reviewer comment requested: not mentioned.

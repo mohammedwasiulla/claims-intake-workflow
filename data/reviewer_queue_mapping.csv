@@ -1,0 +1,8 @@
+queue_label,claim_categories,reviewer_use,typical_missing_details
+Motor Claims Intake,Motor Accident; parked vehicle damage; vehicle body damage,First-pass motor claim note structuring and document readiness check,"incident date, vehicle photos, garage estimate, third-party details"
+Property Claims Intake,Property Water Damage; Property Fire/Smoke,Property damage intake preparation and supporting document check,"damage photos, cause description, repair estimate, property address"
+Health Reimbursement Review,Health Reimbursement,Health expense reimbursement document readiness check,"bill breakup, discharge summary, payment receipt, diagnosis note"
+Travel Claims Intake,Travel Delay/Baggage,"Travel delay, baggage delay, or baggage damage intake sorting","boarding pass, airline confirmation, baggage report, expense receipts"
+Asset and Device Claims,Device/Personal Item Damage,Personal item or device damage intake structuring,"purchase invoice, item photos, repair estimate, serial number"
+Commercial Equipment Review,Commercial Equipment,Business equipment damage note triage and document readiness check,"asset tag, equipment invoice, damage photos, supervisor note"
+Manual Clarification Queue,"Any category with unclear, conflicting, or incomplete information",Human review needed before normal queue routing,"multiple missing fields, category mismatch, unclear incident sequence, invalid date"

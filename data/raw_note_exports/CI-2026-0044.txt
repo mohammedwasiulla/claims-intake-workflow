@@ -1,0 +1,7 @@
+Claim Note ID: CI-2026-0044
+Source Channel: Web Form
+Received Date: 2026-05-09
+
+CLMNT-7532 - laptop stopped working after liquid spill.
+Docs: purchase invoice, service center note. Pol. POL-7815.
+Need check: item photo unclear. amount not stated. no call back needed.

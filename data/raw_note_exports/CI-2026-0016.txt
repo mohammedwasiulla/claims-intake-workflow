@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0016
+Source Channel: Partner Portal
+Received Date: 2026-05-20
+
+Web intake form #CI-2026-0016: category selected by user may be inaccurate.
+Incident details entered: flight delay caused missed onward connection.
+Location field: Kolkata; loss date: 2026-05-10; policy holder ref: POL-5920.
+Attachments field: boarding pass, baggage report. Missing/issue observed: expense receipts incomplete. approx ₹1.2L.

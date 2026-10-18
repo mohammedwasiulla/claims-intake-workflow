@@ -1,0 +1,7 @@
+Claim Note ID: CI-2026-0010
+Source Channel: Partner Portal
+Received Date: 2026-03-10
+
+CLMNT-9238 - lost baggage report submitted after international trip.
+Docs: baggage report, boarding pass, travel invoice (one attachment unreadable). Policy POL-9701.
+Need check: airline confirmation missing. approx ₹8,500. reachable after 5 PM.

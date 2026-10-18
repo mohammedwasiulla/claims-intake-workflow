@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0046
+Source Channel: Call Center
+Received Date: 2026-04-03
+
+FWD from service inbox - claimnt ref CLMNT-7566
+Customer message: "Please register claim. front grill damage after low-speed collision. I have sent driver statement, repair estimate. Need to know what else is required."
+Pol.: [not visible in email] | Date: 2026-03-24 | City: not shared
+Internal note - garage estimate not attached; email follow-up preferred; expected urgency marked low by intake.
+Duplicate note may exist in previous intake batch.

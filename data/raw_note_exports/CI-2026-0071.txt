@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0071
+Source Channel: Branch Upload
+Received Date: 2026-05-19
+
+Web intake form #CI-2026-0071: category selected by user may be inaccurate.
+Incident details entered: smartwatch damaged while commuting.
+Location field: Delhi NCR; loss date: 2026-05-11; policy holder ref: POL-8531.
+Attachments field: repair estimate, service center note, incident statement. Missing/issue observed: repair estimate pending. small amount as per caller.

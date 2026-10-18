@@ -1,0 +1,7 @@
+Claim Note ID: CI-2026-0079
+Source Channel: Partner Portal
+Received Date: 2026-05-08
+
+CLMNT-9664 - smoke marks on wall after inverter spark.
+Docs: appliance invoice, fire service note, repair quotation. Policy POL-3086.
+Need check: photos unclear. ₹41,300 quoted. not mentioned.

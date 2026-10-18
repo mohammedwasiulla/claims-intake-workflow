@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0023
+Source Channel: WhatsApp Summary
+Received Date: 2026-05-11
+
+Web intake form #CI-2026-0023: category selected by user may be inaccurate.
+Incident details entered: smartwatch damaged while commuting.
+Location field: Kolkata; loss date: 2026-05-11; policy holder ref: POL-9289.
+Attachments field: incident statement, service center note. Missing/issue observed: purchase invoice missing. approx ₹8,500.

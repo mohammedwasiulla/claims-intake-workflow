@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0040
+Source Channel: Email
+Received Date: 2026-04-20
+
+FWD from service inbox - claimant ref CLMNT-9807
+Customer message: "Please register claim. rear bumper impact at a traffic signal. I have sent police intimation, repair estimate (one attachment unreadable). Need to know what else is required."
+Policy: [not visible in email] | Date: 2026-04-15 | City: not stated
+Internal note - incident time unclear; not mentioned; expected urgency marked low by intake.

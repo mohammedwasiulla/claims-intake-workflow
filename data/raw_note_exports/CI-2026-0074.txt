@@ -1,0 +1,7 @@
+Claim Note ID: CI-2026-0074
+Source Channel: Branch Upload
+Received Date: 2026-03-05
+
+CLMNT-4052 - mobile phone screen cracked after accidental drop.
+Docs: purchase invoice, item photos. Policy ?.
+Need check: repair estimate pending. amount not stated. no call back needed.

@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0011
+Source Channel: Branch Upload
+Received Date: 2026-04-26
+
+FWD from service inbox - claimant ref CLMNT-5915
+Customer message: "Please register claim. bathroom pipe burst leading to flooring damage. I have sent building maintenance note, repair quotation, purchase invoice (one attachment unreadable). Need to know what else is required."
+Policy: [not visible in email] | Date: 2026-04-25 | City: Mumbai
+Internal note - incident date missing; call back requested; expected urgency marked normal by intake.

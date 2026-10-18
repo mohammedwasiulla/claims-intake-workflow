@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0036
+Source Channel: WhatsApp Summary
+Received Date: 2026-05-13
+
+Web intake form #CI-2026-0036: category selected by user may be inaccurate.
+Incident details entered: flight delay caused missed onward connection.
+Location field: Ahmedabad; loss date: blank; policy holder ref: POL-5183.
+Attachments field: airline letter, delay confirmation, travel invoice (one attachment unreadable). Missing/issue observed: baggage tag unclear. approx ₹1.2L.

@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0059
+Source Channel: Web Form
+Received Date: 2026-05-10
+
+CALL LOG / Web Form: CLMNT-4131 says bathroom pipe burst leading to flooring damage.
+Policy ref not given during call. Loss date 28-Apr-2026.
+Loc: Mumbai. Docs mentioned: inspection request, purchase invoice (one attachment unreadable).
+Ops note: property address incomplete. no call back needed. Est amt: amount not stated.

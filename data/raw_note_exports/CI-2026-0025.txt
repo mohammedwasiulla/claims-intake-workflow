@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0025
+Source Channel: Email
+Received Date: 2026-05-12
+
+Web intake form #CI-2026-0025: category selected by user may be inaccurate.
+Incident details entered: outpatient procedure bill submitted for review.
+Location field: Delhi NCR; loss date: 2026-05-08; policy holder ref: POL-7625.
+Attachments field: diagnostic report, payment receipt, hospital bill. Missing/issue observed: bill breakup not attached. not yet estimated.

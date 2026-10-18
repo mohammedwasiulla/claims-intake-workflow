@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0008
+Source Channel: Email
+Received Date: 2026-04-21
+
+Source Email. claim note has mixed info.
+Ref: CLMNT-8062; policy maybe POL-6804.
+flight delay caused missed onward connection; happened at Mumbai on 14 Apr.
+Attached/mentioned: airline letter, boarding pass (one attachment unreadable). Still pending: baggage tag unclear. Amt: approx ₹1.2L.
+Reviewer comment requested: call back requested.

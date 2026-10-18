@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0013
+Source Channel: Email
+Received Date: 2026-04-01
+
+Source Email. claim note has mixed info.
+Ref: CLMNT-3442; policy maybe POL-9938.
+emergency visit expenses requested for reimbursement; happened at not stated on 27 Mar.
+Attached/mentnd: hospital bill. Still pending: claim form incomplete. Amt: around ₹22k.
+Reviewer comment requested: call back requested.

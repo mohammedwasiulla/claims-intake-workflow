@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0007
+Source Channel: Email
+Received Date: 2026-04-10
+
+FWD from service inbox - claimant ref CLMNT-4681
+Customer message: "Please register claim. tablet display flickering after bag impact. I have sent incident statement, service center note (one attachment unreadable). Need to know what else is required."
+Policy: [not visible in email] | Date: 2026-04-01 | City: not stated
+Internal note - incident statement too short; call back requested; expected urgency marked normal by intake.

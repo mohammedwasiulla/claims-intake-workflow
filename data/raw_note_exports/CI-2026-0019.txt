@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0019
+Source Channel: Branch Upload
+Received Date: 2026-04-16
+
+CALL LOG / Branch Upload: CLMNT-5681 says outpatient procedure bill submitted for review.
+Policy ref POL-4841. Loss date 11-Apr-2026.
+Loc: not captured. Docs mentioned: no attachments found.
+Ops note: diagnosis note unclear. email follow-up preferred. Est amt: around ₹22k.

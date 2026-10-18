@@ -1,0 +1,70 @@
+{
+  "notes": 85,
+  "category_agreement": {
+    "match": 84,
+    "of": 85,
+    "differs": [
+      {
+        "claim_note_id": "CI-2026-0081",
+        "cat": "Unclear / Unclassified",
+        "starter_claim_category_label": "Motor Accident"
+      }
+    ]
+  },
+  "queue_agreement_with_starter": {
+    "match": 42,
+    "of": 85
+  },
+  "urgency_agreement_with_starter": {
+    "match": 56,
+    "of": 85
+  },
+  "manual_review_vs_starter": {
+    "tp": 30,
+    "fp": 9,
+    "fn": 34,
+    "tn": 12,
+    "precision": 0.77,
+    "recall": 0.47
+  },
+  "starter_missing_hint_found_in_our_flags": {
+    "found": 84,
+    "of": 85
+  },
+  "our_distribution": {
+    "manual_review": {
+      "No": 46,
+      "Yes": 39
+    },
+    "confidence": {
+      "Medium": 56,
+      "High": 19,
+      "Low": 10
+    },
+    "urgency": {
+      "Normal": 77,
+      "Urgent": 6,
+      "Low": 2
+    },
+    "readiness": {
+      "Needs more information": 45,
+      "Manual review before routing": 39,
+      "Ready for ops review": 1
+    },
+    "queues": {
+      "Manual Clarification Queue": 39,
+      "Motor Claims Intake": 12,
+      "Property Claims Intake": 11,
+      "Travel Claims Intake": 8,
+      "Asset and Device Claims": 7,
+      "Health Reimbursement Review": 6,
+      "Commercial Equipment Review": 2
+    }
+  },
+  "missed_hints": [
+    [
+      "CI-2026-0084",
+      "third-party details not applicable as per note"
+    ]
+  ]
+}

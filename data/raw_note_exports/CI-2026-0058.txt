@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0058
+Source Channel: Call Center
+Received Date: 2026-03-07
+
+Source Call Center. claim note has mixed info.
+Ref: CLMNT-2698; policy maybe missing.
+ceiling leakage after overnight pipe issue; happened at not stated on 02 Mar.
+Attached/mentioned: building maintenance note. Still pending: repair estimate not attached. Amt: approx ₹1.2L.
+Reviewer comment requested: email follow-up preferred.

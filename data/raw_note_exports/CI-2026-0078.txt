@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0078
+Source Channel: Partner Portal
+Received Date: 2026-04-24
+
+CALL LOG / Partner Portal: CLMNT-1742 says tablet display flickering after bag impact.
+Policy ref not given during call. Loss date 23-Apr-2026.
+Loc: not stated. Docs mentioned: purchase invoice (one attachment unreadable).
+Ops note: incident statement too short. asked for status update. Est amt: approx ₹8,500.

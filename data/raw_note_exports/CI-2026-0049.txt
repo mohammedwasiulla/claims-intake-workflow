@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0049
+Source Channel: Call Center
+Received Date: 2026-05-20
+
+CALL LOG / Call Center: CLMNT-9363 says emergency visit expenses requested for reimbursement.
+Policy ref POL-2868. Loss date not confirmed.
+Loc: Delhi NCR. Docs mentioned: prescription, discharge summary, diagnostic report.
+Ops note: diagnosis note unclear. not mentioned. Est amt: small amount as per caller.

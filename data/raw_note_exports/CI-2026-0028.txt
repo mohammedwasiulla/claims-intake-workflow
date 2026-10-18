@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0028
+Source Channel: Email
+Received Date: 2026-05-05
+
+FWD from service inbox - claimant ref CLMNT-4929
+Customer message: "Please register claim. checked baggage not received at arrival. I have sent no attachments found. Need to know what else is required."
+Policy: POL-3847 | Date: 2026-05-03 | City: Mumbai
+Internal note - boarding pass not attached; reachable after 5 PM; expected urgency marked normal by intake.

@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0042
+Source Channel: WhatsApp Summary
+Received Date: 2026-05-08
+
+CALL LOG / WhatsApp Summary: CLMNT-3159 says warehouse scanner stopped working after fall.
+Policy ref POL-1243. Loss date 26-Apr-2026.
+Loc: Hyderabad. Docs mentioned: no attachments found.
+Ops note: site supervisor note pending. email follow-up preferred. Est amt: approx ₹8,500.
+Duplicate note may exist in previous intake batch.

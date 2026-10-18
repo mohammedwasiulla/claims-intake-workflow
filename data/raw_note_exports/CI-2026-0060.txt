@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0060
+Source Channel: Partner Portal
+Received Date: 2026-04-05
+
+FWD from service inbox - claimant ref CLMNT-9937
+Customer message: "Please register claim. ceiling leakage after overnight pipe issue. I have sent purchase invoice. Need to know what else is required."
+Policy: [not visible in email] | Date: not mentioned | City: Delhi NCR
+Internal note - cause of leak unclear; asked for status update; expected urgency marked normal by intake.

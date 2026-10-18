@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0018
+Source Channel: Call Center
+Received Date: 2026-03-21
+
+FWD from service inbox - claimant ref CLMNT-9486
+Customer message: "Please register claim. outpatient procedure bill submitted for review. I have sent hospital bill, payment receipt, discharge summary. Need to know what else is required."
+Policy: [not visible in email] | Date: not mentioned | City: Pune
+Internal note - payment receipt missing; asked for status update; expected urgency marked normal by intake.

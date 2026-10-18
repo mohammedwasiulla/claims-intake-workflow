@@ -1,0 +1,7 @@
+Claim Note ID: CI-2026-0024
+Source Channel: Web Form
+Received Date: 2026-05-30
+
+CLMNT-4995 - follow-up treatment bills added after initial claim.
+Docs: discharge summary, hospital bill (one attachment unreadable). Policy ?.
+Need check: diagnosis note unclear. ₹41,300 quoted. no call back needed.

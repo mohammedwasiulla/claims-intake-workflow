@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0068
+Source Channel: Email
+Received Date: 2026-05-11
+
+Ops copied from prior mail thread. Claimant placeholder CLMNT-4189; policy shown as not readable.
+Main issue appears to be: tablet display flickering after bag impact; place Kolkata, date 10/05/26.
+Please verify docs - service center note. Earlier note says incident statement too short.
+Do not send to final review until basic intake fields are cleaned.

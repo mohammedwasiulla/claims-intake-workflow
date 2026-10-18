@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0029
+Source Channel: Email
+Received Date: 2026-06-02
+
+CALL LOG / Email: CLMNT-3718 says follow-up treatment bills added after initial claim.
+Policy ref POL-6039. Loss date 24-May-2026.
+Loc: Chennai. Docs mentioned: discharge summary, prescription, hospital bill.
+Ops note: payment receipt missing. not mentioned. Est amt: ₹41,300 quoted.

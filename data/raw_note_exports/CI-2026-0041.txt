@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0041
+Source Channel: Web Form
+Received Date: 2026-03-25
+
+FWD from service inbox - claimant ref CLMNT-3001
+Customer message: "Please register claim. front grill damage after low-speed collision. I have sent driver statement, repair estimate, vehicle photos. Need to know what else is required."
+Policy: POL-8450 | Date: 2026-03-22 | City: not shared
+Internal note - driver statement incomplete; email follow-up preferred; expected urgency marked normal by intake.

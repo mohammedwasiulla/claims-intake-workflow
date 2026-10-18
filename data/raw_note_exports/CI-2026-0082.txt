@@ -1,0 +1,5 @@
+Claim Note ID: CI-2026-0082
+Source Channel: Branch Upload
+Received Date: 2026-05-23
+
+Branch note: Customer submitted hospital bill and discharge paper after emergency admission. Claim form has policy ref POL-4821 but bill total and receipt total do not match. Diagnosis section is difficult to read. Branch asked ops to review docs before sending forward.

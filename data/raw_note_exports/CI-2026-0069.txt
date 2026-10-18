@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0069
+Source Channel: WhatsApp Summary
+Received Date: 2026-04-14
+
+Web intake form #CI-2026-0069: category selected by user may be inaccurate.
+Incident details entered: small kitchen fire from appliance short circuit.
+Location field: not stated; loss date: 2026-04-05; policy holder ref: POL-9508.
+Attachments field: damage photos (one attachment unreadable). Missing/issue observed: fire service note not available. not yet estimated.

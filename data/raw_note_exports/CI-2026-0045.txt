@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0045
+Source Channel: Web Form
+Received Date: 2026-03-27
+
+Ops copied from prior mail thread. Claimant placeholder CLMNT-6119; policy shown as not readable.
+Main issue appears to be: claimant seeking reimbursement for short hospital stay; place Hyderabad, date ?.
+Please verify docs - diagnostic report, hospital bill. Earlier note says bill breakup not attached.
+Do not send to final review until basic intake fields are cleaned.

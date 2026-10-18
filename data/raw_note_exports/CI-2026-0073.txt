@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0073
+Source Channel: Email
+Received Date: 2026-05-17
+
+CALL LOG / Email: CLMNT-7771 says ceiling leakage after overnight pipe issue.
+Policy ref POL-6411. Loss date not confirmed.
+Loc: not captured. Docs mentioned: repair quotation.
+Ops note: property address incomplete. email follow-up preferred. Est amt: not yet estimated.

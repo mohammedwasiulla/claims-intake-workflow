@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0075
+Source Channel: Call Center
+Received Date: 2026-05-12
+
+Ops copied from prior mail thread. Claimant placeholder CLMNT-7643; policy shown as POL-8007.
+Main issue appears to be: mobile phone screen cracked after accidental drop; place Kolkata, date 11/05/26.
+Please verify docs - incident statement, purchase invoice. Earlier note says incident statement too short.
+Do not send to final review until basic intake fields are cleaned.

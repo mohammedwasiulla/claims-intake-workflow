@@ -1,0 +1,601 @@
+{
+  "$defs": {
+    "AmountField": {
+      "properties": {
+        "value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Text as written in the note, or null when missing.",
+          "title": "Value"
+        },
+        "status": {
+          "enum": [
+            "found",
+            "tentative",
+            "missing",
+            "unclear",
+            "invalid"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "evidence": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Verbatim snippet of the note the value was taken from.",
+          "title": "Evidence"
+        },
+        "detail": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Why the field is missing/unclear (as stated in the note).",
+          "title": "Detail"
+        },
+        "amount_inr": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Numeric rupee value when a figure is stated.",
+          "title": "Amount Inr"
+        },
+        "qualifier": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "approx / quoted / estimate wording used in the note.",
+          "title": "Qualifier"
+        },
+        "all_amounts_found": {
+          "items": {
+            "type": "string"
+          },
+          "title": "All Amounts Found",
+          "type": "array"
+        }
+      },
+      "required": [
+        "status"
+      ],
+      "title": "AmountField",
+      "type": "object"
+    },
+    "Assessment": {
+      "properties": {
+        "detected_claim_category": {
+          "title": "Detected Claim Category",
+          "type": "string"
+        },
+        "category_basis": {
+          "description": "Keywords that drove the category.",
+          "items": {
+            "type": "string"
+          },
+          "title": "Category Basis",
+          "type": "array"
+        },
+        "category_runner_up": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Category Runner Up"
+        },
+        "missing_information_flags": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Missing Information Flags",
+          "type": "array"
+        },
+        "ambiguity_conflict_flags": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Ambiguity Conflict Flags",
+          "type": "array"
+        },
+        "operational_tags": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Operational Tags",
+          "type": "array"
+        },
+        "urgency_indicator": {
+          "enum": [
+            "Low",
+            "Normal",
+            "Urgent",
+            "Unknown"
+          ],
+          "title": "Urgency Indicator",
+          "type": "string"
+        },
+        "urgency_basis": {
+          "title": "Urgency Basis",
+          "type": "string"
+        },
+        "recommended_reviewer_queue": {
+          "title": "Recommended Reviewer Queue",
+          "type": "string"
+        },
+        "intended_queue_after_clarification": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Intended Queue After Clarification"
+        },
+        "confidence_level": {
+          "enum": [
+            "High",
+            "Medium",
+            "Low"
+          ],
+          "title": "Confidence Level",
+          "type": "string"
+        },
+        "confidence_score": {
+          "maximum": 100,
+          "minimum": 0,
+          "title": "Confidence Score",
+          "type": "integer"
+        },
+        "confidence_reasons": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Confidence Reasons",
+          "type": "array"
+        },
+        "manual_review_required": {
+          "enum": [
+            "Yes",
+            "No"
+          ],
+          "title": "Manual Review Required",
+          "type": "string"
+        },
+        "manual_review_reasons": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Manual Review Reasons",
+          "type": "array"
+        },
+        "readiness_status": {
+          "enum": [
+            "Ready for ops review",
+            "Needs more information",
+            "Manual review before routing"
+          ],
+          "title": "Readiness Status",
+          "type": "string"
+        }
+      },
+      "required": [
+        "detected_claim_category",
+        "urgency_indicator",
+        "urgency_basis",
+        "recommended_reviewer_queue",
+        "confidence_level",
+        "confidence_score",
+        "manual_review_required",
+        "readiness_status"
+      ],
+      "title": "Assessment",
+      "type": "object"
+    },
+    "DateField": {
+      "properties": {
+        "value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Text as written in the note, or null when missing.",
+          "title": "Value"
+        },
+        "status": {
+          "enum": [
+            "found",
+            "tentative",
+            "missing",
+            "unclear",
+            "invalid"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "evidence": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Verbatim snippet of the note the value was taken from.",
+          "title": "Evidence"
+        },
+        "detail": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Why the field is missing/unclear (as stated in the note).",
+          "title": "Detail"
+        },
+        "iso_date": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "YYYY-MM-DD, only when the note gives an unambiguous full date.",
+          "title": "Iso Date"
+        },
+        "date_status": {
+          "default": "missing",
+          "enum": [
+            "complete",
+            "partial",
+            "approximate",
+            "ambiguous",
+            "invalid",
+            "relative",
+            "unconfirmed",
+            "missing"
+          ],
+          "title": "Date Status",
+          "type": "string"
+        },
+        "candidate_iso_dates": {
+          "description": "Possible readings of an ambiguous numeric date that are not after the received date.",
+          "items": {
+            "type": "string"
+          },
+          "title": "Candidate Iso Dates",
+          "type": "array"
+        }
+      },
+      "required": [
+        "status"
+      ],
+      "title": "DateField",
+      "type": "object"
+    },
+    "DocumentMention": {
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "mentioned",
+            "mentioned_not_available",
+            "mentioned_conflicting",
+            "quality_issue",
+            "reported_missing"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "evidence": {
+          "title": "Evidence",
+          "type": "string"
+        },
+        "detail": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Detail"
+        }
+      },
+      "required": [
+        "name",
+        "status",
+        "evidence"
+      ],
+      "title": "DocumentMention",
+      "type": "object"
+    },
+    "ExtractedFacts": {
+      "properties": {
+        "policy_reference": {
+          "$ref": "#/$defs/ExtractedField"
+        },
+        "claimant_reference": {
+          "$ref": "#/$defs/ExtractedField"
+        },
+        "incident_date": {
+          "$ref": "#/$defs/DateField"
+        },
+        "received_date": {
+          "title": "Received Date",
+          "type": "string"
+        },
+        "location": {
+          "$ref": "#/$defs/ExtractedField"
+        },
+        "amount_or_estimate": {
+          "$ref": "#/$defs/AmountField"
+        },
+        "source_channel": {
+          "title": "Source Channel",
+          "type": "string"
+        },
+        "incident_description_excerpt": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Verbatim incident wording from the note.",
+          "title": "Incident Description Excerpt"
+        },
+        "user_selected_category": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Category the submitter picked, if the note says so.",
+          "title": "User Selected Category"
+        },
+        "supporting_document_mentions": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Supporting Document Mentions",
+          "type": "array"
+        },
+        "documents_reported_missing": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Documents Reported Missing",
+          "type": "array"
+        },
+        "document_details": {
+          "items": {
+            "$ref": "#/$defs/DocumentMention"
+          },
+          "title": "Document Details",
+          "type": "array"
+        },
+        "gaps_stated_in_note": {
+          "description": "Gaps the note itself reports, e.g. 'baggage tag unclear'.",
+          "items": {
+            "type": "string"
+          },
+          "title": "Gaps Stated In Note",
+          "type": "array"
+        },
+        "follow_up_requirements": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Follow Up Requirements",
+          "type": "array"
+        },
+        "internal_remarks": {
+          "description": "Instructions/remarks found in the note, verbatim.",
+          "items": {
+            "type": "string"
+          },
+          "title": "Internal Remarks",
+          "type": "array"
+        }
+      },
+      "required": [
+        "policy_reference",
+        "claimant_reference",
+        "incident_date",
+        "received_date",
+        "location",
+        "amount_or_estimate",
+        "source_channel"
+      ],
+      "title": "ExtractedFacts",
+      "type": "object"
+    },
+    "ExtractedField": {
+      "properties": {
+        "value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Text as written in the note, or null when missing.",
+          "title": "Value"
+        },
+        "status": {
+          "enum": [
+            "found",
+            "tentative",
+            "missing",
+            "unclear",
+            "invalid"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "evidence": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Verbatim snippet of the note the value was taken from.",
+          "title": "Evidence"
+        },
+        "detail": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Why the field is missing/unclear (as stated in the note).",
+          "title": "Detail"
+        }
+      },
+      "required": [
+        "status"
+      ],
+      "title": "ExtractedField",
+      "type": "object"
+    },
+    "GeneratedText": {
+      "properties": {
+        "short_incident_summary": {
+          "title": "Short Incident Summary",
+          "type": "string"
+        },
+        "reviewer_handoff_note": {
+          "title": "Reviewer Handoff Note",
+          "type": "string"
+        },
+        "source_grounding_note": {
+          "title": "Source Grounding Note",
+          "type": "string"
+        },
+        "llm_summary": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Only present when the optional LLM step ran and passed grounding checks.",
+          "title": "Llm Summary"
+        }
+      },
+      "required": [
+        "short_incident_summary",
+        "reviewer_handoff_note",
+        "source_grounding_note"
+      ],
+      "title": "GeneratedText",
+      "type": "object"
+    }
+  },
+  "properties": {
+    "schema_version": {
+      "default": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "claim_note_id": {
+      "title": "Claim Note Id",
+      "type": "string"
+    },
+    "extracted_facts": {
+      "$ref": "#/$defs/ExtractedFacts"
+    },
+    "assessment": {
+      "$ref": "#/$defs/Assessment"
+    },
+    "generated": {
+      "$ref": "#/$defs/GeneratedText"
+    }
+  },
+  "required": [
+    "claim_note_id",
+    "extracted_facts",
+    "assessment",
+    "generated"
+  ],
+  "title": "ProcessedNote",
+  "type": "object"
+}

@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0006
+Source Channel: Email
+Received Date: 2026-03-05
+
+CALL LOG / Email: CLMNT-6947 says side panel damage after another vehicle brushed past.
+Policy ref not given during call. Loss date 02-Mar-2026.
+Loc: not captured. Docs mentioned: repair estimate, driver statement, vehicle photos.
+Ops note: driver statement incomplete. call back requested. Est amt: ₹41,300 quoted.

@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0021
+Source Channel: Web Form
+Received Date: 2026-04-10
+
+Web intake form #CI-2026-0021: category selected by user may be inaccurate.
+Incident details entered: front grill damage after low-speed collision.
+Location field: blank; loss date: 2026-04-09; policy holder ref: POL-5558.
+Attachments field: vehicle photos, police intimation. Missing/issue observed: third-party details missing. not yet estimated.

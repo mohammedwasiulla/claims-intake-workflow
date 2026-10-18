@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0051
+Source Channel: Partner Portal
+Received Date: 2026-03-31
+
+FWD from service inbox - claimant ref CLMNT-2013
+Customer message: "Please register claim. follow-up treatment bills added after initial claim. I have sent payment receipt, diagnostic report. Need to know what else is required."
+Policy: [not visible in email] | Date: 2026-03-26 | City: Pune
+Internal note - payment receipt missing; call back requested; expected urgency marked normal by intake.
+System category not trusted; please re-check manually.

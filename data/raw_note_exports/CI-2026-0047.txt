@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0047
+Source Channel: Call Center
+Received Date: 2026-04-08
+
+Ops copied from prior mail thread. Claimant placeholder CLMNT-2864; policy shown as not readable.
+Main issue appears to be: rainwater entered through balcony door; place Ahmedabad, date 04/04/26.
+Please verify docs - purchase invoice, inspection request, repair quotation. Earlier note says cause of leak unclear.
+Do not send to final review until basic intake fields are cleaned.
+Duplicate note may exist in previous intake batch.

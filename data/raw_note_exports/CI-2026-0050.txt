@@ -1,0 +1,7 @@
+Claim Note ID: CI-2026-0050
+Source Channel: Email
+Received Date: 2026-04-19
+
+CLMNT-8245 - lost baggage report submitted after international trip.
+Docs: no attachments found. Policy ?.
+Need check: expense receipts incomplete. amount not stated. asked for status update.

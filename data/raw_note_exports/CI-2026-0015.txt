@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0015
+Source Channel: Partner Portal
+Received Date: 2026-04-15
+
+Web intake form #CI-2026-0015: category selected by user may be inaccurate.
+Incident details entered: display unit cracked during store setup.
+Location field: blank; loss date: 2026-04-06; policy holder ref: blank.
+Attachments field: site supervisor note, repair quotation, damage photos. Missing/issue observed: asset tag not provided. not yet estimated.
+Duplicate note may exist in previous intake batch.

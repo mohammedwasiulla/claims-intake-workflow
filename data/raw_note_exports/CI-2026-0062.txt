@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0062
+Source Channel: Web Form
+Received Date: 2026-05-21
+
+Source Web Form. claim note has mixed info.
+Ref: CLMNT-8311; policy maybe missing.
+side panel damage after another vehicle brushed past; happened at Ahmedabad on date n/a.
+Attached/mentioned: police intimation, repair estimate, vehicle photos. Still pending: third-party details missing. Amt: around ₹22k.
+Reviewer comment requested: call back requested.

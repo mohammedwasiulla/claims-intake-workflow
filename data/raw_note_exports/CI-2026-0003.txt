@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0003
+Source Channel: Call Center
+Received Date: 2026-05-20
+
+Web intake form #CI-2026-0003: category selected by user may be inaccurate.
+Incident details entered: office printer damaged during internal move.
+Location field: Pune; loss date: 2026-05-09; policy holder ref: POL-4432.
+Attachments field: no attachments found. Missing/issue observed: repair quote not attached. around ₹22k.
+System category not trusted; please re-check manually.

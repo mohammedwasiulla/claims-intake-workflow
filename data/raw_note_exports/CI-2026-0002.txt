@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0002
+Source Channel: Branch Upload
+Received Date: 2026-05-21
+
+CALL LOG / Branch Upload: CLMNT-6881 says water seepage affecting kitchen cabinets.
+Policy ref not given during call. Loss date 09-May-2026.
+Loc: Mumbai. Docs mentioned: damage photos, inspection request.
+Ops note: incident date missing. call back requested. Est amt: not yet estimated.
+Duplicate note may exist in previous intake batch.

@@ -1,0 +1,9 @@
+Claim Note ID: CI-2026-0056
+Source Channel: Email
+Received Date: 2026-05-23
+
+Web intake form #CI-2026-0056: category selected by user may be inaccurate.
+Incident details entered: rear bumper impact at a traffic signal.
+Location field: Mumbai; loss date: 2026-05-16; policy holder ref: POL-3273.
+Attachments field: no attachments found. Missing/issue observed: garage estimate not attached. approx ₹8,500.
+Duplicate note may exist in previous intake batch.

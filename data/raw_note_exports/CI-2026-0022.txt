@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0022
+Source Channel: Call Center
+Received Date: 2026-04-13
+
+Ops copied from prior mail thread. Claimant placeholder CLMNT-2876; policy shown as POL-3683.
+Main issue appears to be: lost baggage report submitted after international trip; place Mumbai, date 04/04/26.
+Please verify docs - baggage report, delay confirmation. Earlier note says boarding pass not attached.
+Do not send to final review until basic intake fields are cleaned.

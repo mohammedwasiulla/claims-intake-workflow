@@ -1,0 +1,8 @@
+Claim Note ID: CI-2026-0053
+Source Channel: Web Form
+Received Date: 2026-04-10
+
+FWD from service inbox - claimant ref CLMNT-4509
+Customer message: "Please register claim. two-wheeler skid on wet road with minor body damage. I have sent repair estimate, driver statement. Need to know what else is required."
+Policy: POL-6598 | Date: not mentioned | City: Bengaluru
+Internal note - driver statement incomplete; call back requested; expected urgency marked urgent by intake.

@@ -1,0 +1,338 @@
+claim_note_id,source_channel,received_date,intake_note_text,starter_claim_category_label,starter_urgency_label,current_review_stage,supporting_docs_mentioned,missing_detail_hint,recommended_queue_label,starter_confidence_label,expected_manual_review,notes_for_evaluation
+CI-2026-0001,Call Center,2026-03-25,"Source Call Center. claim note has mixed info.
+Ref: CLMNT-2679; policy maybe POL-9935.
+checked baggage not received at arrival; happened at location n/a on 19 Mar.
+Attached/mentioned: no attachments found. Still pending: expense receipts incomplete. Amt: around ₹22k.
+Reviewer comment requested: email follow-up preferred.
+System category not trusted; please re-check manually.",Travel Delay/Baggage,Normal,Need claimant follow-up,no attachments found,expense receipts incomplete,Travel Claims Intake,Low,Yes,Useful for queue routing check.
+CI-2026-0002,Branch Upload,2026-05-21,"CALL LOG / Branch Upload: CLMNT-6881 says water seepage affecting kitchen cabinets.
+Policy ref not given during call. Loss date 09-May-2026.
+Loc: Mumbai. Docs mentioned: damage photos, inspection request.
+Ops note: incident date missing. call back requested. Est amt: not yet estimated.
+Duplicate note may exist in previous intake batch.",Property Water Damage,Normal,Manual review suggested,"damage photos, inspection request",incident date missing,Manual Clarification Queue,Medium,Yes,Use for extraction and missing-detail flag test.
+CI-2026-0003,Call Center,2026-05-20,"Web intake form #CI-2026-0003: category selected by user may be inaccurate.
+Incident details entered: office printer damaged during internal move.
+Location field: Pune; loss date: 2026-05-09; policy holder ref: POL-4432.
+Attachments field: no attachments found. Missing/issue observed: repair quote not attached. around ₹22k.
+System category not trusted; please re-check manually.",Commercial Equipment,Normal,Manual review suggested,no attachments found,repair quote not attached,Manual Clarification Queue,Low,Yes,Contains incomplete or unclear fields.
+CI-2026-0004,Branch Upload,2026-04-08,"CLMNT-8517 - small kitchen fire from appliance short circuit.
+Docs: appliance invoice, damage photos, incident statement. Pol. POL-3340.
+Need check: photos unclear. approx ₹1.2L. reachable after 5 PM.
+Duplicate note may exist in previous intake batch.",Property Fire/Smoke,Normal,Need claimant follow-up,"appliance invoice, damage photos, incident statement",photos unclear,Property Claims Intake,Medium,Yes,Useful for queue routing check.
+CI-2026-0005,Email,2026-05-05,"Source Email. claim note has mixed info.
+Ref: CLMNT-2876; policy maybe missing.
+travel delay expenses claimed for hotel stay; happened at location n/a on 25 Apr.
+Attached/mentnd: travel invoice, baggage report, delay confirmation. Still pending: baggage tag unclear. Amt: ₹41,300 quoted.
+Reviewer comment requested: email follow-up preferred.",Travel Delay/Baggage,Urgent,Manual review suggested,"travel invoice, baggage report, delay confirmation",baggage tag unclear,Manual Clarification Queue,Medium,Yes,Good example for reviewer handoff summary.
+CI-2026-0006,Email,2026-03-05,"CALL LOG / Email: CLMNT-6947 says side panel damage after another vehicle brushed past.
+Policy ref not given during call. Loss date 02-Mar-2026.
+Loc: not captured. Docs mentioned: repair estimate, driver statement, vehicle photos.
+Ops note: driver statement incomplete. call back requested. Est amt: ₹41,300 quoted.",Motor Accident,Low,Need claimant follow-up,"repair estimate, driver statement, vehicle photos",driver statement incomplete,Motor Claims Intake,Low,Yes,Good example for reviewer handoff summary.
+CI-2026-0007,Email,2026-04-10,"FWD from service inbox - claimant ref CLMNT-4681
+Customer message: ""Please register claim. tablet display flickering after bag impact. I have sent incident statement, service center note (one attachment unreadable). Need to know what else is required.""
+Policy: [not visible in email] | Date: 2026-04-01 | City: not stated
+Internal note - incident statement too short; call back requested; expected urgency marked normal by intake.",Device/Personal Item Damage,Normal,Ready for ops review,"incident statement, service center note (one attachment unreadable)",incident statement too short,Asset and Device Claims,High,No,Contains mixed structured and unstructured content.
+CI-2026-0008,Email,2026-04-21,"Source Email. claim note has mixed info.
+Ref: CLMNT-8062; policy maybe POL-6804.
+flight delay caused missed onward connection; happened at Mumbai on 14 Apr.
+Attached/mentioned: airline letter, boarding pass (one attachment unreadable). Still pending: baggage tag unclear. Amt: approx ₹1.2L.
+Reviewer comment requested: call back requested.",Travel Delay/Baggage,Urgent,Needs document check,"airline letter, boarding pass (one attachment unreadable)",baggage tag unclear,Travel Claims Intake,Low,No,Contains mixed structured and unstructured content.
+CI-2026-0009,Call Center,2026-04-03,"CLMNT-8956 - parked car found with scratch and dent on left door.
+Docs: vehicle photos. Policy ?.
+Need check: incident time unclear. approx ₹8,500. asked for status update.",Motor Accident,Normal,Manual review suggested,vehicle photos,incident time unclear,Manual Clarification Queue,High,Yes,Use for extraction and missing-detail flag test.
+CI-2026-0010,Partner Portal,2026-03-10,"CLMNT-9238 - lost baggage report submitted after international trip.
+Docs: baggage report, boarding pass, travel invoice (one attachment unreadable). Policy POL-9701.
+Need check: airline confirmation missing. approx ₹8,500. reachable after 5 PM.",Travel Delay/Baggage,Normal,Manual review suggested,"baggage report, boarding pass, travel invoice (one attachment unreadable)",airline confirmation missing,Manual Clarification Queue,Medium,Yes,Contains mixed structured and unstructured content.
+CI-2026-0011,Branch Upload,2026-04-26,"FWD from service inbox - claimant ref CLMNT-5915
+Customer message: ""Please register claim. bathroom pipe burst leading to flooring damage. I have sent building maintenance note, repair quotation, purchase invoice (one attachment unreadable). Need to know what else is required.""
+Policy: [not visible in email] | Date: 2026-04-25 | City: Mumbai
+Internal note - incident date missing; call back requested; expected urgency marked normal by intake.",Property Water Damage,Normal,Needs document check,"building maintenance note, repair quotation, purchase invoice (one attachment unreadable)",incident date missing,Property Claims Intake,Medium,No,Contains mixed structured and unstructured content.
+CI-2026-0012,Email,2026-04-23,"CALL LOG / Email: CLMNT-3546 says parked car found with scratch and dent on left door.
+Pol. ref POL-5462. Loss date 20-Apr-2026.
+Loc: Delhi NCR. Docs mentnd: repair estimate, vehicle photos, police intimation.
+Ops note: garage estimate not attached. no call back needed. Est amt: approx ₹1.2L.",Motor Accident,Unknown,Manual review suggested,"repair estimate, vehicle photos, police intimation",garage estimate not attached,Manual Clarification Queue,High,Yes,Useful for queue routing check.
+CI-2026-0013,Email,2026-04-01,"Source Email. claim note has mixed info.
+Ref: CLMNT-3442; policy maybe POL-9938.
+emergency visit expenses requested for reimbursement; happened at not stated on 27 Mar.
+Attached/mentnd: hospital bill. Still pending: claim form incomplete. Amt: around ₹22k.
+Reviewer comment requested: call back requested.",Health Reimbursement,Urgent,Ready for ops review,hospital bill,claim form incomplete,Health Reimbursement Review,Medium,No,Good example for reviewer handoff summary.
+CI-2026-0014,Email,2026-06-08,"FWD from service inbox - claimant ref CLMNT-6442
+Customer message: ""Please register claim. warehouse scanner stopped working after fall. I have sent repair quotation (one attachment unreadable). Need to know what else is required.""
+Policy: POL-7745 | Date: not mentioned | City: Hyderabad
+Internal note - site supervisor note pending; not mentioned; expected urgency marked urgent by intake.",Commercial Equipment,Urgent,Need claimant follow-up,repair quotation (one attachment unreadable),site supervisor note pending,Commercial Equipment Review,Medium,Yes,Contains incomplete or unclear fields.
+CI-2026-0015,Partner Portal,2026-04-15,"Web intake form #CI-2026-0015: category selected by user may be inaccurate.
+Incident details entered: display unit cracked during store setup.
+Location field: blank; loss date: 2026-04-06; policy holder ref: blank.
+Attachments field: site supervisor note, repair quotation, damage photos. Missing/issue observed: asset tag not provided. not yet estimated.
+Duplicate note may exist in previous intake batch.",Commercial Equipment,Normal,Manual review suggested,"site supervisor note, repair quotation, damage photos",asset tag not provided,Manual Clarification Queue,Medium,Yes,Contains mixed structured and unstructured content.
+CI-2026-0016,Partner Portal,2026-05-20,"Web intake form #CI-2026-0016: category selected by user may be inaccurate.
+Incident details entered: flight delay caused missed onward connection.
+Location field: Kolkata; loss date: 2026-05-10; policy holder ref: POL-5920.
+Attachments field: boarding pass, baggage report. Missing/issue observed: expense receipts incomplete. approx ₹1.2L.",Travel Delay/Baggage,Normal,Needs document check,"boarding pass, baggage report",expense receipts incomplete,Travel Claims Intake,High,No,Contains mixed structured and unstructured content.
+CI-2026-0017,Partner Portal,2026-04-27,"CLMNT-3780 - bag delivered after two days with damaged zipper.
+Docs: travel invoice, airline letter. Policy ?.
+Need check: baggage tag unclear. small amount as per caller. email follow-up preferred.",Travel Delay/Baggage,Normal,Needs document check,"travel invoice, airline letter",baggage tag unclear,Travel Claims Intake,Low,No,Useful for queue routing check.
+CI-2026-0018,Call Center,2026-03-21,"FWD from service inbox - claimant ref CLMNT-9486
+Customer message: ""Please register claim. outpatient procedure bill submitted for review. I have sent hospital bill, payment receipt, discharge summary. Need to know what else is required.""
+Policy: [not visible in email] | Date: not mentioned | City: Pune
+Internal note - payment receipt missing; asked for status update; expected urgency marked normal by intake.",Health Reimbursement,Normal,Manual review suggested,"hospital bill, payment receipt, discharge summary",payment receipt missing,Manual Clarification Queue,High,Yes,Useful for queue routing check.
+CI-2026-0019,Branch Upload,2026-04-16,"CALL LOG / Branch Upload: CLMNT-5681 says outpatient procedure bill submitted for review.
+Policy ref POL-4841. Loss date 11-Apr-2026.
+Loc: not captured. Docs mentioned: no attachments found.
+Ops note: diagnosis note unclear. email follow-up preferred. Est amt: around ₹22k.",Health Reimbursement,Normal,Need claimant follow-up,no attachments found,diagnosis note unclear,Health Reimbursement Review,Medium,Yes,Contains mixed structured and unstructured content.
+CI-2026-0020,Partner Portal,2026-04-12,"Source Partner Portal. claim note has mixed info.
+Ref: CLMNT-9947; policy maybe POL-4613.
+small kitchen fire from appliance short circuit; happened at Kolkata on date n/a.
+Attached/mentioned: repair quotation, incident statement. Still pending: appliance invoice missing. Amt: ₹41,300 quoted.
+Reviewer comment requested: no call back needed.",Property Fire/Smoke,Normal,Manual review suggested,"repair quotation, incident statement",appliance invoice missing,Manual Clarification Queue,Medium,Yes,Useful for queue routing check.
+CI-2026-0021,Web Form,2026-04-10,"Web intake form #CI-2026-0021: category selected by user may be inaccurate.
+Incident details entered: front grill damage after low-speed collision.
+Location field: blank; loss date: 2026-04-09; policy holder ref: POL-5558.
+Attachments field: vehicle photos, police intimation. Missing/issue observed: third-party details missing. not yet estimated.",Motor Accident,Normal,Manual review suggested,"vehicle photos, police intimation",third-party details missing,Manual Clarification Queue,High,Yes,Useful for queue routing check.
+CI-2026-0022,Call Center,2026-04-13,"Ops copied from prior mail thread. Claimant placeholder CLMNT-2876; policy shown as POL-3683.
+Main issue appears to be: lost baggage report submitted after international trip; place Mumbai, date 04/04/26.
+Please verify docs - baggage report, delay confirmation. Earlier note says boarding pass not attached.
+Do not send to final review until basic intake fields are cleaned.",Travel Delay/Baggage,Unknown,Manual review suggested,"baggage report, delay confirmation",boarding pass not attached,Manual Clarification Queue,Medium,Yes,Use for extraction and missing-detail flag test.
+CI-2026-0023,WhatsApp Summary,2026-05-11,"Web intake form #CI-2026-0023: category selected by user may be inaccurate.
+Incident details entered: smartwatch damaged while commuting.
+Location field: Kolkata; loss date: 2026-05-11; policy holder ref: POL-9289.
+Attachments field: incident statement, service center note. Missing/issue observed: purchase invoice missing. approx ₹8,500.",Device/Personal Item Damage,Urgent,Need claimant follow-up,"incident statement, service center note",purchase invoice missing,Asset and Device Claims,Medium,Yes,Useful for queue routing check.
+CI-2026-0024,Web Form,2026-05-30,"CLMNT-4995 - follow-up treatment bills added after initial claim.
+Docs: discharge summary, hospital bill (one attachment unreadable). Policy ?.
+Need check: diagnosis note unclear. ₹41,300 quoted. no call back needed.",Health Reimbursement,Urgent,Manual review suggested,"discharge summary, hospital bill (one attachment unreadable)",diagnosis note unclear,Manual Clarification Queue,High,Yes,Useful for queue routing check.
+CI-2026-0025,Email,2026-05-12,"Web intake form #CI-2026-0025: category selected by user may be inaccurate.
+Incident details entered: outpatient procedure bill submitted for review.
+Location field: Delhi NCR; loss date: 2026-05-08; policy holder ref: POL-7625.
+Attachments field: diagnostic report, payment receipt, hospital bill. Missing/issue observed: bill breakup not attached. not yet estimated.",Health Reimbursement,Normal,Need claimant follow-up,"diagnostic report, payment receipt, hospital bill",bill breakup not attached,Health Reimbursement Review,Medium,Yes,Good example for reviewer handoff summary.
+CI-2026-0026,Call Center,2026-03-10,"Web intake form #CI-2026-0026: category selected by user may be inaccurate.
+Incident details entered: rainwater entered through balcony door.
+Location field: blank; loss date: 2026-03-10; policy holder ref: POL-6912.
+Attachments field: inspection request, building maintenance note, damage photos. Missing/issue observed: repair estimate not attached. approx ₹8,500.",Property Water Damage,Low,Need claimant follow-up,"inspection request, building maintenance note, damage photos",repair estimate not attached,Property Claims Intake,Low,Yes,Contains incomplete or unclear fields.
+CI-2026-0027,Branch Upload,2026-04-04,"CALL LOG / Branch Upload: CLMNT-1878 says backup UPS reported burnt smell and failure.
+Policy ref POL-3485. Loss date not confirmed.
+Loc: not captured. Docs mentioned: repair quotation.
+Ops note: equipment invoice missing. call back requested. Est amt: around ₹22k.",Commercial Equipment,Normal,Manual review suggested,repair quotation,equipment invoice missing,Manual Clarification Queue,Medium,Yes,Use for extraction and missing-detail flag test.
+CI-2026-0028,Email,2026-05-05,"FWD from service inbox - claimant ref CLMNT-4929
+Customer message: ""Please register claim. checked baggage not received at arrival. I have sent no attachments found. Need to know what else is required.""
+Policy: POL-3847 | Date: 2026-05-03 | City: Mumbai
+Internal note - boarding pass not attached; reachable after 5 PM; expected urgency marked normal by intake.",Travel Delay/Baggage,Normal,Need claimant follow-up,no attachments found,boarding pass not attached,Travel Claims Intake,Low,Yes,Good example for reviewer handoff summary.
+CI-2026-0029,Email,2026-06-02,"CALL LOG / Email: CLMNT-3718 says follow-up treatment bills added after initial claim.
+Policy ref POL-6039. Loss date 24-May-2026.
+Loc: Chennai. Docs mentioned: discharge summary, prescription, hospital bill.
+Ops note: payment receipt missing. not mentioned. Est amt: ₹41,300 quoted.",Health Reimbursement,Normal,Manual review suggested,"discharge summary, prescription, hospital bill",payment receipt missing,Manual Clarification Queue,Low,Yes,Contains mixed structured and unstructured content.
+CI-2026-0030,Partner Portal,2026-03-25,"Source Partner Portal. claim note has mixed info.
+Ref: CLMNT-8245; policy maybe POL-5557.
+checked baggage not received at arrival; happened at Ahmedabad on 19 Mar.
+Attached/mentioned: boarding pass, airline letter, travel invoice. Still pending: expense receipts incomplete. Amt: ₹41,300 quoted.
+Reviewer comment requested: no call back needed.",Travel Delay/Baggage,Low,New,"boarding pass, airline letter, travel invoice",expense receipts incomplete,Travel Claims Intake,High,Yes,Contains incomplete or unclear fields.
+CI-2026-0031,Branch Upload,2026-05-21,"CLMNT-1888 - rainwater entered through balcony door.
+Docs: inspection request (one attachment unreadable). Pol. ?.
+Need check: property address incomplete. small amount as per caller. call back requested.",Property Water Damage,Unknown,Needs document check,inspection request (one attachment unreadable),property address incomplete,Property Claims Intake,High,Yes,Contains mixed structured and unstructured content.
+CI-2026-0032,Branch Upload,2026-05-18,"CALL LOG / Branch Upload: CLMNT-3522 says two-wheeler skid on wet road with minor body damage.
+Pol. ref POL-9165. Loss date 10-May-2026.
+Loc: Chennai. Docs mentnd: repair estimate.
+Ops note: incident time unclear. asked for status update. Est amt: ₹41,300 quoted.",Motor Accident,Normal,Manual review suggested,repair estimate,incident time unclear,Manual Clarification Queue,High,Yes,Contains mixed structured and unstructured content.
+CI-2026-0033,Branch Upload,2026-04-30,"Ops copied from prior mail thread. Claimant placeholder CLMNT-8935; policy shown as POL-6654.
+Main issue appears to be: ceiling leakage after overnight pipe issue; place not stated, date 18/04/26.
+Please verify docs - building maintenance note, purchase invoice, damage photos. Earlier note says repair estimate not attached.
+Do not send to final review until basic intake fields are cleaned.",Property Water Damage,Normal,Need claimant follow-up,"building maintenance note, purchase invoice, damage photos",repair estimate not attached,Property Claims Intake,Medium,Yes,Good example for reviewer handoff summary.
+CI-2026-0034,Branch Upload,2026-03-26,"CALL LOG / Branch Upload: CLMNT-9617 says claimant seeking reimbursement for short hospital stay.
+Policy ref not given during call. Loss date not confirmed.
+Loc: Kolkata. Docs mentioned: payment receipt, prescription, hospital bill.
+Ops note: payment receipt missing. call back requested. Est amt: around ₹22k.",Health Reimbursement,Normal,Need claimant follow-up,"payment receipt, prescription, hospital bill",payment receipt missing,Health Reimbursement Review,Medium,Yes,Contains mixed structured and unstructured content.
+CI-2026-0035,Email,2026-04-17,"CLMNT-2612 - rear bumper impact at a traffic signal.
+Docs: driver statement, vehicle photos, garage invoice. Policy POL-2646.
+Need check: vehicle photos pending. approx ₹8,500. no call back needed.",Motor Accident,Normal,Manual review suggested,"driver statement, vehicle photos, garage invoice",vehicle photos pending,Manual Clarification Queue,Medium,Yes,Useful for queue routing check.
+CI-2026-0036,WhatsApp Summary,2026-05-13,"Web intake form #CI-2026-0036: category selected by user may be inaccurate.
+Incident details entered: flight delay caused missed onward connection.
+Location field: Ahmedabad; loss date: blank; policy holder ref: POL-5183.
+Attachments field: airline letter, delay confirmation, travel invoice (one attachment unreadable). Missing/issue observed: baggage tag unclear. approx ₹1.2L.",Travel Delay/Baggage,Normal,Manual review suggested,"airline letter, delay confirmation, travel invoice (one attachment unreadable)",baggage tag unclear,Manual Clarification Queue,Low,Yes,Use for extraction and missing-detail flag test.
+CI-2026-0037,WhatsApp Summary,2026-06-07,"CLMNT-5497 - water stains and wall bubbling reported after heavy rain.
+Docs: building maintenance note, inspection request, damage photos. Policy POL-1132.
+Need check: repair estimate not attached. approx ₹1.2L. asked for status update.",Property Water Damage,Urgent,Need claimant follow-up,"building maintenance note, inspection request, damage photos",repair estimate not attached,Property Claims Intake,Medium,Yes,Good example for reviewer handoff summary.
+CI-2026-0038,WhatsApp Summary,2026-04-30,"FWD from service inbox - claimant ref CLMNT-2476
+Customer message: ""Please register claim. checked baggage not received at arrival. I have sent boarding pass, baggage report. Need to know what else is required.""
+Policy: POL-5835 | Date: not mentioned | City: Bengaluru
+Internal note - expense receipts incomplete; reachable after 5 PM; expected urgency marked normal by intake.",Travel Delay/Baggage,Normal,New,"boarding pass, baggage report",expense receipts incomplete,Travel Claims Intake,Low,No,Useful for queue routing check.
+CI-2026-0039,Branch Upload,2026-03-20,"CALL LOG / Branch Upload: CLMNT-5332 says neighbor reported damage linked to claimant property.
+Policy ref POL-9791. Loss date 15-Mar-2026.
+Loc: Chennai. Docs mentioned: no attachments found.
+Ops note: incident sequence unclear. not mentioned. Est amt: small amount as per caller.",Third-Party Contact,Normal,Manual review suggested,no attachments found,incident sequence unclear,Manual Clarification Queue,Medium,Yes,Useful for queue routing check.
+CI-2026-0040,Email,2026-04-20,"FWD from service inbox - claimant ref CLMNT-9807
+Customer message: ""Please register claim. rear bumper impact at a traffic signal. I have sent police intimation, repair estimate (one attachment unreadable). Need to know what else is required.""
+Policy: [not visible in email] | Date: 2026-04-15 | City: not stated
+Internal note - incident time unclear; not mentioned; expected urgency marked low by intake.",Motor Accident,Low,Need claimant follow-up,"police intimation, repair estimate (one attachment unreadable)",incident time unclear,Motor Claims Intake,High,Yes,Contains incomplete or unclear fields.
+CI-2026-0041,Web Form,2026-03-25,"FWD from service inbox - claimant ref CLMNT-3001
+Customer message: ""Please register claim. front grill damage after low-speed collision. I have sent driver statement, repair estimate, vehicle photos. Need to know what else is required.""
+Policy: POL-8450 | Date: 2026-03-22 | City: not shared
+Internal note - driver statement incomplete; email follow-up preferred; expected urgency marked normal by intake.",Motor Accident,Normal,Ready for ops review,"driver statement, repair estimate, vehicle photos",driver statement incomplete,Motor Claims Intake,Medium,No,Contains incomplete or unclear fields.
+CI-2026-0042,WhatsApp Summary,2026-05-08,"CALL LOG / WhatsApp Summary: CLMNT-3159 says warehouse scanner stopped working after fall.
+Policy ref POL-1243. Loss date 26-Apr-2026.
+Loc: Hyderabad. Docs mentioned: no attachments found.
+Ops note: site supervisor note pending. email follow-up preferred. Est amt: approx ₹8,500.
+Duplicate note may exist in previous intake batch.",Commercial Equipment,Normal,Needs document check,no attachments found,site supervisor note pending,Commercial Equipment Review,Low,Yes,Contains mixed structured and unstructured content.
+CI-2026-0043,WhatsApp Summary,2026-03-08,"CALL LOG / WhatsApp Summary: CLMNT-9032 says ceiling leakage after overnight pipe issue.
+Policy ref POL-8267. Loss date 03-Mar-2026.
+Loc: not captured. Docs mentioned: purchase invoice, inspection request.
+Ops note: damage photos pending. reachable after 5 PM. Est amt: amount not stated.",Property Water Damage,Normal,Manual review suggested,"purchase invoice, inspection request",damage photos pending,Manual Clarification Queue,Medium,Yes,Contains mixed structured and unstructured content.
+CI-2026-0044,Web Form,2026-05-09,"CLMNT-7532 - laptop stopped working after liquid spill.
+Docs: purchase invoice, service center note. Pol. POL-7815.
+Need check: item photo unclear. amount not stated. no call back needed.",Device/Personal Item Damage,Normal,Needs document check,"purchase invoice, service center note",item photo unclear,Asset and Device Claims,Medium,No,Contains mixed structured and unstructured content.
+CI-2026-0045,Web Form,2026-03-27,"Ops copied from prior mail thread. Claimant placeholder CLMNT-6119; policy shown as not readable.
+Main issue appears to be: claimant seeking reimbursement for short hospital stay; place Hyderabad, date ?.
+Please verify docs - diagnostic report, hospital bill. Earlier note says bill breakup not attached.
+Do not send to final review until basic intake fields are cleaned.",Health Reimbursement,Urgent,Needs document check,"diagnostic report, hospital bill",bill breakup not attached,Health Reimbursement Review,Medium,Yes,Contains incomplete or unclear fields.
+CI-2026-0046,Call Center,2026-04-03,"FWD from service inbox - claimnt ref CLMNT-7566
+Customer message: ""Please register claim. front grill damage after low-speed collision. I have sent driver statement, repair estimate. Need to know what else is required.""
+Pol.: [not visible in email] | Date: 2026-03-24 | City: not shared
+Internal note - garage estimate not attached; email follow-up preferred; expected urgency marked low by intake.
+Duplicate note may exist in previous intake batch.",Motor Accident,Low,Need claimant follow-up,"driver statement, repair estimate",garage estimate not attached,Motor Claims Intake,Medium,Yes,Use for extraction and missing-detail flag test.
+CI-2026-0047,Call Center,2026-04-08,"Ops copied from prior mail thread. Claimant placeholder CLMNT-2864; policy shown as not readable.
+Main issue appears to be: rainwater entered through balcony door; place Ahmedabad, date 04/04/26.
+Please verify docs - purchase invoice, inspection request, repair quotation. Earlier note says cause of leak unclear.
+Do not send to final review until basic intake fields are cleaned.
+Duplicate note may exist in previous intake batch.",Property Water Damage,Low,Needs document check,"purchase invoice, inspection request, repair quotation",cause of leak unclear,Property Claims Intake,Medium,Yes,Contains mixed structured and unstructured content.
+CI-2026-0048,WhatsApp Summary,2026-04-08,"CALL LOG / WhatsApp Summary: CLMNT-8147 says smartwatch damaged while commuting.
+Policy ref POL-1307. Loss date 03-Apr-2026.
+Loc: Kolkata. Docs mentioned: no attachments found.
+Ops note: serial number missing. not mentioned. Est amt: approx ₹1.2L.",Device/Personal Item Damage,Low,Manual review suggested,no attachments found,serial number missing,Manual Clarification Queue,Medium,Yes,Useful for queue routing check.
+CI-2026-0049,Call Center,2026-05-20,"CALL LOG / Call Center: CLMNT-9363 says emergency visit expenses requested for reimbursement.
+Policy ref POL-2868. Loss date not confirmed.
+Loc: Delhi NCR. Docs mentioned: prescription, discharge summary, diagnostic report.
+Ops note: diagnosis note unclear. not mentioned. Est amt: small amount as per caller.",Health Reimbursement,Urgent,Manual review suggested,"prescription, discharge summary, diagnostic report",diagnosis note unclear,Manual Clarification Queue,Medium,Yes,Contains mixed structured and unstructured content.
+CI-2026-0050,Email,2026-04-19,"CLMNT-8245 - lost baggage report submitted after international trip.
+Docs: no attachments found. Policy ?.
+Need check: expense receipts incomplete. amount not stated. asked for status update.",Travel Delay/Baggage,Urgent,New,no attachments found,expense receipts incomplete,Travel Claims Intake,Medium,No,Use for extraction and missing-detail flag test.
+CI-2026-0051,Partner Portal,2026-03-31,"FWD from service inbox - claimant ref CLMNT-2013
+Customer message: ""Please register claim. follow-up treatment bills added after initial claim. I have sent payment receipt, diagnostic report. Need to know what else is required.""
+Policy: [not visible in email] | Date: 2026-03-26 | City: Pune
+Internal note - payment receipt missing; call back requested; expected urgency marked normal by intake.
+System category not trusted; please re-check manually.",Health Reimbursement,Normal,Need claimant follow-up,"payment receipt, diagnostic report",payment receipt missing,Health Reimbursement Review,Medium,Yes,Contains incomplete or unclear fields.
+CI-2026-0052,WhatsApp Summary,2026-03-29,"Source WhatsApp Summary. claim note has mixed info.
+Ref: CLMNT-3463; policy maybe POL-6461.
+rear bumper impact at a traffic signal; happened at Bengaluru on 19 Mar.
+Attached/mentioned: police intimation, driver statement, vehicle photos. Still pending: driver statement incomplete. Amt: amount not stated.
+Reviewer comment requested: not mentioned.",Motor Accident,Normal,Manual review suggested,"police intimation, driver statement, vehicle photos",driver statement incomplete,Manual Clarification Queue,Low,Yes,Contains mixed structured and unstructured content.
+CI-2026-0053,Web Form,2026-04-10,"FWD from service inbox - claimant ref CLMNT-4509
+Customer message: ""Please register claim. two-wheeler skid on wet road with minor body damage. I have sent repair estimate, driver statement. Need to know what else is required.""
+Policy: POL-6598 | Date: not mentioned | City: Bengaluru
+Internal note - driver statement incomplete; call back requested; expected urgency marked urgent by intake.",Motor Accident,Urgent,Needs document check,"repair estimate, driver statement",driver statement incomplete,Motor Claims Intake,High,No,Contains mixed structured and unstructured content.
+CI-2026-0054,Web Form,2026-05-22,"Source Web Form. claim note has mixed info.
+Ref: CLMNT-4891; policy maybe missing.
+laptop stopped working after liquid spill; happened at Ahmedabad on date n/a.
+Attached/mentioned: service center note. Still pending: item photo unclear. Amt: around ₹22k.
+Reviewer comment requested: no call back needed.",Device/Personal Item Damage,Unknown,Manual review suggested,service center note,item photo unclear,Manual Clarification Queue,Medium,Yes,Good example for reviewer handoff summary.
+CI-2026-0055,Web Form,2026-03-11,"Ops copied from prior mail thread. Claimant placeholder CLMNT-2680; policy shown as not readable.
+Main issue appears to be: smartwatch damaged while commuting; place Bengaluru, date 10/03/26.
+Please verify docs - no attachments found. Earlier note says repair estimate pending.
+Do not send to final review until basic intake fields are cleaned.",Device/Personal Item Damage,Unknown,Need claimant follow-up,no attachments found,repair estimate pending,Asset and Device Claims,High,Yes,Good example for reviewer handoff summary.
+CI-2026-0056,Email,2026-05-23,"Web intake form #CI-2026-0056: category selected by user may be inaccurate.
+Incident details entered: rear bumper impact at a traffic signal.
+Location field: Mumbai; loss date: 2026-05-16; policy holder ref: POL-3273.
+Attachments field: no attachments found. Missing/issue observed: garage estimate not attached. approx ₹8,500.
+Duplicate note may exist in previous intake batch.",Motor Accident,Unknown,Need claimant follow-up,no attachments found,garage estimate not attached,Motor Claims Intake,Medium,Yes,Useful for queue routing check.
+CI-2026-0057,Call Center,2026-05-15,"Web intake form #CI-2026-0057: category selected by user may be inaccurate.
+Incident details entered: two-wheeler skid on wet road with minor body damage.
+Location field: Kolkata; loss date: 2026-05-12; policy holder ref: POL-1025.
+Attachments field: repair estimate, vehicle photos, driver statement. Missing/issue observed: driver statement incomplete. approx ₹1.2L.
+System category not trusted; please re-check manually.",Motor Accident,Unknown,Need claimant follow-up,"repair estimate, vehicle photos, driver statement",driver statement incomplete,Motor Claims Intake,Medium,Yes,Contains incomplete or unclear fields.
+CI-2026-0058,Call Center,2026-03-07,"Source Call Center. claim note has mixed info.
+Ref: CLMNT-2698; policy maybe missing.
+ceiling leakage after overnight pipe issue; happened at not stated on 02 Mar.
+Attached/mentioned: building maintenance note. Still pending: repair estimate not attached. Amt: approx ₹1.2L.
+Reviewer comment requested: email follow-up preferred.",Property Water Damage,Unknown,Needs document check,building maintenance note,repair estimate not attached,Property Claims Intake,High,No,Use for extraction and missing-detail flag test.
+CI-2026-0059,Web Form,2026-05-10,"CALL LOG / Web Form: CLMNT-4131 says bathroom pipe burst leading to flooring damage.
+Policy ref not given during call. Loss date 28-Apr-2026.
+Loc: Mumbai. Docs mentioned: inspection request, purchase invoice (one attachment unreadable).
+Ops note: property address incomplete. no call back needed. Est amt: amount not stated.",Property Water Damage,Unknown,Need claimant follow-up,"inspection request, purchase invoice (one attachment unreadable)",property address incomplete,Property Claims Intake,Low,Yes,Contains mixed structured and unstructured content.
+CI-2026-0060,Partner Portal,2026-04-05,"FWD from service inbox - claimant ref CLMNT-9937
+Customer message: ""Please register claim. ceiling leakage after overnight pipe issue. I have sent purchase invoice. Need to know what else is required.""
+Policy: [not visible in email] | Date: not mentioned | City: Delhi NCR
+Internal note - cause of leak unclear; asked for status update; expected urgency marked normal by intake.",Property Water Damage,Normal,Needs document check,purchase invoice,cause of leak unclear,Property Claims Intake,Medium,Yes,Useful for queue routing check.
+CI-2026-0061,WhatsApp Summary,2026-03-20,"CLMNT-1570 - smoke damage near electrical panel.
+Docs: incident statement. Policy ?.
+Need check: fire service note not available. not yet estimated. call back requested.",Property Fire/Smoke,Unknown,Need claimant follow-up,incident statement,fire service note not available,Property Claims Intake,High,Yes,Use for extraction and missing-detail flag test.
+CI-2026-0062,Web Form,2026-05-21,"Source Web Form. claim note has mixed info.
+Ref: CLMNT-8311; policy maybe missing.
+side panel damage after another vehicle brushed past; happened at Ahmedabad on date n/a.
+Attached/mentioned: police intimation, repair estimate, vehicle photos. Still pending: third-party details missing. Amt: around ₹22k.
+Reviewer comment requested: call back requested.",Motor Accident,Normal,Manual review suggested,"police intimation, repair estimate, vehicle photos",third-party details missing,Manual Clarification Queue,High,Yes,Contains incomplete or unclear fields.
+CI-2026-0063,Call Center,2026-04-27,"FWD from service inbox - claimant ref CLMNT-9094
+Customer message: ""Please register claim. warehouse scanner stopped working after fall. I have sent no attachments found. Need to know what else is required.""
+Policy: [not visible in email] | Date: 2026-04-18 | City: Delhi NCR
+Internal note - asset tag not provided; email follow-up preferred; expected urgency marked normal by intake.
+System category not trusted; please re-check manually.",Commercial Equipment,Normal,Manual review suggested,no attachments found,asset tag not provided,Manual Clarification Queue,Low,Yes,Use for extraction and missing-detail flag test.
+CI-2026-0064,WhatsApp Summary,2026-04-17,"Ops copied from prior mail thread. Claimant placeholder CLMNT-3981; policy shown as not readable.
+Main issue appears to be: follow-up treatment bills added after initial claim; place Pune, date 17/04/26.
+Please verify docs - payment receipt (one attachment unreadable). Earlier note says diagnosis note unclear.
+Do not send to final review until basic intake fields are cleaned.",Health Reimbursement,Normal,Need claimant follow-up,payment receipt (one attachment unreadable),diagnosis note unclear,Health Reimbursement Review,High,Yes,Contains mixed structured and unstructured content.
+CI-2026-0065,Partner Portal,2026-03-03,"Source Partner Portal. claim note has mixed info.
+Ref: CLMNT-6531; policy maybe POL-1674.
+side panel damage after another vehicle brushed past; happened at Chennai on date n/a.
+Attached/mentioned: vehicle photos, garage invoice, driver statement. Still pending: driver statement incomplete. Amt: small amount as per caller.
+Reviewer comment requested: reachable after 5 PM.",Motor Accident,Normal,Need claimant follow-up,"vehicle photos, garage invoice, driver statement",driver statement incomplete,Motor Claims Intake,High,Yes,Use for extraction and missing-detail flag test.
+CI-2026-0066,Call Center,2026-05-22,"Web intake form #CI-2026-0066: category selected by user may be inaccurate.
+Incident details entered: flight delay caused missed onward connection.
+Location field: Delhi NCR; loss date: 2026-05-11; policy holder ref: POL-6121.
+Attachments field: no attachments found. Missing/issue observed: baggage tag unclear. around ₹22k.",Travel Delay/Baggage,Normal,Need claimant follow-up,no attachments found,baggage tag unclear,Travel Claims Intake,High,Yes,Good example for reviewer handoff summary.
+CI-2026-0067,Branch Upload,2026-04-16,"Ops copied from prior mail thread. Claimant placeholder CLMNT-8648; policy shown as POL-9171.
+Main issue appears to be: smartwatch damaged while commuting; place Pune, date ?.
+Please verify docs - purchase invoice. Earlier note says incident statement too short.
+Do not send to final review until basic intake fields are cleaned.",Device/Personal Item Damage,Normal,New,purchase invoice,incident statement too short,Asset and Device Claims,Low,No,Contains incomplete or unclear fields.
+CI-2026-0068,Email,2026-05-11,"Ops copied from prior mail thread. Claimant placeholder CLMNT-4189; policy shown as not readable.
+Main issue appears to be: tablet display flickering after bag impact; place Kolkata, date 10/05/26.
+Please verify docs - service center note. Earlier note says incident statement too short.
+Do not send to final review until basic intake fields are cleaned.",Device/Personal Item Damage,Normal,New,service center note,incident statement too short,Asset and Device Claims,Medium,No,Contains mixed structured and unstructured content.
+CI-2026-0069,WhatsApp Summary,2026-04-14,"Web intake form #CI-2026-0069: category selected by user may be inaccurate.
+Incident details entered: small kitchen fire from appliance short circuit.
+Location field: not stated; loss date: 2026-04-05; policy holder ref: POL-9508.
+Attachments field: damage photos (one attachment unreadable). Missing/issue observed: fire service note not available. not yet estimated.",Property Fire/Smoke,Urgent,Needs document check,damage photos (one attachment unreadable),fire service note not available,Property Claims Intake,Medium,No,Useful for queue routing check.
+CI-2026-0070,WhatsApp Summary,2026-06-01,"CALL LOG / WhatsApp Summary: CLMNT-8871 says checked baggage not received at arrival.
+Policy ref POL-3793. Loss date 21-May-2026.
+Loc: Kolkata. Docs mentioned: baggage report, airline letter (one attachment unreadable).
+Ops note: travel dates unclear. email follow-up preferred. Est amt: approx ₹1.2L.",Travel Delay/Baggage,Low,Need claimant follow-up,"baggage report, airline letter (one attachment unreadable)",travel dates unclear,Travel Claims Intake,Medium,Yes,Use for extraction and missing-detail flag test.
+CI-2026-0071,Branch Upload,2026-05-19,"Web intake form #CI-2026-0071: category selected by user may be inaccurate.
+Incident details entered: smartwatch damaged while commuting.
+Location field: Delhi NCR; loss date: 2026-05-11; policy holder ref: POL-8531.
+Attachments field: repair estimate, service center note, incident statement. Missing/issue observed: repair estimate pending. small amount as per caller.",Device/Personal Item Damage,Normal,Needs document check,"repair estimate, service center note, incident statement",repair estimate pending,Asset and Device Claims,Medium,No,Useful for queue routing check.
+CI-2026-0072,Partner Portal,2026-05-02,"Source Partner Portal. claim note has mixed info.
+Ref: CLMNT-9899; policy maybe POL-7220.
+bathroom pipe burst leading to flooring damage; happened at Bengaluru on date n/a.
+Attached/mentioned: building maintenance note, inspection request, damage photos (one attachment unreadable). Still pending: property address incomplete. Amt: amount not stated.
+Reviewer comment requested: not mentioned.",Property Water Damage,Normal,Need claimant follow-up,"building maintenance note, inspection request, damage photos (one attachment unreadable)",property address incomplete,Property Claims Intake,High,Yes,Contains mixed structured and unstructured content.
+CI-2026-0073,Email,2026-05-17,"CALL LOG / Email: CLMNT-7771 says ceiling leakage after overnight pipe issue.
+Policy ref POL-6411. Loss date not confirmed.
+Loc: not captured. Docs mentioned: repair quotation.
+Ops note: property address incomplete. email follow-up preferred. Est amt: not yet estimated.",Property Water Damage,Urgent,Needs document check,repair quotation,property address incomplete,Property Claims Intake,High,No,Contains mixed structured and unstructured content.
+CI-2026-0074,Branch Upload,2026-03-05,"CLMNT-4052 - mobile phone screen cracked after accidental drop.
+Docs: purchase invoice, item photos. Policy ?.
+Need check: repair estimate pending. amount not stated. no call back needed.",Device/Personal Item Damage,Normal,Needs document check,"purchase invoice, item photos",repair estimate pending,Asset and Device Claims,High,No,Contains incomplete or unclear fields.
+CI-2026-0075,Call Center,2026-05-12,"Ops copied from prior mail thread. Claimant placeholder CLMNT-7643; policy shown as POL-8007.
+Main issue appears to be: mobile phone screen cracked after accidental drop; place Kolkata, date 11/05/26.
+Please verify docs - incident statement, purchase invoice. Earlier note says incident statement too short.
+Do not send to final review until basic intake fields are cleaned.",Device/Personal Item Damage,Low,Needs document check,"incident statement, purchase invoice",incident statement too short,Asset and Device Claims,High,No,Good example for reviewer handoff summary.
+CI-2026-0076,WhatsApp Summary,2026-05-15,"Ops copied from prior mail thread. Claimant placeholder CLMNT-6095; policy shown as not readable.
+Main issue appears to be: rear bumper impact at a traffic signal; place Hyderabad, date 10/05/26.
+Please verify docs - vehicle photos, police intimation (one attachment unreadable). Earlier note says third-party details missing.
+Do not send to final review until basic intake fields are cleaned.",Motor Accident,Normal,Manual review suggested,"vehicle photos, police intimation (one attachment unreadable)",third-party details missing,Manual Clarification Queue,Medium,Yes,Contains mixed structured and unstructured content.
+CI-2026-0077,Email,2026-05-20,"Ops copied from prior mail thread. Claimant placeholder CLMNT-2838; policy shown as POL-2011.
+Main issue appears to be: office printer damaged during internal move; place not stated, date 17/05/26.
+Please verify docs - site supervisor note, damage photos. Earlier note says damage photos pending.
+Do not send to final review until basic intake fields are cleaned.",Commercial Equipment,Normal,Manual review suggested,"site supervisor note, damage photos",damage photos pending,Manual Clarification Queue,Medium,Yes,Contains incomplete or unclear fields.
+CI-2026-0078,Partner Portal,2026-04-24,"CALL LOG / Partner Portal: CLMNT-1742 says tablet display flickering after bag impact.
+Policy ref not given during call. Loss date 23-Apr-2026.
+Loc: not stated. Docs mentioned: purchase invoice (one attachment unreadable).
+Ops note: incident statement too short. asked for status update. Est amt: approx ₹8,500.",Device/Personal Item Damage,Urgent,Need claimant follow-up,purchase invoice (one attachment unreadable),incident statement too short,Asset and Device Claims,Low,Yes,Useful for queue routing check.
+CI-2026-0079,Partner Portal,2026-05-08,"CLMNT-9664 - smoke marks on wall after inverter spark.
+Docs: appliance invoice, fire service note, repair quotation. Policy POL-3086.
+Need check: photos unclear. ₹41,300 quoted. not mentioned.",Property Fire/Smoke,Urgent,Needs document check,"appliance invoice, fire service note, repair quotation",photos unclear,Property Claims Intake,Low,No,Use for extraction and missing-detail flag test.
+CI-2026-0080,WhatsApp Summary,2026-05-08,"Source WhatsApp Summary. claim note has mixed info.
+Ref: CLMNT-1797; policy maybe POL-5009.
+ceiling leakage after overnight pipe issue; happened at Ahmedabad on 02 May.
+Attached/mentioned: damage photos, purchase invoice, building maintenance note (one attachment unreadable). Still pending: damage photos pending. Amt: around ₹22k.
+Reviewer comment requested: call back requested.",Property Water Damage,Normal,Manual review suggested,"damage photos, purchase invoice, building maintenance note (one attachment unreadable)",damage photos pending,Manual Clarification Queue,High,Yes,Contains mixed structured and unstructured content.
+CI-2026-0081,Email,2026-05-21,"Only message received: 'Need claim help urgently. accident happened last week. papers not ready.' No policy number, no incident location, no attachments. Sender asking for callback but number masked.",Motor Accident,Unknown,Need claimant follow-up,no attachments found,"policy reference, incident date, location, and documents missing",Manual Clarification Queue,Low,Yes,Edge case with very limited detail.
+CI-2026-0082,Branch Upload,2026-05-23,Branch note: Customer submitted hospital bill and discharge paper after emergency admission. Claim form has policy ref POL-4821 but bill total and receipt total do not match. Diagnosis section is difficult to read. Branch asked ops to review docs before sending forward.,Health Reimbursement,Urgent,Needs document check,"hospital bill, discharge summary, payment receipt",bill total mismatch and diagnosis note unclear,Health Reimbursement Review,Medium,Yes,Good case for ambiguity and document mismatch flagging.
+CI-2026-0083,Web Form,2026-05-24,"User selected travel category but note says laptop damaged due to liquid spill in office bag. Invoice attached, repair quote pending. Date field filled as 2026-04-31, likely invalid. Please reclassify and flag date issue.",Device/Personal Item Damage,Normal,Manual review suggested,purchase invoice,repair estimate pending and invalid date entered,Manual Clarification Queue,Low,Yes,Useful for category correction and date validation.
+CI-2026-0084,Partner Portal,2026-05-25,"Partner uploaded: parked car scratch and left door dent. Policy POL-7004, claimant CLMNT-3388, loss date 18-May-2026, Pune. Vehicle photos and garage estimate attached. No third-party info since damage was noticed later. Ready for intake review.",Motor Accident,Normal,Ready for ops review,"vehicle photos, garage estimate",third-party details not applicable as per note,Motor Claims Intake,High,No,Clean case for successful extraction.
+CI-2026-0085,Call Center,2026-05-26,Caller says ceiling leakage damaged kitchen cabinet and wall paint. Location Hyderabad. Date approx 22 May. Photos sent on WhatsApp but not visible in upload folder. Repair quote to be sent tomorrow. Caller wants to know whether inspection is required.,Property Water Damage,Normal,Needs document check,"damage photos mentioned but not visible, repair quotation pending",photos not accessible and repair quotation pending,Property Claims Intake,Medium,Yes,Tests attachment-mentioned versus attachment-available distinction.

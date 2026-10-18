@@ -1,0 +1,10 @@
+Claim Note ID: CI-2026-0001
+Source Channel: Call Center
+Received Date: 2026-03-25
+
+Source Call Center. claim note has mixed info.
+Ref: CLMNT-2679; policy maybe POL-9935.
+checked baggage not received at arrival; happened at location n/a on 19 Mar.
+Attached/mentioned: no attachments found. Still pending: expense receipts incomplete. Amt: around ₹22k.
+Reviewer comment requested: email follow-up preferred.
+System category not trusted; please re-check manually.
